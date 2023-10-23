@@ -1,3 +1,4 @@
+import Card from "./Card";
 const dishes = [
   {
     id: 1,
@@ -94,10 +95,7 @@ const dishes = [
 export default function App() {
   return (
     <div>
-      {dishes.map((dish) => (
-        // <p>{dish.name}</p>
-        <img src={dish.img} alt="img"></img>
-      ))}
+      <Card />
     </div>
   );
 }
