@@ -1,5 +1,7 @@
 body {
-  text-align: center;
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
 }
 
 code {
