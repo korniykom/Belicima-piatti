@@ -95,7 +95,18 @@ const dishes = [
 export default function App() {
   return (
     <div>
-      <Card />
+      {dishes.map((dish) => (
+        <Card
+          key={dish.id}
+          id={dish.id}
+          name={dish.name}
+          img={dish.img}
+          score={dish.score}
+          duration={dish.duration}
+          price={dish.price}
+          calories={dish.calories}
+        />
+      ))}
     </div>
   );
 }
