@@ -2,10 +2,13 @@ export default function Card({
   id,
   name,
   img,
+  description,
   score,
   duration,
   price,
   calories,
+  ingredients,
+  steps,
 }) {
   return (
     <div className="card">
@@ -23,6 +26,23 @@ export default function Card({
         <div className="third-element">
           <span>Big Icon</span>
         </div>
+      </div>
+      <div className="detailed-description"></div>
+      <div className="ingredients">
+        <h3>Інгредієнти:</h3>
+        <ul>
+          {ingredients.map((ingredient, index) => (
+            <li key={index}>{ingredient}</li>
+          ))}
+        </ul>
+      </div>
+      <div className="steps">
+        <h3>Кроки приготування:</h3>
+        <ol>
+          {steps.map((step, index) => (
+            <li key={index}>{step}</li>
+          ))}
+        </ol>
       </div>
     </div>
   );
