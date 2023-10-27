@@ -10,21 +10,31 @@ code {
     monospace;
 }
 .card {
-  width: 300px;
+  width: 400px;
 }
 .card h2 {
+  text-align: center;
+  color: #4d2d00;
   padding: 12px;
 }
-.card img {
-  width: 270px;
-  height: auto;
-  border-radius: 16px;
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 24px;
 }
+.image img {
+  width: 300px;
+  height: auto;
+  border-radius: 28px;
+}
+
 .card-description {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  padding-bottom: 24px;
 }
 .card-description .first-element {
   flex-basis: auto;
@@ -34,4 +44,12 @@ code {
 }
 .card-description .third-element {
   flex-basis: 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+.nav span {
+  color: #4d2d00;
+  font-size: 36px;
 }

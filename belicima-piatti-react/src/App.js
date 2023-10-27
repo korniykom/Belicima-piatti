@@ -1,4 +1,5 @@
 import Card from "./Card";
+import Nav from "./Nav";
 const dishes = [
   {
     id: 1,
@@ -95,6 +96,7 @@ const dishes = [
 export default function App() {
   return (
     <div>
+      <Nav />
       {dishes.map((dish) => (
         <Card
           key={dish.id}

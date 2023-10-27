@@ -10,7 +10,9 @@ export default function Card({
   return (
     <div className="card">
       <h2>{name}</h2>
-      <img src={img} alt="dish description"></img>
+      <div className="image">
+        <img src={img} alt="dish description"></img>
+      </div>
       <div className="card-description">
         <div className="first-element">
           <span>stars</span> <span>{score}</span> <br />
