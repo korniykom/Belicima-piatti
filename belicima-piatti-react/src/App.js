@@ -1,6 +1,7 @@
 import Card from "./Card";
-import Nav from "./Nav";
+import Nav from "./components/Nav/Nav";
 import Step from "./Step";
+import ShoppingList from "./components/Shopping-List/Shopping-List";
 const dishes = [
   {
     id: 1,
@@ -93,11 +94,33 @@ const dishes = [
     calories: 500,
   },
 ];
-
+const ShoppingListExample = [
+  {
+    product: "Курка",
+    price: 105.0,
+    calories: 220,
+  },
+  {
+    product: "Овочі",
+    price: 80.0,
+    calories: 230,
+  },
+  {
+    product: "Спеції",
+    price: 15.0,
+    calories: 240,
+  },
+  {
+    product: "Соус",
+    price: 75.0,
+    calories: 250,
+  },
+];
 export default function App() {
   return (
     <div>
       <Nav />
+      <ShoppingList ShoppingList={ShoppingListExample} />
       <Step
         number={1}
         description={
