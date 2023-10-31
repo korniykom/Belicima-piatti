@@ -1,0 +1,19 @@
+.flex-container {
+  color: #4d2d00;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 600px;
+}
+.flex-container .number {
+  border-radius: 50%;
+  color: #4d2d00;
+  border-width: 2px;
+  border-color: #4d2d00;
+  background-color: #ffe090;
+}
+
+.flex-container .description {
+  margin: 24px;
+}

@@ -1,0 +1,41 @@
+.card {
+  width: 600px;
+  font-weight: bold;
+}
+.card h2 {
+  font-size: 48px;
+  text-align: center;
+  color: #4d2d00;
+  padding: 12px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.image img {
+  width: 600px;
+  height: auto;
+  border-radius: 28px;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.card-description .first-element {
+  font-size: 20px;
+  flex-basis: auto;
+}
+.card-description .second-element {
+  font-size: 20px;
+  flex-basis: auto;
+}
+.card-description .third-element {
+  font-size: 20px;
+  flex-basis: 0;
+}
