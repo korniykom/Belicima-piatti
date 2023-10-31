@@ -1,0 +1,31 @@
+.Shopping-List {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: #4d2d00;
+}
+
+.Shopping-List .ingredients {
+  text-align: center;
+
+  width: 100px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-right: solid;
+  border-color: #4d2d00;
+}
+.Shopping-List .price {
+  width: 100px;
+  text-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-right: solid;
+  border-color: #4d2d00;
+}
+.Shopping-List .calories {
+  width: 100px;
+  text-align: center;
+
+  padding-left: 12px;
+  padding-right: 12px;
+}
