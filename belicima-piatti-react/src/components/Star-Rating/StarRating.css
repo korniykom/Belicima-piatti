@@ -1,0 +1,25 @@
+.containerRating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.starContainerStyle {
+  display: flex;
+  gap: 0px;
+}
+.textStyle {
+  display: flex;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-radius: 25%;
+  border-width: 2px;
+  border-color: #999;
+}
+
+.star .material-symbols-outlined {
+  font-size: 48px;
+  border-radius: 25%;
+}
