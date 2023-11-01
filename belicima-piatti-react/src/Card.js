@@ -1,4 +1,6 @@
 import "./Card.css";
+import StarRating from "./components/Star-Rating/StarRating";
+
 export default function Card({
   id,
   name,
@@ -16,15 +18,19 @@ export default function Card({
       </div>
       <div className="card-description">
         <div className="first-element">
-          <span>stars</span> <span>{score}</span> <br />
-          <span>ціна:</span> <span>{price}$</span>
+          <StarRating rating={score} />
+          <span className="price">ціна: {price}$</span>
         </div>
         <div className="second-element">
-          <span>{duration}</span> <span>icon</span> <br />
-          <span>{calories}</span> <span>калорій</span>
+          <div>
+            <span>{duration} хв.</span>
+            <span class="material-symbols-outlined">schedule</span>
+          </div>
+
+          <span>{calories} калорій</span>
         </div>
         <div className="third-element">
-          <span>Big Icon</span>
+          <span class="material-symbols-outlined">shopping_cart_checkout</span>
         </div>
       </div>
     </div>
