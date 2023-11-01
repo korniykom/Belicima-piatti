@@ -22,7 +22,11 @@
 
     {
       "id": 3,
+<<<<<<< HEAD
       "name": "Салат Цезар",
+=======
+      "name": "Салат \"Цезар\"",
+>>>>>>> 4e60484628c597b8f285c1f029d9383fde3d042b
       "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.FbcUhbn4FzzdHw_5bBl9JgHaE8%26pid%3DApi&f=1&ipt=6bb79e99cd7c42dda4b6ae602224aad6bb5bd63aa313e4ea062cb4ad770871b0&ipo=images",
       "score": 4.3,
       "duration": 20,
@@ -72,7 +76,11 @@
 
     {
       "id": 8,
+<<<<<<< HEAD
       "name": "Піца Маргарита",
+=======
+      "name": "Піца \"Маргарита\"",
+>>>>>>> 4e60484628c597b8f285c1f029d9383fde3d042b
       "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.c_UJVxleQvrmXjD4nMMTTQHaE7%26pid%3DApi&f=1&ipt=94c35cd6653c44ff1b8917161cd0a9b88dd50e2420e6ec4ad8b5ad9f34d66e78&ipo=images",
       "score": 5.0,
       "duration": 35,
@@ -82,7 +90,11 @@
 
     {
       "id": 9,
+<<<<<<< HEAD
       "name": "Салат Грецький",
+=======
+      "name": "Салат \"Грецький\"",
+>>>>>>> 4e60484628c597b8f285c1f029d9383fde3d042b
       "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdekoking.com%2Fwp-content%2Fuploads%2F2017%2F11%2Fgriechischer-salat-selber-zubereiten.jpg&f=1&nofb=1&ipt=a04391059249386da8780b53bd172da8e2a2d698c2e08f9b7ae2478acd64506a&ipo=images",
       "score": 4.1,
       "duration": 15,
