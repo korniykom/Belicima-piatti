@@ -6,7 +6,7 @@ export default function ShoppingList({ ShoppingList }) {
       <h2>Shopping List</h2>
       {ShoppingList.map((item) => (
         <ShoppingListItem
-          product={item.product}
+          product={item.name}
           price={item.price}
           calories={item.calories}
         />
