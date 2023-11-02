@@ -1,31 +1,6 @@
 import Card from "./Card";
 import Nav from "./components/Nav/Nav";
-import Step from "./Step";
-import StarRating from "./components/Star-Rating/StarRating";
-import ShoppingList from "./components/Shopping-List/Shopping-List";
-
-const ShoppingListExample = [
-  {
-    product: "Курка",
-    price: 105.0,
-    calories: 220,
-  },
-  {
-    product: "Овочі",
-    price: 80.0,
-    calories: 230,
-  },
-  {
-    product: "Спеції",
-    price: 15.0,
-    calories: 240,
-  },
-  {
-    product: "Соус",
-    price: 75.0,
-    calories: 250,
-  },
-];
+import dishes from "./Dishes.json";
 export default function App() {
   return (
     <div>
