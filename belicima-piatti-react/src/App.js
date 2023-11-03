@@ -1,32 +1,17 @@
-import Card from "./components/Card/Card";
-import Nav from "./components/Nav/Nav";
-import ShoppingList from "./components/Shopping-List/Shopping-List";
-import StepList from "./components/Step-List/Step-List";
-import dishes from "./data/Dishes.json";
-import ingredients from "./data/DishesDetails.json";
-import steps from "./data/DishesDetails.json";
-const id = 1;
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Menupage from "./pages/Homepage";
+import Infopage from "./pages/Infopage";
+import Accountpage from "./pages/Accountpage";
+
 export default function App() {
   return (
-    <div>
-      <Nav />
-      {/* <StepList StepList={steps.DishesDetails.at(id).steps} />
-      <ShoppingList
-        ShoppingList={ingredients.DishesDetails.at(id).ingredients}
-      /> */}
-
-      {dishes.dishes.map((dish) => (
-        <Card
-          key={dish.id}
-          id={dish.id}
-          name={dish.name}
-          img={dish.img}
-          score={dish.score}
-          duration={dish.duration}
-          price={dish.price}
-          calories={dish.calories}
-        />
-      ))}
-    </div>
+    <BrowserRouter>
+      <Routes className="main-block">
+        <Route path="menu" element={<Menupage />} />
+        <Route path="info" element={<Infopage />} />
+        <Route path="account" element={<Accountpage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
