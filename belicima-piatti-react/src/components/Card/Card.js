@@ -1,5 +1,5 @@
 import "./Card.css";
-import StarRating from "./components/Star-Rating/StarRating";
+import StarRating from "../Star-Rating/StarRating";
 
 export default function Card({
   id,
