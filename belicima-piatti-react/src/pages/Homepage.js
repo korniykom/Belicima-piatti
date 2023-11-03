@@ -3,7 +3,7 @@ import PageNav from "../components/PageNav";
 
 function Menupage(){
     return(
-        <div class="main-block">
+        <div className="main-block">
             <PageNav />
             <h1>Menu</h1>
             <Link to="menu">Menu</Link>

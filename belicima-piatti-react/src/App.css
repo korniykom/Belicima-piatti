@@ -2,11 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
-}
-
-.main-block{
-  width: 30%;
-  height: 922px;
   margin: 0 auto;
   background-color: #FFF3BF;
 }

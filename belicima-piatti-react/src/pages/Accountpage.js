@@ -3,7 +3,7 @@ import PageNav from "../components/PageNav";
 
 function Accountpage(){
     return(
-        <div class="main-block">
+        <div className="main-block">
             <PageNav />
             <h1>Account</h1>
             <Link to="account">Account</Link>

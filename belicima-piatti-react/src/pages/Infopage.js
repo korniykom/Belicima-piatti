@@ -3,7 +3,7 @@ import PageNav from "../components/PageNav";
 
 function Infopage(){
     return(
-        <div class="main-block">
+        <div className="main-block">
             <PageNav />
             <h1>Info</h1>
             <Link to="info">Info</Link>
