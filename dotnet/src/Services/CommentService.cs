@@ -18,11 +18,5 @@ namespace src.Services {
         public Comment AddComment(Comment comment) {
             return commentRepository.AddComment(comment);
         }
-        public void UpdateComment(int id, Comment updatedComment) {
-            commentRepository.UpdateComment(id, updatedComment);
-        }
-        public void DeleteComment(int id) {
-            commentRepository.DeleteComment(id);
-        }
     }
 }

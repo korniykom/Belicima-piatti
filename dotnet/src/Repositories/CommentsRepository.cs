@@ -25,17 +25,5 @@ namespace src.Repositories {
         comments.Add(comment);
         return comment;
     }
-    public void UpdateComment(int id, Comment updatedComment) {
-        var oldComment = GetCommentById(id);
-        if(oldComment != null) {
-            oldComment.commentText = updatedComment.commentText;
-        }
-    }
-    public void DeleteComment(int id) {
-        var commentToDelete = GetCommentById(id);
-        if(commentToDelete != null) {
-            comments.Remove(commentToDelete);
-        } 
-    }
     }
 }
