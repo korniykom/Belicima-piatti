@@ -28,15 +28,11 @@ namespace src.Controllers {
             }
         }
         /*****[HTTP-POST]*****/
+        [HttpPost]
         public IActionResult AddComment([FromBody] Comment comment) {
             var newComment = commentService.AddComment(comment);
             return CreatedAtAction("GetComment", new { id = newComment.id }, newComment);
         }
-        /*****[HTTP-DELETE]*****/
-        [HttpDelete("{id}")]
-        public IActionResult DeleteComment(int id) {
-            commentService.DeleteComment(id);
-            return NoContent();
-        }
+        
     }
 }
