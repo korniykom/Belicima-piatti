@@ -8,7 +8,6 @@ namespace src.Repositories {
         //Constructor
         public CommentRepository() {
             comments.Add(new Comment(
-                0,
                 "Delicious and satisfying, this dish is a culinary masterpiece that tickles your taste buds with every bite. A true symphony of flavors that leaves you craving for more. Bon appétit!",
                 "User#0"
             ));

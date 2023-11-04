@@ -5,6 +5,7 @@ namespace src.Domain {
             this.commentText = commentText;
             this.commentatorName = commentatorName;
         }
+        public int id { get; set; }
         public string commentText { get; set;}
         public string commentatorName { get; set;}
     }
