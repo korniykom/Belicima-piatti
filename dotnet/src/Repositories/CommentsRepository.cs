@@ -5,6 +5,7 @@ using src.Domain;
 
 namespace src.Repositories {
     public class CommentRepository {
+        //Constructor
         public CommentRepository() {
             comments.Add(new Comment(
                 0,
@@ -23,7 +24,6 @@ namespace src.Repositories {
     public Comment AddComment(Comment comment) {
         comment.id = currentId++;
         comments.Add(comment);
-        //why?
         return comment;
     }
     public void UpdateComment(int id, Comment updatedComment) {
