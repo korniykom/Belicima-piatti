@@ -11,6 +11,7 @@ namespace src.Repositories {
         public CommentRepository() {
             Comment testComment = new (0, "test text", "test name");
 
+            commentsDictionary.Add(0, new List<Comment>());
             commentsDictionary[0].Add(testComment);
         }
 
@@ -25,6 +26,9 @@ namespace src.Repositories {
             return commentsDictionary[id];
         }
         public Comment AddComment(Comment comment) {
+            if (!commentsDictionary.ContainsKey(comment.recipeId)) {
+              commentsDictionary.Add(comment.recipeId, new List<Comment>());
+            }
             commentsDictionary[comment.recipeId].Add(comment);
             comment.commentId = currentId++;
             return comment;
