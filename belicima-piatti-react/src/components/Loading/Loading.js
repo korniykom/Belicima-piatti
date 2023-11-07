@@ -1,6 +1,6 @@
-import "../components/Loading/Loading.css";
+import "./Loading.css";
 
-function Loadingpage() {
+function Loading() {
   return (
     <html>
       <link
@@ -18,4 +18,4 @@ function Loadingpage() {
   );
 }
 
-export default Loadingpage;
+export default Loading;
