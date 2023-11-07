@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+*{
+  background-color:antiquewhite;
+}
 .div1 {
   margin-top: 50px;
   width: 450px;
@@ -14,6 +17,7 @@
 .inside {
   position: relative;
   text-align: center;
+  background-color: rgb(170, 153, 153);
   top: 10%;
   margin: 0px;
 }
@@ -23,6 +27,7 @@
   position: relative;
   margin: 10px auto;
   border-radius: 25px;
+  background-color: rgb(170, 153, 153);
   top: 62%;
 }
 
