@@ -12,8 +12,8 @@ namespace src.Services {
         public IEnumerable<Comment> GetAllComments() {
             return commentRepository.GetAllComments();
         }
-        public Comment GetCommentById(int id) {
-            return commentRepository.GetCommentById(id);
+        public List<Comment> GetCommentsByRecipeId(int id) {
+            return commentRepository.GetCommentByRecipeId(id);
         }
         public Comment AddComment(Comment comment) {
             return commentRepository.AddComment(comment);
