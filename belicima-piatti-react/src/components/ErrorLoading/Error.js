@@ -1,5 +1,5 @@
 import "./Error.css";
-export default function App() {
+export default function ErrorLoading() {
   return (
     <div className="div1">
       <div className="sadMen">
