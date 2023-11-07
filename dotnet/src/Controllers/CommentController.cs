@@ -32,7 +32,7 @@ namespace src.Controllers {
         public IActionResult AddComment([FromBody] Comment comment) {
             var newComment = commentService.AddComment(comment);
             //What does it do?
-            return CreatedAtAction("GetComment", new { id = newComment.commentId }, newComment);
+            return CreatedAtAction("GetComments", new { id = newComment.recipeId }, newComment);
         }
         
     }
