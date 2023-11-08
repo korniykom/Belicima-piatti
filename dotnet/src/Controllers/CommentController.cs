@@ -19,8 +19,8 @@ namespace src.Controllers {
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetComment(int id) {
-            var comment = commentService.GetCommentById(id);
+        public IActionResult GetComments(int id) {
+            var comment = commentService.GetCommentsByRecipeId(id);
             if(comment != null) {
                 return Ok(comment);
             } else {
@@ -31,7 +31,8 @@ namespace src.Controllers {
         [HttpPost]
         public IActionResult AddComment([FromBody] Comment comment) {
             var newComment = commentService.AddComment(comment);
-            return CreatedAtAction("GetComment", new { id = newComment.id }, newComment);
+            //What does it do?
+            return CreatedAtAction("GetComments", new { id = newComment.recipeId }, newComment);
         }
         
     }
