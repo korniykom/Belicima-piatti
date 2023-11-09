@@ -1,15 +1,22 @@
 import "./Nav.css";
-export default function Nav() {
+
+export default function Nav({ backLink, title }) {
   return (
     <div className="nav">
       <div class="arrow_back-button">
-        <span class="material-symbols-outlined">arrow_back</span>
+        {backLink && (
+          <a href={backLink}>
+            <span class="material-symbols-outlined">arrow_back</span>
+          </a>
+        )}
       </div>
       <span className="title">
-        <strong>Перші страви</strong>
+        <strong>{title}</strong>
       </span>
       <div class="menu-button">
-        <span class="material-symbols-outlined">menu</span>
+        <a href="/menu">
+          <span class="material-symbols-outlined">menu</span>
+        </a>
       </div>
     </div>
   );
