@@ -13,6 +13,8 @@
   font-weight: bold;
   font-size: 48px;
   margin-left: 24px;
+  cursor: pointer;
+  color: #4d2d00;
 }
 .arrow_back-button .material-symbols-outlined {
   display: flex;
@@ -21,4 +23,11 @@
   font-weight: bold;
   font-size: 48px;
   margin-right: 24px;
+  cursor: pointer;
+  color: #4d2d00;
+}
+
+.arrow_back-button a,
+.menu-button a {
+  text-decoration: none;
 }
