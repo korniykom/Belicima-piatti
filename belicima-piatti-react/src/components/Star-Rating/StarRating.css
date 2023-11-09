@@ -9,6 +9,7 @@
   gap: 0px;
 }
 .textStyle {
+  min-width: 24px;
   display: flex;
   height: 36px;
   justify-content: center;
