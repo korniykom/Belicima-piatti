@@ -14,7 +14,7 @@ export default function App() {
         <Route path="info" element={<Infopage />} />
         <Route path="account" element={<Accountpage />} />
         <Route path="loading" element={<Loading />} />
-        <Route path="/" element={<Nav backLink="/" title="Головна" />} />
+        <Route path="/" element={<Nav backLink="/" title="Перші страви" />} />
       </Routes>
     </BrowserRouter>
   );
