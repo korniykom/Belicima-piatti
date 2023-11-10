@@ -1,30 +1,26 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Linq;
-using System.ComponentModel;
 using System.Text.Json;
-using System.IO;
-using System.Security.AccessControl;
 using project;
+using src.Domain;
 
 namespace project{
 
     [Route("api/[controller]")]
     [ApiController]
 
-    public class RecipesController : Recipes
+    public class RecipesController : ControllerBase
     {
-        private readonly List<Ingredient> _recipes;
+        private readonly List<Recipe>  _recipes;
 
         public RecipesController()
         {
             var fileName = "DishesDetails.json";
-            var jsonString = File.ReadAllText(fileName);
-            Ingredient _recipes = JsonSerializer.Deserialize<Ingredient>(jsonString)!;
+            var jsonString = System.IO.File.ReadAllText(fileName);
+            _recipes = JsonSerializer.Deserialize<List<Recipe>>(jsonString)!;
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Ingredient> GetRecipe(int id)
+        public ActionResult<Recipe> GetRecipe(int id)
         {
             var recipe = _recipes.FirstOrDefault(r => r.id == id);
 
