@@ -1,13 +1,13 @@
-import { useParams } from "react-router-dom";
-import Nav from "./components/Nav/Nav";
+// import { useParams } from "react-router-dom";
+// import Nav from "./components/Nav/Nav";
 
-export default function Dish() {
-  const { id } = useParams();
+// export default function Dish() {
+//   const { id } = useParams();
 
-  return (
-    <div>
-      <Nav backLink="/" title={`Страва ${id}`} />
-      <div>ID страви: {id}</div>
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <Nav backLink="/" title={`Страва ${id}`} />
+//       <div>ID страви: {id}</div>
+//     </div>
+//   );
+// }
