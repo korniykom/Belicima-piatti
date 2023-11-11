@@ -6,12 +6,14 @@ import Infopage from "./pages/Infopage";
 import Accountpage from "./pages/Accountpage";
 import Loading from "./components/Loading/Loading";
 import DetailedDish from "./pages/DetailedDish";
+import Dish from "./pages/Dish";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes className="main-block">
-        <Route path="dish/:category" element={<DetailedDish />} />
+        <Route path="dishdetail/:category" element={<DetailedDish />} />
+        <Route path="dish/:id" element={<Dish />} />
         <Route path="menu" element={<Menupage />} />
         <Route path="info" element={<Infopage />} />
         <Route path="account" element={<Accountpage />} />
