@@ -12,7 +12,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes className="main-block">
-        <Route path="dish/:category" element={<DetailedDish />} />
+        <Route path="dishdetail/:category" element={<DetailedDish />} />
         <Route path="dish/:id" element={<Dish />} />
         <Route path="menu" element={<Menupage />} />
         <Route path="info" element={<Infopage />} />
