@@ -24,7 +24,7 @@ namespace src.Controllers {
             if(comment != null) {
                 return Ok(comment);
             } else {
-                return NotFound();
+                return NotFound(new Comment());
             }
         }
         /*****[HTTP-POST]*****/
