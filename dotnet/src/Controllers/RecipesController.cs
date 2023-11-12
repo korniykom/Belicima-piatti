@@ -15,8 +15,17 @@ namespace project{
         public RecipesController()
         {
             var fileName = "DishesDetails.json";
+
+            try
+            {
             var jsonString = System.IO.File.ReadAllText(fileName);
-            _recipes = JsonSerializer.Deserialize<List<Recipe>>(jsonString)!;
+            _recipes = JsonSerializer.Deserialize<List<Recipe>>(jsonString) ?? new List<Recipe>();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error reading from file: {ex.Message}");
+                _recipes = new List<Recipe>();
+            }
         }
 
         [HttpGet("{id}")]
@@ -26,9 +35,31 @@ namespace project{
 
             if (recipe == null)
             {
-                return NotFound(); 
+                return NotFound();
             }
+
+            recipe.ingredients = GetIngredientsForRecipe(id);
+
             return recipe;
+        }   
+
+        private List<Ingredient> GetIngredientsForRecipe(int recipeId)
+        {
+            var fileName = "DishesDetails.json";
+
+            try
+            {
+                var jsonString = System.IO.File.ReadAllText(fileName);
+                var recipes = JsonSerializer.Deserialize<List<Recipe>>(jsonString) ?? new List<Recipe>();
+
+                var recipe = recipes.FirstOrDefault(r => r.id == recipeId);
+                return recipe?.ingredients ?? new List<Ingredient>();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error reading from file: {ex.Message}");
+                return new List<Ingredient>();
+            }
         }
     }
 }

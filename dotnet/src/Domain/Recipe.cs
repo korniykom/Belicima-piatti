@@ -13,11 +13,12 @@ namespace project{
         public int duration { get; set; }
         public double price { get; set; }
         public int calories { get; set; }
-        public List<Ingredient> Ingredients { get; set; }
+        public List<Ingredient> ingredients { get; set; }
+        public List<string> steps { get; set; }
 
         public Recipe()
         {
-            Ingredients = new List<Ingredient>();
+            ingredients = new List<Ingredient>();
         }
     }
 
