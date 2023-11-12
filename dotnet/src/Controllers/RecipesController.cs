@@ -12,22 +12,6 @@ namespace project{
     {
         private readonly List<Recipe>  _recipes;
 
-        public RecipesController()
-        {
-            var fileName = "DishesDetails.json";
-
-            try
-            {
-            var jsonString = System.IO.File.ReadAllText(fileName);
-            _recipes = JsonSerializer.Deserialize<List<Recipe>>(jsonString) ?? new List<Recipe>();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error reading from file: {ex.Message}");
-                _recipes = new List<Recipe>();
-            }
-        }
-
         [HttpGet("{id}")]
         public ActionResult<Recipe> GetRecipe(int id)
         {
@@ -42,24 +26,5 @@ namespace project{
 
             return recipe;
         }   
-
-        private List<Ingredient> GetIngredientsForRecipe(int recipeId)
-        {
-            var fileName = "DishesDetails.json";
-
-            try
-            {
-                var jsonString = System.IO.File.ReadAllText(fileName);
-                var recipes = JsonSerializer.Deserialize<List<Recipe>>(jsonString) ?? new List<Recipe>();
-
-                var recipe = recipes.FirstOrDefault(r => r.id == recipeId);
-                return recipe?.ingredients ?? new List<Ingredient>();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error reading from file: {ex.Message}");
-                return new List<Ingredient>();
-            }
-        }
     }
 }
