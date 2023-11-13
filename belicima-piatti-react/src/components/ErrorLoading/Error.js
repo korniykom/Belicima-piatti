@@ -1,17 +1,13 @@
 import "./Error.css";
+import {BiSolidError} from 'react-icons/bi';
 export default function ErrorLoading() {
   return (
-    <div className="div1">
+    <div className="ErrorLoadingBody">
       <div className="sadMen">
-        <img
-          src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR6v5YaszroqdxzdabfVqEb0QvgyaKiGnyGoRuzk62jwCottiDX"
-          width="75px"
-          height="55px;"
-          className="sadImg"
-        />
+        <BiSolidError size = "55px"  className="sadImg"/>
       </div>
-      <h1 className="inside">Помилка:</h1>
-      <h3 className="inside">Не вдалося завантажити сторінку</h3>
+      <h1 className="InsideOfErrorLoading">Помилка:</h1>
+      <h3 className="InsideOfErrorLoading">Не вдалося завантажити сторінку</h3>
     </div>
   );
 }
