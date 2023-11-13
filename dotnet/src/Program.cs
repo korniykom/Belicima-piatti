@@ -18,6 +18,9 @@ builder.Services.AddSingleton<DogService>(); // Add this line to register DogSer
 builder.Services.AddSingleton<CommentRepository>(); // Add this line to register DogRepository as a singleton
 builder.Services.AddSingleton<CommentService>(); // Add this line to register DogService as a scoped service
 
+builder.Services.AddSingleton<RecipesRepository>(); // Add this line to register DogRepository as a singleton
+builder.Services.AddSingleton<RecipesService>(); // Add this line to register DogService as a scoped service
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
