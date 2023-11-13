@@ -11,12 +11,10 @@ namespace src.Repositories
         private int currentId = 1;
         public CommentRepository() 
         {
-            comments.Add(new Comment(
-                "Delicious and satisfying, this dish is a culinary masterpiece that tickles your taste buds with every bite. A true symphony of flavors that leaves you craving for more. Bon appétit!",
-                "User#0"
-            ));
+            Comment testComment = new (0, "Delicious and satisfying, this dish is a culinary masterpiece that tickles your taste buds with every bite. A true symphony of flavors that leaves you craving for more. Bon appétit!", "User#0");
+            commentsDictionary.Add(0, new List<Comment>());
+            commentsDictionary[0].Add(testComment);
         }
-
         public List<Comment> GetAllComments() 
         {
             List<Comment> allComments = new ();
@@ -28,7 +26,15 @@ namespace src.Repositories
         }
         public List<Comment> GetCommentByRecipeId(int id) 
         {
-            return commentsDictionary[id];
+            if(commentsDictionary.ContainsKey(id))
+            {
+                return commentsDictionary[id];
+            }
+            else
+            {
+                var emptyList = new List<Comment>();
+                return emptyList;
+            };
         }
         public Comment AddComment(Comment comment) 
         {
