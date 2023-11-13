@@ -1,28 +1,30 @@
-using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
-using project;
 using src.Domain;
 
-namespace src.Repositories
+public class SmallRecipesRepository
 {
-  public class SmallRecipesRepository
-  {
-    private List<SmallRecipe> _small_recipes;
+    private readonly List<SmallRecipe> _smallRecipes;
 
     public SmallRecipesRepository()
     {
-      var fileName = "./data/DishesDetails.json";
-      try 
-      {
-        var jsonString = System.IO.File.ReadAllText(fileName);
-        _small_recipes = JsonSerializer.Deserialize<List<SmallRecipe>>(jsonString) ?? new List<SmallRecipe>();
-      }
-
-      catch (Exception ex)
-      {
-        Console.WriteLine($"Error reading from file: {ex.Message}");
-        _small_recipes = new List<SmallRecipe>();
-      }
+        var fileName = "./data/DishesDetails.json";
+        try
+        {
+            var jsonString = System.IO.File.ReadAllText(fileName);
+            var recipes = JsonSerializer.Deserialize<List<Recipe>>(jsonString) ?? new List<Recipe>();
+            _smallRecipes = recipes.Select(r => new SmallRecipe(r)).ToList();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error reading from file: {ex.Message}");
+            _smallRecipes = new List<SmallRecipe>();
+        }
     }
-  }
+
+    public List<SmallRecipe> GetSmallRecipes(int page, int pageSize)
+    {
+        var startIndex = (page - 1) * pageSize;
+        var endIndex = Math.Min(_smallRecipes.Count, startIndex + pageSize);
+        return _smallRecipes.Skip(startIndex).Take(endIndex - startIndex).ToList();
+    }
 }

@@ -15,11 +15,14 @@ builder.Services.AddMvc();
 builder.Services.AddSingleton<DogRepository>(); // Add this line to register DogRepository as a singleton
 builder.Services.AddSingleton<DogService>(); // Add this line to register DogService as a scoped service
 
-builder.Services.AddSingleton<CommentRepository>(); // Add this line to register DogRepository as a singleton
-builder.Services.AddSingleton<CommentService>(); // Add this line to register DogService as a scoped service
+builder.Services.AddSingleton<CommentRepository>(); // Add this line to register CommentRepository as a singleton
+builder.Services.AddSingleton<CommentService>(); // Add this line to register CommentService as a scoped service
 
-builder.Services.AddSingleton<RecipesRepository>(); // Add this line to register DogRepository as a singleton
-builder.Services.AddSingleton<RecipesService>(); // Add this line to register DogService as a scoped service
+builder.Services.AddSingleton<RecipesRepository>(); // Add this line to register RecipesRepository as a singleton
+builder.Services.AddSingleton<RecipesService>(); // Add this line to register RecipesService as a scoped service
+
+builder.Services.AddSingleton<SmallRecipesRepository>(); // Add this line to register SmallRecipesRepository as a singleton
+builder.Services.AddSingleton<SmallRecipesService>(); // Add this line to register SmallRecipesService as a scoped service
 
 var app = builder.Build();
 
