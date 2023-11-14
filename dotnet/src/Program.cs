@@ -20,6 +20,9 @@ builder.Services.AddSingleton<CommentService>(); // Add this line to register Co
 builder.Services.AddSingleton<RecipesRepository>(); // Add this line to register RecipesRepository as a singleton
 builder.Services.AddSingleton<RecipesService>(); // Add this line to register RecipesService as a scoped service
 
+builder.Services.AddSingleton<SmallRecipesRepository>(); // Add this line to register SmallRecipesRepository as a singleton
+builder.Services.AddSingleton<SmallRecipesService>(); // Add this line to register SmallRecipesService as a scoped service
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
