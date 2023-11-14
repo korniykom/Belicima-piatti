@@ -10,51 +10,61 @@
       "calories": 250,
       "ingredients": [
         {
+          "id": 1,
           "name": "Куряча грудка",
           "price": 124,
           "calories": 91
         },
         {
+          "id": 2,
           "name": "Макаронна засипка",
           "price": 22.99,
           "calories": 12
         },
         {
+          "id": 3,
           "name": "Картопля",
           "price": 32,
           "calories": 129
         },
         {
+          "id": 4,
           "name": "Морква",
           "price": 27,
           "calories": 34
         },
         {
+          "id": 5,
           "name": "Сіль",
           "price": 18.99,
           "calories": 25
         },
         {
+          "id": 6,
           "name": "Перець чорний мелений",
           "price": 21,
           "calories": 11
         },
         {
+          "id": 7,
           "name": "Цибуля ріпчаста",
           "price": 49,
           "calories": 19
         },
         {
+          "id": 8,
           "name": "Лавровий лист",
           "price": 25,
           "calories": 6
         },
         {
+          "id": 9,
           "name": "Вода",
           "price": 10.99,
           "calories": 8
         },
         {
+          "id": 10,
           "name": "Зелень",
           "price": 26,
           "calories": 17
@@ -82,66 +92,79 @@
       "calories": 300,
       "ingredients": [
         {
+          "id": 1,
           "name": "Вода",
           "price": 8,
           "calories": 6
         },
         {
+          "id": 2,
           "name": "Свинина на кістці",
           "price": 109,
           "calories": 209
         },
         {
+          "id": 3,
           "name": "Картопля",
           "price": 48,
           "calories": 34
         },
         {
+          "id": 4,
           "name": "Буряк",
           "price": 58,
           "calories": 31
         },
         {
+          "id": 5,
           "name": "Морква",
           "price": 32,
           "calories": 18
         },
         {
+          "id": 6,
           "name": "Цибуля",
           "price": 23,
           "calories": 15
         },
         {
+          "id": 7,
           "name": "Капуста білокачанна свіжа",
           "price": 58,
           "calories": 38
         },
         {
+          "id": 8,
           "name": "Томатна паста",
           "price": 98,
           "calories": 87
         },
         {
+          "id": 9,
           "name": "Соняшникова олія",
           "price": 56.99,
           "calories": 65
         },
         {
+          "id": 10,
           "name": "Лимонна кислота",
           "price": 81,
           "calories": 45
         },
         {
+          "id": 11,
           "name": "Сіль",
           "price": 17,
           "calories": 23
         },
         {
+          "id": 12,
           "name": "Лавровий лист",
           "price": 23.99,
           "calories": 7
         },
         {
+          "id": 13,
           "name": "Зелень",
           "price": 25.99,
           "calories": 18
@@ -171,51 +194,61 @@
       "calories": 350,
       "ingredients": [
         {
+          "id": 1,
           "name": "Куряче філе",
           "price": 98,
           "calories": 67
         },
         {
+          "id": 2,
           "name": "Перепелині яйця",
           "price": 23.99,
           "calories": 12
         },
         {
+          "id": 3,
           "name": "Помідор Черрі",
           "price": 56.99,
           "calories": 32
         },
         {
+          "id": 4,
           "name": "Салат Ромен",
           "price": 81,
           "calories": 39
         },
         {
+          "id": 5,
           "name": "Розтоплене вершкове масло",
           "price": 74.99,
           "calories": 55
         },
         {
+          "id": 6,
           "name": "Оливкова олія",
           "price": 67,
           "calories": 45
         },
         {
+          "id": 7,
           "name": "Білий хліб для сухарів",
           "price": 34,
           "calories": 79
         },
         {
+          "id": 8,
           "name": "Сир пармезан",
           "price": 56.99,
           "calories": 49
         },
         {
+          "id": 9,
           "name": "Сіль",
           "price": 17.69,
           "calories": 17
         },
         {
+          "id": 10,
           "name": "Перець за смаком",
           "price": 23.11,
           "calories": 17
@@ -246,82 +279,98 @@
       "calories": 400,
       "ingredients": [
         {
+          "id": 1,
           "name": "Відварені спагетті",
           "price": 74.49,
           "calories": 66
         },
         {
+          "id": 2,
           "name": "Часник рубаний",
           "price": 23.11,
           "calories": 11
         },
 
         {
+          "id": 3,
           "name": "Соус кисло-солодкий",
           "price": 49,
           "calories": 45
         },
         {
+          "id": 4,
           "name": "Оливкова олія",
           "price": 66,
           "calories": 44
         },
         {
+          "id": 5,
           "name": "Філе курки без шкірки",
           "price": 108,
           "calories": 87
         },
         {
+          "id": 6,
           "name": "Базилік",
           "price": 56,
           "calories": 33
         },
         {
+          "id": 7,
           "name": "Томати бланшовані",
           "price": 45.99,
           "calories": 41
         },
         {
+          "id": 8,
           "name": "Морква терта",
           "price": 34.99,
           "calories": 23
         },
         {
+          "id": 9,
           "name": "Біла цибуля",
           "price": 34.99,
           "calories": 24
         },
         {
+          "id": 10,
           "name": "Цукор",
           "price": 55.99,
           "calories": 44
         },
         {
+          "id": 11,
           "name": "Перець жовтий, салатовий",
           "price": 34.99,
           "calories": 17
         },
         {
+          "id": 12,
           "name": "Сіль",
           "price": 16.99,
           "calories": 24
         },
         {
+          "id": 13,
           "name": "Перець",
           "price": 44.99,
           "calories": 32
         },
         {
+          "id": 14,
           "name": "Коріандр",
           "price": 32.99,
           "calories": 16
         },
         {
+          "id": 15,
           "name": "Гвоздика",
           "price": 26.99,
           "calories": 14
         },
         {
+          "id": 16,
           "name": "Порошок чилі",
           "price": 44.99,
           "calories": 37
@@ -349,31 +398,37 @@
       "calories": 600,
       "ingredients": [
         {
+          "id": 1,
           "name": "Яловичина",
           "price": 557,
           "calories": 498
         },
         {
+          "id": 2,
           "name": "Лимон",
           "price": 21.99,
           "calories": 7
         },
         {
+          "id": 3,
           "name": "Мелений чорний перець",
           "price": 59,
           "calories": 48
         },
         {
+          "id": 4,
           "name": "Оливкова олія",
           "price": 65,
           "calories": 45
         },
         {
+          "id": 5,
           "name": "Сіль",
           "price": 25,
           "calories": 15
         },
         {
+          "id": 6,
           "name": "Часник",
           "price": 23,
           "calories": 14
@@ -398,56 +453,67 @@
       "calories": 450,
       "ingredients": [
         {
+          "id": 1,
           "name": "Риба біла",
           "price": 98.99,
           "calories": 78
         },
         {
+          "id": 2,
           "name": "Картопля",
           "price": 67.99,
           "calories": 45
         },
         {
+          "id": 3,
           "name": "Помідор",
           "price": 57.99,
           "calories": 40
         },
         {
+          "id": 4,
           "name": "Цибуля ріпчаста",
           "price": 32,
           "calories": 16
         },
         {
+          "id": 5,
           "name": "Часник",
           "price": 23.99,
           "calories": 17
         },
         {
+          "id": 6,
           "name": "Лимон",
           "price": 22.99,
           "calories": 11
         },
         {
+          "id": 7,
           "name": "Орегано сухий",
           "price": 26.99,
           "calories": 19
         },
         {
+          "id": 8,
           "name": "Оливкова олія",
           "price": 67.77,
           "calories": 45
         },
         {
+          "id": 9,
           "name": "Петрушка",
           "price": 45.79,
           "calories": 35
         },
         {
+          "id": 10,
           "name": "Сіль",
           "price": 17.99,
           "calories": 16
         },
         {
+          "id": 11,
           "name": "Перець чорний",
           "price": 22,
           "calories": 18
@@ -476,26 +542,31 @@
       "calories": 200,
       "ingredients": [
         {
+          "id": 1,
           "name": "Оливкова олія",
           "price": 68.1,
           "calories": 47
         },
         {
+          "id": 2,
           "name": "Цибуля",
           "price": 23.49,
           "calories": 12
         },
         {
+          "id": 3,
           "name": "Гарбуз",
           "price": 56.99,
           "calories": 50
         },
         {
+          "id": 4,
           "name": "Овочевий (курячий) бульйон",
           "price": 68,
           "calories": 51
         },
         {
+          "id": 5,
           "name": "Вершки",
           "price": 43.99,
           "calories": 33
@@ -523,26 +594,31 @@
       "calories": 800,
       "ingredients": [
         {
+          "id": 1,
           "name": "Сир моцарелла",
           "price": 67.99,
           "calories": 54
         },
         {
+          "id": 2,
           "name": "Базилік",
           "price": 56,
           "calories": 33
         },
         {
+          "id": 3,
           "name": "Кетчуп",
           "price": 29.59,
           "calories": 21
         },
         {
+          "id": 4,
           "name": "Орегано",
           "price": 21.89,
           "calories": 9
         },
         {
+          "id": 5,
           "name": "Помідор",
           "price": 59.99,
           "calories": 40
@@ -568,66 +644,79 @@
       "calories": 250,
       "ingredients": [
         {
+          "id": 1,
           "name": "Огірок",
           "price": 10.99,
           "calories": 8
         },
         {
+          "id": 2,
           "name": "Помідор",
           "price": 57.89,
           "calories": 42
         },
         {
+          "id": 3,
           "name": "Болгарський перець",
           "price": 11,
           "calories": 7
         },
         {
+          "id": 4,
           "name": "Сир фета",
           "price": 69,
           "calories": 47
         },
         {
+          "id": 5,
           "name": "Лук солодкий",
           "price": 23.79,
           "calories": 17
         },
         {
+          "id": 6,
           "name": "Маслини",
           "price": 27,
           "calories": 34
         },
         {
+          "id": 7,
           "name": "Лимон",
           "price": 26,
           "calories": 10
         },
         {
+          "id": 8,
           "name": "Оливкова олія",
           "price": 65.47,
           "calories": 44
         },
         {
+          "id": 9,
           "name": "Сіль",
           "price": 20.99,
           "calories": 15
         },
         {
+          "id": 10,
           "name": "Перець",
           "price": 27.19,
           "calories": 18
         },
         {
+          "id": 11,
           "name": "Сухий базилік",
           "price": 57.39,
           "calories": 35
         },
         {
+          "id": 12,
           "name": "Орегано",
           "price": 20.89,
           "calories": 6
         },
         {
+          "id": 13,
           "name": "Сушений чебрець",
           "price": 12.99,
           "calories": 7
@@ -658,31 +747,37 @@
       "calories": 500,
       "ingredients": [
         {
+          "id": 1,
           "name": "Кальмар",
           "price": 197,
           "calories": 145
         },
         {
+          "id": 2,
           "name": "Креветки королівські",
           "price": 156,
           "calories": 121
         },
         {
+          "id": 3,
           "name": "Спагетті",
           "price": 89,
           "calories": 61
         },
         {
+          "id": 4,
           "name": "Вершки",
           "price": 81,
           "calories": 69
         },
         {
+          "id": 5,
           "name": "Цибуля",
           "price": 24.15,
           "calories": 16
         },
         {
+          "id": 6,
           "name": "Часник",
           "price": 24,
           "calories": 15
