@@ -1,15 +1,24 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import "./Nav.css";
-export default function Nav() {
+
+export default function Nav({ backLink, title }) {
   return (
     <div className="nav">
-      <div class="arrow_back-button">
-        <span class="material-symbols-outlined">arrow_back</span>
+      <div className="arrow_back-button">
+        {backLink && (
+          <Link to={backLink}>
+            <span className="material-symbols-outlined">arrow_back</span>
+          </Link>
+        )}
       </div>
       <span className="title">
-        <strong>Перші страви</strong>
+        <strong>{title}</strong>
       </span>
-      <div class="menu-button">
-        <span class="material-symbols-outlined">menu</span>
+      <div className="menu-button">
+        <Link to="/menu">
+          <span className="material-symbols-outlined">menu</span>
+        </Link>
       </div>
     </div>
   );
