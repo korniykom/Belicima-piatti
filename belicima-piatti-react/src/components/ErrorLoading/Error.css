@@ -1,33 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 .ErrorLoadingBody {
-  width: 450px;
-  height: 250px;
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+  height: auto;
   border-radius: 25px;
   background-color: rgb(170, 153, 153);
-  margin: 50px auto;
+  margin: 20px auto;
   color: rgb(120, 26, 26);
   border: 3px solid rgb(120, 26, 26);
+  letter-spacing: 1px;
 }
-.InsideOfErrorLoading {
-  position: relative;
-  text-align: center;
+.InsideOfErrorLoading1 {
   background-color: rgb(170, 153, 153);
   font-family: "Roboto", sans-serif;
-  top: 10%;
-  margin: 0px;
+  text-align: center;
 }
-.sadMen {
+.InsideOfErrorLoading2
+{
+  background-color: rgb(170, 153, 153);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+.ErrorImgBlock {
   width: 55px;
-  height: 55px;
-  position: relative;
-  margin: 5px auto;
   border-radius: 25px;
   background-color: rgb(170, 153, 153);
-  top: 62%;
 }
 
-.sadImg {
-  margin: 5px auto;
+.ErrorLoadingImg {
   background-color: rgb(170, 153, 153);
   color: rgb(157, 56, 56);
 }
