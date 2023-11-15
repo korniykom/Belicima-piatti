@@ -9,6 +9,7 @@
   gap: 0px;
 }
 .textStyle {
+  min-width: 24px;
   display: flex;
   height: 36px;
   justify-content: center;
@@ -19,7 +20,7 @@
   border-color: #999;
 }
 
-.star .material-symbols-outlined {
+/* .star .material-symbols-outlined {
   font-size: 48px;
   border-radius: 25%;
-}
+} */
