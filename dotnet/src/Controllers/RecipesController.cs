@@ -1,6 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Text.Json;
-using project;
 using src.Domain;
 using src.Services;
 
@@ -31,5 +29,20 @@ namespace project{
 
             return recipe;
         }   
+
+          [HttpGet("{page}/{pageSize}")]
+        public ActionResult<IList<SmallRecipe>> GetSmallRecipes(int page, int pageSize)
+        {
+            var smallRecipes = RecipesService.GetSmallRecipes(page, pageSize);
+
+            if (smallRecipes == null)
+            {
+                return NotFound();
+            }
+
+            return smallRecipes;
+        }
     }
+
+    
 }

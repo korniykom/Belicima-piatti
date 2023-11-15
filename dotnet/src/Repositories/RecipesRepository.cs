@@ -1,7 +1,6 @@
-using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
-using project;
 using src.Domain;
+//RecipesRepository
 
 namespace src.Repositories{
     public class RecipesRepository
@@ -28,5 +27,16 @@ namespace src.Repositories{
             var recipe = _recipes.FirstOrDefault(r => r.id == id);
             return recipe;
         } 
+
+        public List<SmallRecipe> GetSmallRecipes(int page, int pageSize)
+        {
+            if (page < 1)
+            {
+                throw new ArgumentException("Page number cannot be less than 1");
+            }
+            var startIndex = (page - 1) * pageSize;
+            var endIndex = Math.Min(_smallRecipes.Count, startIndex + pageSize);
+            return recipes.Select(r => new SmallRecipe(r)).ToList().Skip(startIndex).Take(endIndex - startIndex).ToList();
+        }
     }
 }
