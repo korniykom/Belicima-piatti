@@ -1,7 +1,6 @@
 export default function RenderDetailedPage(details) {
-  return (
-    <div>
-      <p>{details.name}</p>
-    </div>
-  );
+  console.log("The name is");
+  console.log(details.name);
+
+  return <p>{details.steps}</p>;
 }
