@@ -30,18 +30,6 @@ namespace project{
             return recipe;
         }   
 
-          [HttpGet("{page}/{pageSize}")]
-        public ActionResult<IList<SmallRecipe>> GetSmallRecipes(int page, int pageSize)
-        {
-            var smallRecipes = RecipesService.GetSmallRecipes(page, pageSize);
-
-            if (smallRecipes == null)
-            {
-                return NotFound();
-            }
-
-            return smallRecipes;
-        }
     }
 
     
