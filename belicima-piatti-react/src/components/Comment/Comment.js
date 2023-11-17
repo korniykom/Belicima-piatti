@@ -8,7 +8,9 @@ export default function Comment() {
         <div className="avatar">
           <div className="photo"></div>
           <div className="name">Joe</div>
-          <StarRating rating={4} />
+          <div className="StarRating">
+            <StarRating rating={4} />
+          </div>
         </div>
         <div className="box">
           <div className="text">
