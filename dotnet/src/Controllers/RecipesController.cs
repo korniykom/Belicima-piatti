@@ -4,7 +4,7 @@ using src.Domain;
 using src.Services;
 namespace project {
 
-    [Route("api/recipes")]
+    [Route("api")]
     [ApiController]
 
     public class RecipesController : ControllerBase {
@@ -14,7 +14,7 @@ namespace project {
             recipesService = service;
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("recipe")]
         public ActionResult<Recipe> GetRecipe(int id) {
             var recipe = recipesService.GetRecipe(id);
 
@@ -27,11 +27,13 @@ namespace project {
             return recipe;
         }
 
-        [HttpGet("{page}/{pageSize}")]
-        public ActionResult<IList<SmallRecipe>> GetSmallRecipes(int page, int pageSize) {
+        [HttpGet("recipes")]
+        public ActionResult<IList<SmallRecipe>> GetSmallRecipes(int page, int pageSize)
+        {
             var smallRecipes = recipesService.GetSmallRecipes(page, pageSize);
 
-            if (smallRecipes == null) {
+            if (smallRecipes == null)
+            {
                 return NotFound();
             }
 
