@@ -1,11 +1,6 @@
-using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Text.Json;
-using project;
 
 namespace src.Domain {
-    public class Recipe
-    {
+    public class Recipe {
         public int id { get; set; }
         public string name { get; set; }
         public string description { get; set; }
@@ -16,9 +11,20 @@ namespace src.Domain {
         public List<Ingredient> ingredients { get; set; }
         public List<string> steps { get; set; }
 
-        public Recipe()
-        {
+        public Recipe() {
             ingredients = new List<Ingredient>();
+        }
+
+        public SmallRecipe ConvertToSmallRecipe() {
+            SmallRecipe smallRecipe = new SmallRecipe {
+                id = this.id,
+                name = this.name,
+                score = this.score,
+                duration = this.duration,
+                price = this.price,
+                calories = this.calories
+            };
+            return smallRecipe;
         }
     }
 

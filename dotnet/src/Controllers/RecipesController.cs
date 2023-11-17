@@ -1,36 +1,42 @@
+
 using Microsoft.AspNetCore.Mvc;
 using src.Domain;
 using src.Services;
+namespace project {
 
-namespace project{
-
-    [Route("api/recipe")]
+    [Route("api/recipes")]
     [ApiController]
 
-    public class RecipesController : ControllerBase
-    {
+    public class RecipesController : ControllerBase {
         private RecipesService recipesService;
 
         public RecipesController(RecipesService service) {
-          recipesService = service;
+            recipesService = service;
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Recipe> GetRecipe(int id)
-        {
+        public ActionResult<Recipe> GetRecipe(int id) {
             var recipe = recipesService.GetRecipe(id);
 
-            if (recipe == null)
-            {
+            if (recipe == null) {
                 return NotFound();
             }
 
             // recipe.ingredients = GetIngredientsForRecipe(id);
 
             return recipe;
-        }   
+        }
 
+        // Add the SmallRecipesController method to RecipesController
+        [HttpGet("{page}/{pageSize}")]
+        public ActionResult<IList<SmallRecipe>> GetSmallRecipes(int page, int pageSize) {
+            var smallRecipes = recipesService.GetSmallRecipes(page, pageSize);
+
+            if (smallRecipes == null) {
+                return NotFound();
+            }
+
+            return smallRecipes;
+        }
     }
-
-    
 }

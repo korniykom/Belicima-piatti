@@ -1,3 +1,4 @@
+
 namespace src.Domain {
 
     public class SmallRecipe

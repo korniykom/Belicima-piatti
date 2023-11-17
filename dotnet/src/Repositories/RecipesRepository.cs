@@ -1,8 +1,7 @@
 using System.Text.Json;
 using src.Domain;
-//RecipesRepository
 
-namespace src.Repositories{
+namespace src.Repositories {
     public class RecipesRepository
     {
         private readonly List<Recipe>  _recipes;
@@ -27,6 +26,14 @@ namespace src.Repositories{
             var recipe = _recipes.FirstOrDefault(r => r.id == id);
             return recipe;
         } 
+
+        public List<SmallRecipe> GetSmallRecipes(int page, int pageSize) {
+            var smallRecipes = _recipes.Skip((page - 1) * pageSize)
+                                       .Take(pageSize)
+                                       .Select(r => new SmallRecipe(r))
+                                       .ToList();
+            return smallRecipes;
+        }
 
         
     }
