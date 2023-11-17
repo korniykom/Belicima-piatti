@@ -5,20 +5,32 @@ import Nav from "../components/Nav/Nav";
 import StarRating from "../components/Star-Rating/StarRating";
 import StepList from "../components/Step-List/Step-List";
 import Comment from "../components/Comment/Comment";
-const BASE_URL = "http://localhost:5059/api/recipe";
+const BASE_PAGE_URL = "http://localhost:5059/api/recipe";
+const BASE_COMMENTS_URL = "http://localhost:5059/api/comments";
 
 export default function DetailedDish() {
   const { id } = useParams();
   const [pageInfo, setPageInfo] = useState([]);
+  const [comments, setComments] = useState([]);
 
   useEffect(() => {
-    fetch(`${BASE_URL}/${id}`)
+    fetch(`${BASE_PAGE_URL}/${id}`)
       .then((res) => {
         return res.json();
       })
       .then((data) => {
         //console.log(data);
         setPageInfo(data);
+      });
+  }, []);
+  useEffect(() => {
+    fetch(`${BASE_COMMENTS_URL}/${id}`)
+      .then((res) => {
+        return res.json();
+      })
+      .then((data) => {
+        console.log(data);
+        setComments(data);
       });
   }, []);
   //TODO: add back link
@@ -31,7 +43,7 @@ export default function DetailedDish() {
         alt="dish img"
       />
       <div className="StarRating">
-        <StarRating rating={pageInfo.score} />
+        <StarRating rating={pageInfo.score} starSize={20} />
       </div>
       <div className="Description">{pageInfo.description}</div>
       <div className="TimePrice">
@@ -41,8 +53,15 @@ export default function DetailedDish() {
       <div>
         <StepList StepList={pageInfo.steps} />
       </div>
+      <p className="CommentsTitle">Коментарі</p>
       <div>
-        <Comment />
+        {comments.map((comment) => (
+          <Comment
+            name={comment.name}
+            text={comment.text}
+            rating={pageInfo.score}
+          />
+        ))}
       </div>
     </div>
   );

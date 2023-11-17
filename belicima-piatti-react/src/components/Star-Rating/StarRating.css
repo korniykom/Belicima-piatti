@@ -19,6 +19,18 @@
   border-width: 2px;
   border-color: #999;
 }
+.SmallTextStyle {
+  font-size: 12px;
+  min-width: 12px;
+  display: flex;
+  height: 12px;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-radius: 25%;
+  border-width: 2px;
+  border-color: #999;
+}
 
 /* .star .material-symbols-outlined {
   font-size: 48px;
