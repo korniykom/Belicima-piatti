@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using src.Domain;
 using src.Repositories;
 
@@ -14,5 +12,9 @@ namespace src.Services {
     public Recipe GetRecipe(int id) {
       return recipeRepository.GetRecipe(id);
     }
+
+      public List<SmallRecipe> GetSmallRecipes(int page, int pageSize) {
+            return recipeRepository.GetSmallRecipes(page, pageSize);
   }
+}
 }
