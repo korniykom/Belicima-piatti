@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React, { useState } from "react";
 
 const PageNavigator = () => {
@@ -13,11 +14,13 @@ const PageNavigator = () => {
 
   return (
     <div>
-      <button onClick={goToPrevPage} disabled={currentPage === 1}>
-        {"<"}
-      </button>
-      <span> {currentPage} </span>
-      <button onClick={goToNextPage}>{">"}</button>
+      <Link to="/num">
+        <button onClick={goToPrevPage} disabled={currentPage === 1}>
+          {"<"}
+        </button>
+        <span> {currentPage} </span>
+        <button onClick={goToNextPage}>{">"}</button>
+      </Link>
     </div>
   );
 };

@@ -1,38 +1,43 @@
+
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Linq;
-using System.ComponentModel;
-using System.Text.Json;
-using System.IO;
-using System.Security.AccessControl;
-using project;
+using src.Domain;
+using src.Services;
+namespace project {
 
-namespace project{
-
-    [Route("api/[controller]")]
+    [Route("api")]
     [ApiController]
 
-    public class RecipesController : Recipes
-    {
-        private readonly List<Ingredient> _recipes;
+    public class RecipesController : ControllerBase {
+        private RecipesService recipesService;
 
-        public RecipesController()
-        {
-            var fileName = "DishesDetails.json";
-            var jsonString = File.ReadAllText(fileName);
-            Ingredient _recipes = JsonSerializer.Deserialize<Ingredient>(jsonString)!;
+        public RecipesController(RecipesService service) {
+            recipesService = service;
         }
 
-        [HttpGet("{id}")]
-        public ActionResult<Ingredient> GetRecipe(int id)
-        {
-            var recipe = _recipes.FirstOrDefault(r => r.id == id);
+        [HttpGet("recipe")]
+        public ActionResult<Recipe> GetRecipe(int id) {
+            var recipe = recipesService.GetRecipe(id);
 
-            if (recipe == null)
-            {
-                return NotFound(); 
+            if (recipe == null) {
+                return NotFound();
             }
+
+            // recipe.ingredients = GetIngredientsForRecipe(id);
+
             return recipe;
+        }
+
+        [HttpGet("recipes")]
+        public ActionResult<IList<SmallRecipe>> GetSmallRecipes(int page, int pageSize)
+        {
+            var smallRecipes = recipesService.GetSmallRecipes(page, pageSize);
+
+            if (smallRecipes == null)
+            {
+                return NotFound();
+            }
+
+            return smallRecipes;
         }
     }
 }

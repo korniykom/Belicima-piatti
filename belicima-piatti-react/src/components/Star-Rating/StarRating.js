@@ -1,13 +1,12 @@
 import "./StarRating.css";
+import { FaStar } from "react-icons/fa";
 
-export default function StarRating({ rating = 5 }) {
+export default function StarRating({ rating }) {
   return (
     <div className="containerStyle">
       <div className="starContainerStyle">
         {Array.from({ length: 5 }, (_, i) => (
-          <span>
-            <Star key={i} />
-          </span>
+          <span key={i}>{i < rating ? <YellowStar /> : <WhiteStar />}</span>
         ))}
         <span className="textStyle ">{rating}</span>
       </div>
@@ -15,10 +14,17 @@ export default function StarRating({ rating = 5 }) {
   );
 }
 
-function Star() {
+function WhiteStar() {
   return (
     <div className="star">
-      <span class="material-symbols-outlined">star_rate</span>
+      <FaStar size={35} color={"#aaa"} />
     </div>
+  );
+}
+function YellowStar() {
+  return (
+    <span className="yellowStar">
+      <FaStar size={35} color={"orange"} />
+    </span>
   );
 }
