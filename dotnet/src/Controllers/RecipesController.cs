@@ -22,6 +22,7 @@ namespace project {
                 return NotFound();
             }
 
+            // recipe.ingredients = GetIngredientsForRecipe(id);
 
             return recipe;
         }
