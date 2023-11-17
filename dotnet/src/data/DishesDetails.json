@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Курячий суп",
+    "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.fbt_aIZezSujWx3OZv6MgQHaD4%26pid%3DApi&f=1&ipt=8c3460a20c8bba332634f66e2824b0b25fa680ef84aac2e5ba352fd65a2ee9b1&ipo=images",
     "description": "Тоненько наріжте куряче філе скибками та підсмажте до золотої скоринки на пательні. Ще гарячі шматочки викладіть на салат та рясно посипте пармезаном.",
     "score": 4.1,
     "duration": 45,
@@ -9,51 +10,61 @@
     "calories": 250,
     "ingredients": [
       {
+        "id": 1,
         "name": "Куряча грудка",
         "price": 124,
         "calories": 91
       },
       {
+        "id": 2,
         "name": "Макаронна засипка",
         "price": 22.99,
         "calories": 12
       },
       {
+        "id": 3,
         "name": "Картопля",
         "price": 32,
         "calories": 129
       },
       {
+        "id": 4,
         "name": "Морква",
         "price": 27,
         "calories": 34
       },
       {
+        "id": 5,
         "name": "Сіль",
         "price": 18.99,
         "calories": 25
       },
       {
+        "id": 6,
         "name": "Перець чорний мелений",
         "price": 21,
         "calories": 11
       },
       {
+        "id": 7,
         "name": "Цибуля ріпчаста",
         "price": 49,
         "calories": 19
       },
       {
+        "id": 8,
         "name": "Лавровий лист",
         "price": 25,
         "calories": 6
       },
       {
+        "id": 9,
         "name": "Вода",
         "price": 10.99,
         "calories": 8
       },
       {
+        "id": 10,
         "name": "Зелень",
         "price": 26,
         "calories": 17
@@ -74,6 +85,7 @@
   {
     "id": 2,
     "name": "Борщ",
+    "img": "https://images.unian.net/photos/2020_10/1602057485-3102.jpg?0.602735502001281",
     "description": "Борщ – це культурне надбання України, наша гордість та кулінарний символ нашої країни. Бути байдужим до цього густого наваристого супу просто неможливо.",
     "score": 3.7,
     "duration": 60,
@@ -81,66 +93,79 @@
     "calories": 300,
     "ingredients": [
       {
+        "id": 1,
         "name": "Вода",
         "price": 8,
         "calories": 6
       },
       {
+        "id": 2,
         "name": "Свинина на кістці",
         "price": 109,
         "calories": 209
       },
       {
+        "id": 3,
         "name": "Картопля",
         "price": 48,
         "calories": 34
       },
       {
+        "id": 4,
         "name": "Буряк",
         "price": 58,
         "calories": 31
       },
       {
+        "id": 5,
         "name": "Морква",
         "price": 32,
         "calories": 18
       },
       {
+        "id": 6,
         "name": "Цибуля",
         "price": 23,
         "calories": 15
       },
       {
+        "id": 7,
         "name": "Капуста білокачанна свіжа",
         "price": 58,
         "calories": 38
       },
       {
+        "id": 8,
         "name": "Томатна паста",
         "price": 98,
         "calories": 87
       },
       {
+        "id": 9,
         "name": "Соняшникова олія",
         "price": 56.99,
         "calories": 65
       },
       {
+        "id": 10,
         "name": "Лимонна кислота",
         "price": 81,
         "calories": 45
       },
       {
+        "id": 11,
         "name": "Сіль",
         "price": 17,
         "calories": 23
       },
       {
+        "id": 12,
         "name": "Лавровий лист",
         "price": 23.99,
         "calories": 7
       },
       {
+        "id": 13,
         "name": "Зелень",
         "price": 25.99,
         "calories": 18
@@ -163,6 +188,7 @@
   {
     "id": 3,
     "name": "Салат Цезар",
+    "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.FbcUhbn4FzzdHw_5bBl9JgHaE8%26pid%3DApi&f=1&ipt=6bb79e99cd7c42dda4b6ae602224aad6bb5bd63aa313e4ea062cb4ad770871b0&ipo=images",
     "description": "Салат Цезар – одна із найпопулярніших страв у всьому світі! І це не дивлячись на те, що інгредієнти – дуже прості, а техніки приготування під силу кожному. Можливо, саме простота салату і є секретом його успіху – рецепт приготування страви далі в матеріалі.",
     "score": 4.3,
     "duration": 20,
@@ -170,51 +196,61 @@
     "calories": 350,
     "ingredients": [
       {
+        "id": 1,
         "name": "Куряче філе",
         "price": 98,
         "calories": 67
       },
       {
+        "id": 2,
         "name": "Перепелині яйця",
         "price": 23.99,
         "calories": 12
       },
       {
+        "id": 3,
         "name": "Помідор Черрі",
         "price": 56.99,
         "calories": 32
       },
       {
+        "id": 4,
         "name": "Салат Ромен",
         "price": 81,
         "calories": 39
       },
       {
+        "id": 5,
         "name": "Розтоплене вершкове масло",
         "price": 74.99,
         "calories": 55
       },
       {
+        "id": 6,
         "name": "Оливкова олія",
         "price": 67,
         "calories": 45
       },
       {
+        "id": 7,
         "name": "Білий хліб для сухарів",
         "price": 34,
         "calories": 79
       },
       {
+        "id": 8,
         "name": "Сир пармезан",
         "price": 56.99,
         "calories": 49
       },
       {
+        "id": 9,
         "name": "Сіль",
         "price": 17.69,
         "calories": 17
       },
       {
+        "id": 10,
         "name": "Перець за смаком",
         "price": 23.11,
         "calories": 17
@@ -238,6 +274,7 @@
   {
     "id": 4,
     "name": "Паста з томатним соусом",
+    "img": "http://pastapaolo.com.ua/ru/wp-content/uploads/2012/04/iStock_000016229216Medium.jpg",
     "description": "Спагетті з томатною пастою: готувати – це просто. Рецепти спагетті з томатним соусом на кожен день: з овочами, куркою, копченостями",
     "score": 4.5,
     "duration": 30,
@@ -245,82 +282,98 @@
     "calories": 400,
     "ingredients": [
       {
+        "id": 1,
         "name": "Відварені спагетті",
         "price": 74.49,
         "calories": 66
       },
       {
+        "id": 2,
         "name": "Часник рубаний",
         "price": 23.11,
         "calories": 11
       },
 
       {
+        "id": 3,
         "name": "Соус кисло-солодкий",
         "price": 49,
         "calories": 45
       },
       {
+        "id": 4,
         "name": "Оливкова олія",
         "price": 66,
         "calories": 44
       },
       {
+        "id": 5,
         "name": "Філе курки без шкірки",
         "price": 108,
         "calories": 87
       },
       {
+        "id": 6,
         "name": "Базилік",
         "price": 56,
         "calories": 33
       },
       {
+        "id": 7,
         "name": "Томати бланшовані",
         "price": 45.99,
         "calories": 41
       },
       {
+        "id": 8,
         "name": "Морква терта",
         "price": 34.99,
         "calories": 23
       },
       {
+        "id": 9,
         "name": "Біла цибуля",
         "price": 34.99,
         "calories": 24
       },
       {
+        "id": 10,
         "name": "Цукор",
         "price": 55.99,
         "calories": 44
       },
       {
+        "id": 11,
         "name": "Перець жовтий, салатовий",
         "price": 34.99,
         "calories": 17
       },
       {
+        "id": 12,
         "name": "Сіль",
         "price": 16.99,
         "calories": 24
       },
       {
+        "id": 13,
         "name": "Перець",
         "price": 44.99,
         "calories": 32
       },
       {
+        "id": 14,
         "name": "Коріандр",
         "price": 32.99,
         "calories": 16
       },
       {
+        "id": 15,
         "name": "Гвоздика",
         "price": 26.99,
         "calories": 14
       },
       {
+        "id": 16,
         "name": "Порошок чилі",
         "price": 44.99,
         "calories": 37
@@ -341,6 +394,7 @@
   {
     "id": 5,
     "name": "Стейк з яловичини",
+    "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.eYUP_O3SDs73rtjztpQxQwHaE2%26pid%3DApi&f=1&ipt=8bdcad40266233ddfd1073c6ac424ac79857feba8cb54049695d39866a603d70&ipo=images",
     "description": "Стейк із яловичини виручить господиню і під час приготування повсякденного обіднього столу та при накриванні святкового. Готувати страву легко. Вдається вона завжди. До того ж – це соковита страва, ситна, прикрасивши яку можна сміливо подавати її на великій плоскій страві на стіл гостям.",
     "score": 4.1,
     "duration": 15,
@@ -348,31 +402,37 @@
     "calories": 600,
     "ingredients": [
       {
+        "id": 1,
         "name": "Яловичина",
         "price": 557,
         "calories": 498
       },
       {
+        "id": 2,
         "name": "Лимон",
         "price": 21.99,
         "calories": 7
       },
       {
+        "id": 3,
         "name": "Мелений чорний перець",
         "price": 59,
         "calories": 48
       },
       {
+        "id": 4,
         "name": "Оливкова олія",
         "price": 65,
         "calories": 45
       },
       {
+        "id": 5,
         "name": "Сіль",
         "price": 25,
         "calories": 15
       },
       {
+        "id": 6,
         "name": "Часник",
         "price": 23,
         "calories": 14
@@ -390,6 +450,7 @@
   {
     "id": 6,
     "name": "Риба з картоплею",
+    "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.cT2tNaX_eVogfJ6586PAwgHaE8%26pid%3DApi&f=1&ipt=cdfaaa5685dd487ca95b3589b4dccdce0c3f17197025ab5a9a06c7bc0795ba87&ipo=images",
     "description": "Запечена біла риба з картоплею, помідорами, лимоном та ароматними прянощами - чудова страва на обід або вечерю. Для його приготування особливих зусиль не потрібно, все запікається в одному посуді, обмінюючись смаками. Залишається лише нарізати всі інгредієнти і скласти у форму для запікання. Риба з картоплею в духовці виходить дуже смачною.",
     "score": 3.2,
     "duration": 40,
@@ -397,56 +458,67 @@
     "calories": 450,
     "ingredients": [
       {
+        "id": 1,
         "name": "Риба біла",
         "price": 98.99,
         "calories": 78
       },
       {
+        "id": 2,
         "name": "Картопля",
         "price": 67.99,
         "calories": 45
       },
       {
+        "id": 3,
         "name": "Помідор",
         "price": 57.99,
         "calories": 40
       },
       {
+        "id": 4,
         "name": "Цибуля ріпчаста",
         "price": 32,
         "calories": 16
       },
       {
+        "id": 5,
         "name": "Часник",
         "price": 23.99,
         "calories": 17
       },
       {
+        "id": 6,
         "name": "Лимон",
         "price": 22.99,
         "calories": 11
       },
       {
+        "id": 7,
         "name": "Орегано сухий",
         "price": 26.99,
         "calories": 19
       },
       {
+        "id": 8,
         "name": "Оливкова олія",
         "price": 67.77,
         "calories": 45
       },
       {
+        "id": 9,
         "name": "Петрушка",
         "price": 45.79,
         "calories": 35
       },
       {
+        "id": 10,
         "name": "Сіль",
         "price": 17.99,
         "calories": 16
       },
       {
+        "id": 11,
         "name": "Перець чорний",
         "price": 22,
         "calories": 18
@@ -468,6 +540,7 @@
   {
     "id": 7,
     "name": "Суп гарбузовий",
+    "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ksPcmK2q0cFIlU1zuoJsKQHaEX%26pid%3DApi&f=1&ipt=8bce9a14e818d803e248344fbf6fadbd77d62ed15f72e9ac330727aaa3a12e67&ipo=images",
     "description": "Гарбузовий суп – корисне, багате на вітаміни блюдо. Відомий в різних його інтерпретаціях у багатьох країнах світу. Рідко яка кухня, східна, європейська або Азіатська не містить кулінарні рецепти супу з цього осіннього овоча.",
     "score": 4.3,
     "duration": 25,
@@ -475,26 +548,31 @@
     "calories": 200,
     "ingredients": [
       {
+        "id": 1,
         "name": "Оливкова олія",
         "price": 68.1,
         "calories": 47
       },
       {
+        "id": 2,
         "name": "Цибуля",
         "price": 23.49,
         "calories": 12
       },
       {
+        "id": 3,
         "name": "Гарбуз",
         "price": 56.99,
         "calories": 50
       },
       {
+        "id": 4,
         "name": "Овочевий (курячий) бульйон",
         "price": 68,
         "calories": 51
       },
       {
+        "id": 5,
         "name": "Вершки",
         "price": 43.99,
         "calories": 33
@@ -515,6 +593,7 @@
   {
     "id": 8,
     "name": "Піца Маргарита",
+    "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.c_UJVxleQvrmXjD4nMMTTQHaE7%26pid%3DApi&f=1&ipt=94c35cd6653c44ff1b8917161cd0a9b88dd50e2420e6ec4ad8b5ad9f34d66e78&ipo=images",
     "description": "Піца Маргарита - це одна з найпопулярніших піц у світі. Назва цієї піци було надано на честь королеви Італії Маргарити Савойської, яка відвідала Неаполь у 1889 році.",
     "score": 5.0,
     "duration": 35,
@@ -522,26 +601,31 @@
     "calories": 800,
     "ingredients": [
       {
+        "id": 1,
         "name": "Сир моцарелла",
         "price": 67.99,
         "calories": 54
       },
       {
+        "id": 2,
         "name": "Базилік",
         "price": 56,
         "calories": 33
       },
       {
+        "id": 3,
         "name": "Кетчуп",
         "price": 29.59,
         "calories": 21
       },
       {
+        "id": 4,
         "name": "Орегано",
         "price": 21.89,
         "calories": 9
       },
       {
+        "id": 5,
         "name": "Помідор",
         "price": 59.99,
         "calories": 40
@@ -560,6 +644,7 @@
   {
     "id": 9,
     "name": "Салат Грецький",
+    "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdekoking.com%2Fwp-content%2Fuploads%2F2017%2F11%2Fgriechischer-salat-selber-zubereiten.jpg&f=1&nofb=1&ipt=a04391059249386da8780b53bd172da8e2a2d698c2e08f9b7ae2478acd64506a&ipo=images",
     "description": "Соковитий і яскравий грецький салат переносить нас на узбережжя Середземного моря, де ростуть ароматні трави і оливкові дерева. Це найпопулярніший в світі овочевий салат, який дуже просто готується і містить мало калорій. Овочі для Грецького салату обов'язково нарізають великими шматочками. Головною 'родзинкою' страви є популярний в Греції сир фета.",
     "score": 4.1,
     "duration": 15,
@@ -567,66 +652,79 @@
     "calories": 250,
     "ingredients": [
       {
+        "id": 1,
         "name": "Огірок",
         "price": 10.99,
         "calories": 8
       },
       {
+        "id": 2,
         "name": "Помідор",
         "price": 57.89,
         "calories": 42
       },
       {
+        "id": 3,
         "name": "Болгарський перець",
         "price": 11,
         "calories": 7
       },
       {
+        "id": 4,
         "name": "Сир фета",
         "price": 69,
         "calories": 47
       },
       {
+        "id": 5,
         "name": "Лук солодкий",
         "price": 23.79,
         "calories": 17
       },
       {
+        "id": 6,
         "name": "Маслини",
         "price": 27,
         "calories": 34
       },
       {
+        "id": 7,
         "name": "Лимон",
         "price": 26,
         "calories": 10
       },
       {
+        "id": 8,
         "name": "Оливкова олія",
         "price": 65.47,
         "calories": 44
       },
       {
+        "id": 9,
         "name": "Сіль",
         "price": 20.99,
         "calories": 15
       },
       {
+        "id": 10,
         "name": "Перець",
         "price": 27.19,
         "calories": 18
       },
       {
+        "id": 11,
         "name": "Сухий базилік",
         "price": 57.39,
         "calories": 35
       },
       {
+        "id": 12,
         "name": "Орегано",
         "price": 20.89,
         "calories": 6
       },
       {
+        "id": 13,
         "name": "Сушений чебрець",
         "price": 12.99,
         "calories": 7
@@ -650,6 +748,7 @@
   {
     "id": 10,
     "name": "Паста з креветками",
+    "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fe77yWTlngTI%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=7b6d9442fe21c0ca38a061859a2b0daeeea60c600b62c1cb2fd924109f37f3f2&ipo=images",
     "description": "Спагетті з креветками — ситне, дивовижно смачне і корисне блюдо. Хто відмовиться покуштувати це апетитну страву? Спагетті готують з різними соусами: гострими чи м’якими, солодкими або солоними. Їх подають з м’ясом і овочами і з морепродуктів.",
     "score": 4.8,
     "duration": 25,
@@ -657,31 +756,37 @@
     "calories": 500,
     "ingredients": [
       {
+        "id": 1,
         "name": "Кальмар",
         "price": 197,
         "calories": 145
       },
       {
+        "id": 2,
         "name": "Креветки королівські",
         "price": 156,
         "calories": 121
       },
       {
+        "id": 3,
         "name": "Спагетті",
         "price": 89,
         "calories": 61
       },
       {
+        "id": 4,
         "name": "Вершки",
         "price": 81,
         "calories": 69
       },
       {
+        "id": 5,
         "name": "Цибуля",
         "price": 24.15,
         "calories": 16
       },
       {
+        "id": 6,
         "name": "Часник",
         "price": 24,
         "calories": 15
