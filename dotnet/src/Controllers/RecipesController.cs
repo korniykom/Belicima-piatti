@@ -22,12 +22,10 @@ namespace project {
                 return NotFound();
             }
 
-            // recipe.ingredients = GetIngredientsForRecipe(id);
 
             return recipe;
         }
 
-        // Add the SmallRecipesController method to RecipesController
         [HttpGet("{page}/{pageSize}")]
         public ActionResult<IList<SmallRecipe>> GetSmallRecipes(int page, int pageSize) {
             var smallRecipes = recipesService.GetSmallRecipes(page, pageSize);
