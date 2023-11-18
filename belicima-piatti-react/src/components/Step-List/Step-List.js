@@ -5,7 +5,7 @@ export default function StepList({ StepList = [] }) {
     <div>
       <h2 className="title">Кроки</h2>
       {StepList.map((step, i) => (
-        <Step number={i + 1} description={step} />
+        <Step number={i + 1} description={step} key={i} />
       ))}
     </div>
   );

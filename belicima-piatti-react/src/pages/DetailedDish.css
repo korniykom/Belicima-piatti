@@ -1,5 +1,9 @@
 .Page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  color: #4d2d00;
   width: 100%;
 }
 .DishImg {
@@ -14,12 +18,13 @@
   justify-content: center;
 }
 .Description {
+  font-weight: 600;
   margin-top: 8px;
 }
 .TimePrice {
   display: flex;
   justify-content: space-around;
-  font-weight: bolder;
+  font-weight: 999;
   font-size: 36px;
   margin-top: 20px;
   margin-bottom: 20px;

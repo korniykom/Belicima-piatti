@@ -5,6 +5,7 @@ import Nav from "../components/Nav/Nav";
 import StarRating from "../components/Star-Rating/StarRating";
 import StepList from "../components/Step-List/Step-List";
 import Comment from "../components/Comment/Comment";
+import ShoppingList from "../components/Shopping-List/Shopping-List";
 const BASE_PAGE_URL = "http://localhost:5059/api/recipe";
 const BASE_COMMENTS_URL = "http://localhost:5059/api/comments";
 
@@ -51,16 +52,22 @@ export default function DetailedDish() {
         <div className="Price">{pageInfo.price} €$ </div>
       </div>
       <div>
+        <ShoppingList ShoppingList={pageInfo.ingredients} />
+      </div>
+      <div>
         <StepList StepList={pageInfo.steps} />
       </div>
       <p className="CommentsTitle">Коментарі</p>
       <div>
         {comments.map((comment) => (
-          <Comment
-            name={comment.name}
-            text={comment.text}
-            rating={pageInfo.score}
-          />
+          <div>
+            <Comment
+              name={comment.name}
+              text={comment.text}
+              rating={pageInfo.score}
+              key={comment.id}
+            />
+          </div>
         ))}
       </div>
     </div>

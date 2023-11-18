@@ -1,7 +1,7 @@
 import "./Comment.css";
 import SmallStarRating from "../Star-Rating/SmallStarRating";
 
-export default function Comment(name, text, rating) {
+export default function Comment({ name, text, rating }) {
   return (
     <>
       <div className="comment">
