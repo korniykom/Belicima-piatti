@@ -38,11 +38,7 @@ export default function DetailedDish() {
   return (
     <div className="Page">
       <Nav backLink="#" title={pageInfo.name} />
-      <img
-        className="DishImg"
-        src="https://www.nexxusdesigns.com/wp-content/uploads/2018/08/custom-404-image.jpg"
-        alt="dish img"
-      />
+      <img className="DishImg" src={pageInfo.img} alt="dish img" />
       <div className="StarRating">
         <StarRating rating={pageInfo.score} starSize={20} />
       </div>
@@ -51,9 +47,9 @@ export default function DetailedDish() {
         <div className="Time">{pageInfo.duration} хв.</div>
         <div className="Price">{pageInfo.price} €$ </div>
       </div>
-      <div>
+      {/* <div>
         <ShoppingList ShoppingList={pageInfo.ingredients} />
-      </div>
+      </div> */}
       <div>
         <StepList StepList={pageInfo.steps} />
       </div>
