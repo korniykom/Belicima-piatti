@@ -5,18 +5,14 @@ import Menupage from "./pages/Homepage";
 import Infopage from "./pages/Infopage";
 import Accountpage from "./pages/Accountpage";
 import Loading from "./components/Loading/Loading";
-import DishDetail from "./pages/DishDetail";
+import DetailedDish from "./pages/DetailedDish";
 import Dish from "./pages/Dish";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes className="main-block">
-<<<<<<< HEAD
         <Route path="dishdetail/:id" element={<DetailedDish />} />
-=======
-        <Route path="dishdetail/:id" element={<DishDetail />} />
->>>>>>> origin/NavAdapt
         <Route path="dish/:category" element={<Dish />} />
         <Route path="menu" element={<Menupage />} />
         <Route path="info" element={<Infopage />} />

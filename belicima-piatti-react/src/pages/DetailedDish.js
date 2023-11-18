@@ -99,7 +99,7 @@ export default function DetailedDish() {
         <StepList StepList={pageInfo.steps} />
       </div>
       <p className="CommentsTitle">Коментарі</p>
-      <div>
+      <div className="CommentSection">
         {comments.map((comment) => (
           <div>
             <Comment

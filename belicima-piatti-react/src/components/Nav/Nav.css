@@ -6,11 +6,7 @@
 }
 .nav .title {
   color: #4d2d00;
-<<<<<<< HEAD
-  font-size: 40px;
-}
-.menu-button .material-symbols-outlined {
-=======
+
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -22,20 +18,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
->>>>>>> origin/NavAdapt
+
   font-weight: bold;
   font-size: 38px;
   cursor: pointer;
   color: #4d2d00;
 }
 .arrow_back-button .material-symbols-outlined {
-<<<<<<< HEAD
-=======
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
->>>>>>> origin/NavAdapt
+
   font-weight: bold;
   font-size: 38px;
   cursor: pointer;
