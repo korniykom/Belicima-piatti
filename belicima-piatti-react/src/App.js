@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import PageNavigator from "./components/NumPage/NumPage";
 import Nav from "./components/Nav/Nav";
 import Menupage from "./pages/Homepage";
 import Infopage from "./pages/Infopage";
@@ -20,7 +19,6 @@ export default function App() {
         <Route path="account" element={<Accountpage />} />
         <Route path="loading" element={<Loading />} />
         <Route path="/" element={<Nav backLink="/" title="Перші страви" />} />
-        <Route path="num" element={<NumPage />} />
       </Routes>
     </BrowserRouter>
   );
