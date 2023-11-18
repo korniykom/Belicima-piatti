@@ -14,7 +14,7 @@ const PageNavigator = () => {
 
   return (
     <div>
-      <Link to="/num">
+      <Link to={`/dishes?pageSize=10&page=${currentPage}`}>
         <button onClick={goToPrevPage} disabled={currentPage === 1}>
           {"<"}
         </button>
