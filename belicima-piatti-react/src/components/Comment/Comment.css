@@ -25,6 +25,9 @@
   border: solid #4d2d00 2.5px;
   background-color: #ffe090;
   border-radius: 20px;
+  min-width: 240px;
+  min-height: 50px;
+  text-align: left;
 }
 .text {
   font-size: small;
