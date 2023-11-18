@@ -12,6 +12,7 @@ export default function ShoppingList({ ShoppingList }) {
           key={item.id}
         />
       ))}
+      {/* {console.log(typeof ShoppingList)} */}
     </>
   );
 }

@@ -6,6 +6,9 @@ import StarRating from "../components/Star-Rating/StarRating";
 import StepList from "../components/Step-List/Step-List";
 import Comment from "../components/Comment/Comment";
 import ShoppingList from "../components/Shopping-List/Shopping-List";
+import Loading from "../components/Loading/Loading";
+import ErrorLoading from "../components/ErrorLoading/Error";
+
 const BASE_PAGE_URL = "http://localhost:5059/api/recipe";
 const BASE_COMMENTS_URL = "http://localhost:5059/api/comments";
 
@@ -13,27 +16,69 @@ export default function DetailedDish() {
   const { id } = useParams();
   const [pageInfo, setPageInfo] = useState([]);
   const [comments, setComments] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState();
 
   useEffect(() => {
-    fetch(`${BASE_PAGE_URL}/${id}`)
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => {
-        //console.log(data);
-        setPageInfo(data);
-      });
-  }, []);
+    //creating function to fetch data
+    const fetchData = async () => {
+      setIsLoading(true);
+      try {
+        fetch(`${BASE_PAGE_URL}/${id}`)
+          .then((res) => {
+            return res.json();
+          })
+          .then((data) => {
+            //console.log(data);
+            setPageInfo(data);
+          });
+      } catch (e) {
+        setError(e);
+      } finally {
+        setIsLoading(false);
+      }
+      setIsLoading(false);
+    };
+    //calling function to fetch data
+    fetchData();
+  });
   useEffect(() => {
-    fetch(`${BASE_COMMENTS_URL}/${id}`)
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => {
-        console.log(data);
-        setComments(data);
-      });
-  }, []);
+    const fetchComments = async () => {
+      setIsLoading(true);
+      try {
+        fetch(`${BASE_COMMENTS_URL}/${id}`)
+          .then((res) => {
+            return res.json();
+          })
+          .then((data) => {
+            console.log(data);
+            setComments(data);
+          });
+      } catch (e) {
+        setError(e);
+      } finally {
+        setIsLoading(false);
+      }
+      setIsLoading(false);
+    };
+    fetchComments();
+  });
+
+  if (isLoading) {
+    return (
+      <div className="Loading">
+        <Loading />
+      </div>
+    );
+  }
+  if (error) {
+    return (
+      <div className="Error">
+        <ErrorLoading />
+      </div>
+    );
+  }
+
   //TODO: add back link
   return (
     <div className="Page">
@@ -47,9 +92,9 @@ export default function DetailedDish() {
         <div className="Time">{pageInfo.duration} хв.</div>
         <div className="Price">{pageInfo.price} €$ </div>
       </div>
-      {/* <div>
-        <ShoppingList ShoppingList={pageInfo.ingredients} />
-      </div> */}
+      <div>
+        {/* {!isLoading && <ShoppingList ShoppingList={pageInfo.ingredients} />} */}
+      </div>
       <div>
         <StepList StepList={pageInfo.steps} />
       </div>
