@@ -82,7 +82,7 @@ export default function DetailedDish() {
   //TODO: add back link
   return (
     <div className="Page">
-      <Nav backLink="#" title={pageInfo.name} />
+      <Nav backLink="javascript:history.back()" title={pageInfo.name} />
       <img className="DishImg" src={pageInfo.img} alt="dish img" />
       <div className="StarRating">
         <StarRating rating={pageInfo.score} starSize={20} />
