@@ -41,7 +41,7 @@ export default function DetailedDish() {
     };
     //calling function to fetch data
     fetchData();
-  });
+  }, [id]);
   useEffect(() => {
     const fetchComments = async () => {
       setIsLoading(true);
@@ -62,7 +62,7 @@ export default function DetailedDish() {
       setIsLoading(false);
     };
     fetchComments();
-  });
+  }, [id]);
 
   if (isLoading) {
     return (
@@ -80,7 +80,6 @@ export default function DetailedDish() {
     );
   }
 
-  //TODO: add back link
   return (
     <div className="Page">
       <Nav backLink="javascript:history.back()" title={pageInfo.name} />
