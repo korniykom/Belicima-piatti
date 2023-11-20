@@ -71,6 +71,7 @@ export default function DetailedDish() {
       </div>
     );
   }
+  //does not work
   if (error) {
     return (
       <div className="Error">

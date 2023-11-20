@@ -1,10 +1,8 @@
 .Page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
   color: #4d2d00;
-  width: 100%;
+  width: 93%;
+  margin: auto;
 }
 .DishImg {
   max-width: 100%;

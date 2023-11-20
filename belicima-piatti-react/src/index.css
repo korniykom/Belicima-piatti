@@ -1,7 +1,8 @@
 body {
   font-family: roboto;
   background-color: #fff3bf;
-  max-width: 400px;
+  max-width: 500px;
+  margin: auto;
 }
 
 code {
