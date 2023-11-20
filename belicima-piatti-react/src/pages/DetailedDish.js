@@ -57,10 +57,7 @@ export default function DetailedDish() {
           });
       } catch (e) {
         setError(e);
-      } finally {
-        setIsLoading(false);
       }
-      setIsLoading(false);
     };
     fetchComments();
   }, []);
