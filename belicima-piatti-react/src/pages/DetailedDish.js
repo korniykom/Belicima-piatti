@@ -16,13 +16,14 @@ export default function DetailedDish() {
   const { id } = useParams();
   const [pageInfo, setPageInfo] = useState([]);
   const [comments, setComments] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+  const [isLoadingData, setIsLoadingData] = useState(true);
   const [error, setError] = useState();
 
   useEffect(() => {
     //creating function to fetch data
     const fetchData = async () => {
-      setIsLoading(true);
+      setIsLoadingData(true);
       try {
         fetch(`${BASE_PAGE_URL}/${id}`)
           .then((res) => {
@@ -30,18 +31,18 @@ export default function DetailedDish() {
           })
           .then((data) => {
             //console.log(data);
+            setIsLoadingData(false);
             setPageInfo(data);
           });
       } catch (e) {
         setError(e);
-      } finally {
-        setIsLoading(false);
       }
-      setIsLoading(false);
     };
+
     //calling function to fetch data
     fetchData();
-  }, [id]);
+  }, []);
+
   useEffect(() => {
     const fetchComments = async () => {
       setIsLoading(true);
@@ -53,16 +54,14 @@ export default function DetailedDish() {
           .then((data) => {
             console.log(data);
             setComments(data);
+            setIsLoading(false);
           });
       } catch (e) {
         setError(e);
-      } finally {
-        setIsLoading(false);
       }
-      setIsLoading(false);
     };
     fetchComments();
-  }, [id]);
+  }, []);
 
   if (isLoading) {
     return (
@@ -93,7 +92,7 @@ export default function DetailedDish() {
         <div className="Price">{pageInfo.price} €$ </div>
       </div>
       <div>
-        {/* {!isLoading && <ShoppingList ShoppingList={pageInfo.ingredients} />} */}
+        {!isLoadingData && <ShoppingList ShoppingList={pageInfo.ingredients} />}
       </div>
       <div>
         <StepList StepList={pageInfo.steps} />
