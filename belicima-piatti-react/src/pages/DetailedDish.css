@@ -37,3 +37,47 @@
 .CommentsTitle {
   font-weight: bold;
 }
+.photo {
+  width: 48px;
+  height: 48px;
+  border: solid #4d2d00 2px;
+  background-color: #ffe090; /* Set your desired background color */
+  border-radius: 50%; /* Make sure to set border-radius to 50% */
+}
+.text-box {
+  margin-top: 20px;
+  margin-left: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #4d2d00 2.5px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  min-width: 250px;
+  min-height: 40px;
+  text-align: left;
+}
+.PostComment {
+  display: flex;
+}
+.post-avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  max-width: 55px;
+}
+.post-comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  margin: 10px;
+  color: #4d2d00;
+  background-color: whitesmoke;
+  border-radius: 15%;
+  border: solid #4d2d00 2.5px;
+}
