@@ -27,15 +27,16 @@ namespace src.Repositories {
             return recipe;
         } 
 
-        public List<SmallRecipe> GetSmallRecipes(int page, int pageSize)
+        public List<SmallRecipe> GetSmallRecipes(string category, int page, int pageSize)
     {
         if (page < 1)
         {
             throw new ArgumentException("Page number cannot be less than 1");
         }
+        var categoryFilter = _recipes.Where(r => r.Category == category).ToList();
         var startIndex = (page - 1) * pageSize;
-        var endIndex = Math.Min(_recipes.Count, startIndex + pageSize);
-        return _recipes.Select(r => new SmallRecipe(r)).ToList().Skip(startIndex).Take(endIndex - startIndex).ToList();
+        var endIndex = Math.Min(categoryFilter.Count, startIndex + pageSize);
+        return categoryFilter.Select(r => new SmallRecipe(r)).ToList().Skip(startIndex).Take(endIndex - startIndex).ToList();
     }
 
         
