@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 .nav {
   display: flex;
   align-content: center;
 }
 .nav .title {
   color: #4d2d00;
+  font-family: "Roboto", sans-serif;
   font-size: 4.2vh;
   position: relative;
   top: 3vh;
@@ -11,7 +13,7 @@
 }
 .arrow_back-button .material-symbols-outlined {
   align-items: center;
-  justify-content: center;
+  justify-content: centeпшr;
   font-weight: bold;
   font-size: 5vh;
   position:absolute;
