@@ -1,21 +1,19 @@
 import "./Comment.css";
-import StarRating from "../Star-Rating/StarRating";
+import SmallStarRating from "../Star-Rating/SmallStarRating";
 
-export default function Comment() {
+export default function Comment({ name, text, rating }) {
   return (
     <>
       <div className="comment">
         <div className="avatar">
           <div className="photo"></div>
-          <div className="name">Joe</div>
-          <StarRating rating={4} />
+          <div className="name">{name}</div>
+          <div className="StarRating">
+            <SmallStarRating rating={rating} />
+          </div>
         </div>
         <div className="box">
-          <div className="text">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt.
-          </div>
+          <div className="text">{text}</div>
         </div>
       </div>
     </>

@@ -4,8 +4,8 @@ export default function StepList({ StepList = [] }) {
   return (
     <div>
       <h2 className="title">Кроки</h2>
-      {StepList.map((step) => (
-        <Step number={step.id} description={step} />
+      {StepList.map((step, i) => (
+        <Step number={i + 1} description={step} key={i} />
       ))}
     </div>
   );

@@ -1,0 +1,39 @@
+.Page {
+  text-align: center;
+  color: #4d2d00;
+  width: 93%;
+  margin: auto;
+}
+.DishImg {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 28px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.StarRating {
+  display: flex;
+  justify-content: center;
+}
+.Description {
+  font-weight: 600;
+  margin-top: 8px;
+}
+.TimePrice {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 999;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Loading {
+  display: flex;
+  justify-content: center;
+}
+.Error {
+  width: 100%;
+}
+.CommentsTitle {
+  font-weight: bold;
+}
