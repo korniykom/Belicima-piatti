@@ -1,37 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
-
 .nav {
   display: flex;
-  justify-content: space-between;
+  align-content: center;
 }
 .nav .title {
   color: #4d2d00;
-
-  font-size: 24px;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  padding-top: 23px;
-  line-height: 0.95;
-}
-.menu-button .material-symbols-outlined {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-weight: bold;
-  font-size: 38px;
-  cursor: pointer;
-  color: #4d2d00;
+  font-size: 4.2vh;
+  position: relative;
+  top: 3vh;
+  margin: 0px auto;
 }
 .arrow_back-button .material-symbols-outlined {
-  padding: 20px;
-  display: flex;
   align-items: center;
   justify-content: center;
-
   font-weight: bold;
-  font-size: 38px;
+  font-size: 5vh;
+  position:absolute;
+  left: 5vw;
+  top: 3vh;
   cursor: pointer;
   color: #4d2d00;
 }

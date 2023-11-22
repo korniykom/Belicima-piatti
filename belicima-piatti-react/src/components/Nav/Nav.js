@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
+import SideNav from "../SideNav/SideNav";
 
 export default function Nav({ backLink, title }) {
   return (
@@ -8,18 +9,14 @@ export default function Nav({ backLink, title }) {
       <div className="arrow_back-button">
         {backLink && (
           <Link to={backLink}>
-            <span className="material-symbols-outlined">arrow_back</span>
+            <p><span className="material-symbols-outlined">arrow_back</span></p>
           </Link>
         )}
       </div>
       <span className="title">
         <strong>{title}</strong>
       </span>
-      <div className="menu-button">
-        <Link to="/menu">
-          <span className="material-symbols-outlined">menu</span>
-        </Link>
-      </div>
+      <SideNav/>
     </div>
   );
 }
