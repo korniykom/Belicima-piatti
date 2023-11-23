@@ -63,13 +63,13 @@ export default function DetailedDish() {
     fetchComments();
   }, []);
 
-  // if (isLoading) {
-  //   return (
-  //     <div className="Loading">
-  //       <Loading />
-  //     </div>
-  //   );
-  // }
+  if (isLoading) {
+    return (
+      <div className="Loading">
+        <Loading />
+      </div>
+    );
+  }
   //does not work
   if (error) {
     return (
