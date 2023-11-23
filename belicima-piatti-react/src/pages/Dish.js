@@ -1,5 +1,6 @@
 import { useParams, useSearchParams } from "react-router-dom";
 import Nav from "../components/Nav/Nav";
+import PageNavigator from "../components/NumPage/NumPage";
 
 export default function Dish() {
   const { category } = useParams();
@@ -13,6 +14,7 @@ export default function Dish() {
       <div>{category}</div>
       <div>{page}</div>
       <div>{pageSize}</div>
+      <PageNavigator />
     </div>
   );
 }
