@@ -9,8 +9,10 @@ export default function ShoppingList({ ShoppingList }) {
           product={item.name}
           price={item.price}
           calories={item.calories}
+          key={item.id}
         />
       ))}
+      {/* {console.log(typeof ShoppingList)} */}
     </>
   );
 }

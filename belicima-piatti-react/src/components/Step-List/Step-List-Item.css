@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 600px;
 }
 .flex-container .number {
   border-radius: 50%;
@@ -12,8 +11,15 @@
   border-width: 2px;
   border-color: #4d2d00;
   background-color: #ffe090;
+  width: 24px;
+  height: 24px;
 }
 
 .flex-container .description {
   margin: 24px;
+}
+
+.material-symbols-outlined {
+  font-size: 10px;
+  font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 1, "opsz" 1;
 }

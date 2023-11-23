@@ -1,8 +1,8 @@
 body {
   font-family: roboto;
-  display: flex;
-  justify-content: center;
   background-color: #fff3bf;
+  max-width: 500px;
+  margin: auto;
 }
 
 code {
