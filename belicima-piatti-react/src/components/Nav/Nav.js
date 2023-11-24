@@ -14,7 +14,7 @@ export default function Nav({ backLink, title }) {
         )}
       </div>
       <span className="title">
-        <strong>{title}</strong>
+        <strong className = "titlePosition">{title}</strong>
       </span>
       <SideNav/>
     </div>
