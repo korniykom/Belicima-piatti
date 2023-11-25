@@ -9,7 +9,7 @@ export default function Nav({ backLink, title }) {
       <div className="arrow_back-button">
         {backLink && (
           <Link to={backLink}>
-            <p><span className="material-symbols-outlined">arrow_back</span></p>
+            <span className="material-symbols-outlined">arrow_back</span>
           </Link>
         )}
       </div>
