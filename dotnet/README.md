@@ -15,13 +15,13 @@ dotnet run
 After this you should be able to api, for example:
 
 ```
-http://localhost:5059/api/dogs
+http://localhost:5001/api/dogs
 ```
 
 And also swagger ui:
 
 ```
-http://localhost:5059/swagger/index.html
+http://localhost:5001/swagger/index.html
 ```
 
 Official documentation about aspnet [this](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-7.0&tabs=macos)
