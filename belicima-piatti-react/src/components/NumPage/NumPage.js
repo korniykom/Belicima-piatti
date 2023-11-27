@@ -1,28 +1,36 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
+import "./NumPage.css";
 
-const PageNavigator = () => {
-  const [currentPage, setCurrentPage] = useState(1);
+export default function PageNavigator({ category, page }) {
+  const [currentPage, setCurrentPage] = useState(+page);
 
-  const goToNextPage = () => {
+  function handleNextPage() {
     setCurrentPage(currentPage + 1);
-  };
+  }
 
-  const goToPrevPage = () => {
+  const handlePrevPage = () => {
     setCurrentPage(currentPage - 1);
   };
 
   return (
     <div>
-      <Link to={`/dishes?pageSize=10&page=${currentPage}`}>
-        <button onClick={goToPrevPage} disabled={currentPage === 1}>
+      <Link
+        class="navNumPage"
+        to={`/dishes/${category}?pageSize=10&page=${currentPage}`}
+      >
+        <button
+          class="buttonNumPage"
+          onClick={handlePrevPage}
+          disabled={currentPage === 1}
+        >
           {"<"}
         </button>
-        <span> {currentPage} </span>
-        <button onClick={goToNextPage}>{">"}</button>
+        <span class="numPage"> {page} </span>
+        <button class="buttonNumPage" onClick={handleNextPage}>
+          {">"}
+        </button>
       </Link>
     </div>
   );
-};
-
-export default PageNavigator;
+}
