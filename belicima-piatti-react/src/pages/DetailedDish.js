@@ -25,9 +25,24 @@ export default function DetailedDish() {
   const [commentRating, setCommentRating] = React.useState(0);
   const [message, setMessage] = useState("");
 
+  let jsonData1 = {
+    recipeId: 1,
+    text: "example text",
+    name: "John",
+    score: 3.0,
+  };
+
   const handleUserInput = (event) => {
     setMessage(event.target.value);
-    console.log("value is ", event.target.value);
+    // console.log("value is ", event.target.value);
+  };
+
+  const handlePost = (event) => {
+    event.preventDefault();
+    fetch(`${BASE_COMMENTS_URL}`, {
+      method: "POST",
+      body: JSON.stringify(jsonData1),
+    });
   };
   useEffect(() => {
     //creating function to fetch data
@@ -61,7 +76,7 @@ export default function DetailedDish() {
             return res.json();
           })
           .then((data) => {
-            console.log(data);
+            // console.log(data);
             setComments(data);
             setIsLoading(false);
           });
@@ -110,14 +125,14 @@ export default function DetailedDish() {
       <div className="PostComment">
         <div className="post-avatar">
           <div className="photo"></div>
-          <div className="name">{"Guest"}</div>
+          <div className="name">{"John"}</div>
           <Rating
             size="small"
             name="simple-controlled"
             value={commentRating}
             onChange={(event, newValue) => {
               setCommentRating(newValue);
-              console.log(newValue);
+              // console.log(newValue);
             }}
           />
         </div>
@@ -129,7 +144,9 @@ export default function DetailedDish() {
             onChange={handleUserInput}
             value={message}
           />
-          <div className="post">Опублікувати</div>
+          <div className="post" onClick={handlePost}>
+            Опублікувати
+          </div>
         </div>
       </div>
       <div className="CommentSection">
