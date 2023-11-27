@@ -1,0 +1,34 @@
+.numPage {
+  width: 20px;
+  height: 21px;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 11px;
+  padding-top: 2px;
+  padding-left: 10px;
+  color: #4d2d00;
+  border-radius: 8px;
+  background-color: #ffe090;
+}
+
+.buttonNumPage {
+  width: 30px;
+  height: 25px;
+  color: #4d2d00;
+  border-radius: 10px;
+  border: 1px solid #fff3bf;
+  background-color: #fff3bf;
+}
+
+.buttonNumPage:hover {
+  border: 1px solid #ece8e8;
+  background-color: #ece8e8;
+}
+
+.navNumPage {
+  display: flex;
+  margin: 15px auto;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
