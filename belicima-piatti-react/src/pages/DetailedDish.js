@@ -43,7 +43,7 @@ export default function DetailedDish() {
       method: "POST",
       body: JSON.stringify(jsonData1),
       headers: {
-        "Content-type": "application/json; charset=UTF-8",
+        "Content-type": "application/json",
       },
     })
       .then((response) => response.json())
