@@ -15,6 +15,7 @@ export default function PageNavigator({ category, page }) {
 
   return (
     <div>
+<<<<<<< HEAD
       <Link
         class="navNumPage"
         to={`/dishes/${category}?pageSize=10&page=${currentPage}`}
@@ -30,6 +31,14 @@ export default function PageNavigator({ category, page }) {
         <button class="buttonNumPage" onClick={handleNextPage}>
           {">"}
         </button>
+=======
+      <Link to={`/dishes/${category}?pageSize=10&page=${currentPage}`}>
+        <button onClick={handlePrevPage} disabled={currentPage === 1}>
+          {"<"}
+        </button>
+        <span> {page} </span>
+        <button onClick={handleNextPage}>{">"}</button>
+>>>>>>> a9a930c584ab468870df00afd12b2bcff6c2727f
       </Link>
     </div>
   );

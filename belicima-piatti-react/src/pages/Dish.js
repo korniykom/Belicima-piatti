@@ -14,7 +14,7 @@ export default function Dish() {
       <div>{category}</div>
       <div>{page}</div>
       <div>{pageSize}</div>
-      <PageNavigator />
+      <PageNavigator category={category} page={page} />
     </div>
   );
 }
