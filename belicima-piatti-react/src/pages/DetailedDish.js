@@ -39,10 +39,15 @@ export default function DetailedDish() {
 
   const handlePost = (event) => {
     event.preventDefault();
-    fetch(`${BASE_COMMENTS_URL}`, {
+    fetch(`${BASE_COMMENTS_URL}/`, {
       method: "POST",
       body: JSON.stringify(jsonData1),
-    });
+      headers: {
+        "Content-type": "application/json; charset=UTF-8",
+      },
+    })
+      .then((response) => response.json())
+      .then((json) => console.log(json));
   };
   useEffect(() => {
     //creating function to fetch data
