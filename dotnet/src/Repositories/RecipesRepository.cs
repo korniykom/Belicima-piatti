@@ -27,7 +27,7 @@ namespace src.Repositories {
             return recipe;
         } 
 
-        public List<SmallRecipe> GetSmallRecipes(int page, int pageSize)
+        public List<SmallRecipe> GetSmallRecipes(string category, int page, int pageSize)
     {
         if (page < 1)
         {
@@ -35,7 +35,15 @@ namespace src.Repositories {
         }
         var startIndex = (page - 1) * pageSize;
         var endIndex = Math.Min(_recipes.Count, startIndex + pageSize);
-        return _recipes.Select(r => new SmallRecipe(r)).ToList().Skip(startIndex).Take(endIndex - startIndex).ToList();
+
+        var filteredRecipes = _recipes;
+
+        if (!string.IsNullOrEmpty(category))
+        {
+            filteredRecipes = filteredRecipes.Where(r => r.category == category).ToList();
+        }
+        
+        return filteredRecipes.Select(r => new SmallRecipe(r)).ToList().Skip(startIndex).Take(endIndex - startIndex).ToList();
     }
 
         
