@@ -81,3 +81,11 @@ button {
   border-radius: 15%;
   border: solid #4d2d00 2.5px;
 }
+.post {
+  margin: 10px;
+  font-size: small;
+  background-color: #fff7e8;
+  border: solid #4d2d00 2px;
+  padding: 3px;
+  border-radius: 25px;
+}

@@ -129,7 +129,7 @@ export default function DetailedDish() {
             onChange={handleUserInput}
             value={message}
           />
-          <button>Опублікувати</button>
+          <div className="post">Опублікувати</div>
         </div>
       </div>
       <div className="CommentSection">
