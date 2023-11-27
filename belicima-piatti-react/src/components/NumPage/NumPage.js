@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 
-export default function PageNavigator({ category }) {
-  const [currentPage, setCurrentPage] = useState(1);
+export default function PageNavigator({ category, page }) {
+  const [currentPage, setCurrentPage] = useState(+page);
 
   function handleNextPage() {
     setCurrentPage(currentPage + 1);
@@ -18,7 +18,7 @@ export default function PageNavigator({ category }) {
         <button onClick={handlePrevPage} disabled={currentPage === 1}>
           {"<"}
         </button>
-        <span> {currentPage} </span>
+        <span> {page} </span>
         <button onClick={handleNextPage}>{">"}</button>
       </Link>
     </div>
