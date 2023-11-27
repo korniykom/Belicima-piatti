@@ -9,8 +9,8 @@ import ShoppingList from "../components/Shopping-List/Shopping-List";
 import Loading from "../components/Loading/Loading";
 import ErrorLoading from "../components/ErrorLoading/Error";
 
-const BASE_PAGE_URL = "http://localhost:5059/api/recipe";
-const BASE_COMMENTS_URL = "http://localhost:5059/api/comments";
+const BASE_PAGE_URL = "http://localhost:5001/api/recipe";
+const BASE_COMMENTS_URL = "http://localhost:5001/api/comments";
 
 export default function DetailedDish() {
   const { id } = useParams();
