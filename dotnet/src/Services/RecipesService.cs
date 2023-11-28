@@ -13,8 +13,8 @@ namespace src.Services {
       return recipeRepository.GetRecipe(id);
     }
 
-      public List<SmallRecipe> GetSmallRecipes(int page, int pageSize) {
-            return recipeRepository.GetSmallRecipes(page, pageSize);
+      public List<SmallRecipe> GetSmallRecipes(string category, int page, int pageSize) {
+            return recipeRepository.GetSmallRecipes(category, page, pageSize);
   }
 }
 }
