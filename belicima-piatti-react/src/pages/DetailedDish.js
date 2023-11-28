@@ -27,9 +27,9 @@ export default function DetailedDish() {
 
   let jsonData1 = {
     recipeId: 1,
-    text: "example text",
+    text: message,
     name: "John",
-    score: 3.0,
+    score: commentRating,
   };
 
   const handleUserInput = (event) => {
@@ -160,7 +160,7 @@ export default function DetailedDish() {
             <Comment
               name={comment.name}
               text={comment.text}
-              rating={pageInfo.score}
+              rating={comment.score}
               key={comment.id}
             />
           </div>

@@ -53,14 +53,16 @@
   border: solid #4d2d00 2.5px;
   background-color: whitesmoke;
   border-radius: 20px;
-  min-width: 250px;
+  width: 120%;
   min-height: 40px;
   text-align: left;
 }
 .PostComment {
   display: flex;
+  flex-direction: row;
 }
 .post-avatar {
+  font-weight: bolder;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,7 +74,6 @@
 .post-comment {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 button {
   margin: 10px;
@@ -82,7 +83,9 @@ button {
   border: solid #4d2d00 2.5px;
 }
 .post {
-  margin: 10px;
+  margin-top: 12px;
+  margin-left: auto;
+  width: 80px;
   font-size: small;
   background-color: #fff7e8;
   border: solid #4d2d00 2px;
