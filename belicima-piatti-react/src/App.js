@@ -7,7 +7,8 @@ import Accountpage from "./pages/Accountpage";
 import Loading from "./components/Loading/Loading";
 import DetailedDish from "./pages/DetailedDish";
 import Dish from "./pages/Dish";
-import SideNav from "./components/SideNav/SideNav";
+import Step from "./components/Step-List/Step-List-Item";
+import Category from "./components/Category/Category";
 
 export default function App() {
   return (
@@ -20,7 +21,9 @@ export default function App() {
         <Route path="account" element={<Accountpage />} />
         <Route path="loading" element={<Loading />} />
         <Route path="/" element={<Nav backLink="/" title="Перші страви" />} />
-      </Routes> 
+        <Route path="step" element={<Step />} />
+        <Route path="category" element={<Category />} />
+      </Routes>
     </BrowserRouter>
   );
 }
