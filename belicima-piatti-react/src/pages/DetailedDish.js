@@ -34,7 +34,6 @@ export default function DetailedDish() {
 
   const handleUserInput = (event) => {
     setMessage(event.target.value);
-    // console.log("value is ", event.target.value);
   };
 
   const handlePost = (event) => {
@@ -59,7 +58,6 @@ export default function DetailedDish() {
             return res.json();
           })
           .then((data) => {
-            //console.log(data);
             setIsLoadingData(false);
             setPageInfo(data);
           });
@@ -81,7 +79,6 @@ export default function DetailedDish() {
             return res.json();
           })
           .then((data) => {
-            // console.log(data);
             setComments(data);
             setIsLoading(false);
           });
@@ -137,7 +134,6 @@ export default function DetailedDish() {
             value={commentRating}
             onChange={(event, newValue) => {
               setCommentRating(newValue);
-              // console.log(newValue);
             }}
           />
         </div>
