@@ -26,7 +26,7 @@ export default function DetailedDish() {
   const [message, setMessage] = useState("");
 
   let jsonData1 = {
-    recipeId: 1,
+    recipeId: id,
     text: message,
     name: "John",
     score: commentRating,
