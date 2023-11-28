@@ -1,0 +1,54 @@
+
+.SideNavIcon
+{
+  position:absolute;
+  right: 5vw;
+  top: 3vh;
+  cursor: pointer;
+  color: #4d2d00;
+  z-index: 12;
+}
+.SideNavMenu
+{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color:  #ffe090;
+  width:100vw;
+  height: 100vh;
+  position: fixed;
+  right:-200vw;
+  transition: left 1s;
+}
+.SideNavMenuItem
+{
+  color:#4d2d00;
+  background-color: #ffe090;
+}
+.Active
+{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color:  #fff3bf;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  right: 0px;
+  top:0px;
+  z-index:10;
+  transition: right 0.8s;
+}
+.insideSideNav
+{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  gap: 20px;
+  background-color:  #ffe090;
+  width:80vw;
+  height: 75vh;
+  border-radius: 20px;
+}
