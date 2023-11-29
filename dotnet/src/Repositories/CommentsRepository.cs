@@ -11,7 +11,7 @@ namespace src.Repositories
         private int currentId = 1;
         public CommentRepository() 
         {
-            Comment testComment = new (0, "Delicious and satisfying, this dish is a culinary masterpiece that tickles your taste buds with every bite. A true symphony of flavors that leaves you craving for more. Bon appétit!", "User#0");
+            Comment testComment = new (0, "Delicious and satisfying, this dish is a culinary masterpiece that tickles your taste buds with every bite. A true symphony of flavors that leaves you craving for more. Bon appétit!", "User#0", 3.0);
             commentsDictionary.Add(0, new List<Comment>());
             commentsDictionary[0].Add(testComment);
         }
