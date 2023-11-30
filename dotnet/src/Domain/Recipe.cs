@@ -1,4 +1,3 @@
-
 namespace src.Domain {
     public class Recipe {
         public int id { get; set; }

@@ -1,4 +1,3 @@
-//RecipesController
 using Microsoft.AspNetCore.Mvc;
 using src.Domain;
 using src.Services;
