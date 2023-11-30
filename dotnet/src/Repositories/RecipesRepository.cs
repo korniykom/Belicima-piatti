@@ -38,7 +38,7 @@ namespace src.Repositories {
             var startIndex = (page - 1) * pageSize;
             var endIndex = Math.Min(startIndex + pageSize, filteredRecipes.Count);
 
-            return filteredRecipes.Skip(startIndex).Take(endIndex - startIndex).Select(r => new SmallRecipe(r)).ToList();
+             return filteredRecipes.Select(r => new SmallRecipe(r)).ToList().Skip(startIndex).Take(endIndex - startIndex).ToList();
         }
 
         
