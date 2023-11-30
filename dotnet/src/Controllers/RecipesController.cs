@@ -13,7 +13,7 @@ namespace project {
             recipesService = service;
         }
 
-        [HttpGet("recipe")]
+        [HttpGet("recipe/{id}")]
         public ActionResult<Recipe> GetRecipe(int id) {
             var recipe = recipesService.GetRecipe(id);
 

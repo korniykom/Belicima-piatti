@@ -1,28 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 .nav {
   display: flex;
-  justify-content: space-between;
+  align-content: center;
+  justify-content: center;
+  margin-top: 3vh;
+}
+.titlePosition
+{
+  text-align:center;
 }
 .nav .title {
   color: #4d2d00;
-  font-size: 48px;
-}
-.menu-button .material-symbols-outlined {
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-weight: bold;
-  font-size: 48px;
-  margin-left: 24px;
-  cursor: pointer;
-  color: #4d2d00;
+  align-items: center;
+  line-height: 0.95;
+  font-family: "Roboto", sans-serif;
+  font-size: 4.2vh;
+  width: 68vw;
 }
 .arrow_back-button .material-symbols-outlined {
-  display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  font-size: 48px;
-  margin-right: 24px;
+  font-size: 5vh;
+  position:absolute;
+  left: 5vw;
+  top: 3vh;
   cursor: pointer;
   color: #4d2d00;
 }

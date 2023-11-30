@@ -3,3 +3,15 @@ h2 {
   color: #4d2d00;
   font-size: 36px;
 }
+.more-button {
+  display: flex;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  margin: auto;
+  margin-top: 32px;
+  margin-bottom: 48px;
+  width: 100px;
+}

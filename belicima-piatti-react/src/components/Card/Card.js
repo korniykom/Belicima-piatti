@@ -30,7 +30,9 @@ export default function Card({
           <span>{calories} калорій</span>
         </div>
         <div className="third-element">
-          <span class="material-symbols-outlined">shopping_cart_checkout</span>
+          <span className="material-symbols-outlined">
+            shopping_cart_checkout
+          </span>
         </div>
       </div>
     </div>
