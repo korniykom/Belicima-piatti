@@ -1,3 +1,4 @@
+//RecipesRepository
 using System.Text.Json;
 using src.Domain;
 
@@ -27,17 +28,19 @@ namespace src.Repositories {
             return recipe;
         } 
 
-        public List<SmallRecipe> GetSmallRecipes(string category, int page, int pageSize)
-    {
-        if (page < 1)
+            public List<SmallRecipe> GetSmallRecipes(string category, int page, int pageSize)
         {
-            throw new ArgumentException("Page number cannot be less than 1");
+            if (page < 1)
+            {
+                throw new ArgumentException("Page number cannot be less than 1");
+            }
+
+            var filteredRecipes = _recipes.Where(r => r.category == category).ToList();
+            var startIndex = (page - 1) * pageSize;
+            var endIndex = Math.Min(startIndex + pageSize, filteredRecipes.Count);
+
+            return filteredRecipes.Skip(startIndex).Take(endIndex - startIndex).Select(r => new SmallRecipe(r)).ToList();
         }
-        var categoryFilter = _recipes.Where(r => r.Category == category).ToList();
-        var startIndex = (page - 1) * pageSize;
-        var endIndex = Math.Min(categoryFilter.Count, startIndex + pageSize);
-        return categoryFilter.Select(r => new SmallRecipe(r)).ToList().Skip(startIndex).Take(endIndex - startIndex).ToList();
-    }
 
         
     }

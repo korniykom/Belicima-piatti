@@ -1,4 +1,4 @@
-
+//RecipesController
 using Microsoft.AspNetCore.Mvc;
 using src.Domain;
 using src.Services;
@@ -27,15 +27,10 @@ namespace project {
             return recipe;
         }
 
-        [HttpGet("recipes/{category}")]
-        public ActionResult<IList<SmallRecipe>> GetSmallRecipes(string category, int page, int pageSize)
+          [HttpGet("recipes/{category}")]
+        public IList<SmallRecipe> GetSmallRecipes(string category, int page, int pageSize)
         {
             var smallRecipes = recipesService.GetSmallRecipes(category, page, pageSize);
-
-            if (smallRecipes == null)
-            {
-                return NotFound();
-            }
 
             return smallRecipes;
         }
