@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+.MainAdviceContainer
+{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position:absolute;
+  left: 0px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.AdviceAndIconContainer
+{
+  display: grid; 
+  align-items: center;
+  gap: 8px; 
+  width: 80vw;
+  justify-content: center;
+  grid-template-columns: 65vw 20vw;
+  grid-template-rows: auto;
+}
+.AdviceContainer{
+  font-family: "Roboto", sans-serif;
+  color: #4d2d00;
+  grid-column: 1/2;
+  grid-row:1/2;
+}
+.AdviceText
+{
+  font-size: 2.4vh;
+  justify-self: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.AdviceTextContainer
+{
+  display:flex;
+  justify-content: center;
+  width: 90%; 
+  height: auto;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: 1;
+}
+.HelpIcon
+{
+  align-self: start;
+  margin-top: 35%;
+}
