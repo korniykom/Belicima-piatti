@@ -50,7 +50,7 @@
         "id": 5,
         "name": "Сіль",
         "price": 0.09,
-        "calories": 25,
+        "calories": 0,
         "fat": 0,
         "protein": 0,
         "carbs": 0
@@ -218,7 +218,7 @@
         "id": 11,
         "name": "Сіль",
         "price": 0.09,
-        "calories": 23,
+        "calories": 0,
         "fat": 0,
         "protein": 0,
         "carbs": 0
@@ -343,7 +343,7 @@
         "id": 9,
         "name": "Сіль",
         "price": 0.09,
-        "calories": 17,
+        "calories": 0,
         "fat": 0,
         "protein": 0,
         "carbs": 0
@@ -488,7 +488,7 @@
         "id": 12,
         "name": "Сіль",
         "price": 0.09,
-        "calories": 24,
+        "calories": 0,
         "fat": 0,
         "protein": 0,
         "carbs": 0
@@ -593,7 +593,7 @@
         "id": 5,
         "name": "Сіль",
         "price": 0.08,
-        "calories": 15,
+        "calories": 0,
         "fat": 0,
         "protein": 0,
         "carbs": 0
@@ -713,7 +713,7 @@
         "id": 10,
         "name": "Сіль",
         "price": 0.09,
-        "calories": 16,
+        "calories": 0,
         "fat": 0,
         "protein": 0,
         "carbs": 0
@@ -964,7 +964,7 @@
         "id": 9,
         "name": "Сіль",
         "price": 0.08,
-        "calories": 15,
+        "calories": 0,
         "fat": 0,
         "protein": 0,
         "carbs": 0
@@ -1628,7 +1628,7 @@
         "id": 10,
         "name": "Сіль",
         "price": 0.09,
-        "calories": 15,
+        "calories": 0,
         "fat": 0,
         "protein": 0,
         "carbs": 0
@@ -1816,7 +1816,7 @@
         "id": 9,
         "name": "Сіль",
         "price": 0.09,
-        "calories": 15,
+        "calories": 0,
         "fat": 0,
         "protein": 0,
         "carbs": 0
@@ -2142,7 +2142,7 @@
         "id": 10,
         "name": "Сіль",
         "price": 0.09,
-        "calories": 15,
+        "calories": 0,
         "fat": 0,
         "protein": 0,
         "carbs": 0
