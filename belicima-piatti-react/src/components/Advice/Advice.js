@@ -12,6 +12,6 @@ export default function Advice({AdviceText})
       <img src = {AdviceContainer} width = "100%" height = "100%" alt = "AdviceContaimer.png" className="AdviceContainer"/>
       <img src = {HelpIcon} width = "75px" height = "75px" alt = "HelpIcon.png" className="HelpIcon"/>
     </div>
-    </div>
+    </div> 
   );
 }
