@@ -33,18 +33,18 @@
         "name": "Картопля",
         "price": 1.76,
         "calories": 129,
-        "fat": 12.5,
-        "protein": 3,
-        "carbs": 35.1
+        "fat": 0.1,
+        "protein": 1.7,
+        "carbs": 18.6
       },
       {
         "id": 4,
         "name": "Морква",
         "price": 0.23,
         "calories": 34,
-        "fat": 1.5,
-        "protein": 8.1,
-        "carbs": 79.6
+        "fat": 0.22,
+        "protein": 1,
+        "carbs": 7.34
       },
       {
         "id": 5,
@@ -128,7 +128,7 @@
         "id": 1,
         "name": "Вода",
         "price": 0.05,
-        "calories": 6,
+        "calories": 8,
         "fat": 0,
         "protein": 0,
         "carbs": 0
@@ -147,9 +147,9 @@
         "name": "Картопля",
         "price": 1.76,
         "calories": 34,
-        "fat": 12.5,
-        "protein": 3,
-        "carbs": 35.1
+        "fat": 0.1,
+        "protein": 1.7,
+        "carbs": 18.6
       },
       {
         "id": 4,
@@ -165,9 +165,9 @@
         "name": "Морква",
         "price": 0.23,
         "calories": 18,
-        "fat": 1.5,
-        "protein": 8.1,
-        "carbs": 79.6
+        "fat": 0.22,
+        "protein": 1,
+        "carbs": 7.34
       },
       {
         "id": 6,
@@ -307,10 +307,10 @@
         "id": 5,
         "name": "Розтоплене вершкове масло",
         "price": 2.1,
-        "calories": 55,
-        "fat": 72.5,
-        "protein": 0.8,
-        "carbs": 72.5
+        "calories": 15,
+        "fat": 82,
+        "protein": 0.7,
+        "carbs": 0.5
       },
       {
         "id": 6,
@@ -453,9 +453,9 @@
         "name": "Морква терта",
         "price": 0.45,
         "calories": 23,
-        "fat": 1.5,
-        "protein": 8.1,
-        "carbs": 79.6
+        "fat": 0.22,
+        "protein": 1,
+        "carbs": 7.34
       },
       {
         "id": 9,
@@ -642,9 +642,9 @@
         "name": "Картопля",
         "price": 1.76,
         "calories": 45,
-        "fat": 12.5,
-        "protein": 3,
-        "carbs": 35.1
+        "fat": 0.1,
+        "protein": 1.7,
+        "carbs": 18.6
       },
       {
         "id": 3,
@@ -1115,9 +1115,9 @@
         "name": "Борошно",
         "price": 1.12,
         "calories": 145,
-        "fat": 3.8,
-        "protein": 20,
-        "carbs": 0
+        "fat": 0.8,
+        "protein": 10.1,
+        "carbs": 71.1
       },
       {
         "id": 2,
@@ -1226,9 +1226,9 @@
         "name": "Цукор",
         "price": 0.32,
         "calories": 121,
-        "fat": 1.2,
-        "protein": 18.3,
-        "carbs": 0.8
+        "fat": 0,
+        "protein": 0,
+        "carbs": 100
       },
       {
         "id": 3,
@@ -1253,9 +1253,9 @@
         "name": "Пшеничне борошно",
         "price": 1.19,
         "calories": 16,
-        "fat": 0.1,
-        "protein": 0.8,
-        "carbs": 7.6
+        "fat": 0.9,
+        "protein": 10.3,
+        "carbs": 74.2
       },
       {
         "id": 6,
@@ -1271,9 +1271,9 @@
         "name": "Вершкове масло",
         "price": 1.4,
         "calories": 15,
-        "fat": 0.27,
-        "protein": 6.21,
-        "carbs": 25.04
+        "fat": 82,
+        "protein": 0.7,
+        "carbs": 0.5
       },
       {
         "id": 8,
@@ -1379,9 +1379,9 @@
         "name": "Цукор",
         "price": 0.32,
         "calories": 69,
-        "fat": 33,
-        "protein": 2.3,
-        "carbs": 3.4
+        "fat": 0,
+        "protein": 0,
+        "carbs": 100
       },
       {
         "id": 5,
@@ -1439,36 +1439,36 @@
         "name": "Пшеничне борошно",
         "price": 1.19,
         "calories": 145,
-        "fat": 3.8,
-        "protein": 20,
-        "carbs": 0
+        "fat": 0.9,
+        "protein": 10.3,
+        "carbs": 74.2
       },
       {
         "id": 2,
         "name": "Вершкове масло",
         "price": 1.4,
-        "calories": 121,
-        "fat": 1.2,
-        "protein": 18.3,
-        "carbs": 0.8
+        "calories": 15,
+        "fat": 82,
+        "protein": 0.7,
+        "carbs": 0.5
       },
       {
         "id": 3,
         "name": "Вода",
         "price": 0.05,
-        "calories": 61,
-        "fat": 0.93,
-        "protein": 5.8,
-        "carbs": 28.79
+        "calories": 8,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 4,
         "name": "Цукор",
         "price": 0.32,
         "calories": 69,
-        "fat": 33,
-        "protein": 2.3,
-        "carbs": 3.4
+        "fat": 0,
+        "protein": 0,
+        "carbs": 100
       },
       {
         "id": 5,
@@ -1566,9 +1566,9 @@
         "name": "Картопля",
         "price": 1.76,
         "calories": 61,
-        "fat": 0.93,
-        "protein": 5.8,
-        "carbs": 28.79
+        "fat": 0.1,
+        "protein": 1.7,
+        "carbs": 18.6
       },
       {
         "id": 4,
@@ -1682,10 +1682,10 @@
         "id": 3,
         "name": "Вершкове масло",
         "price": 1.4,
-        "calories": 61,
-        "fat": 0.93,
-        "protein": 5.8,
-        "carbs": 28.79
+        "calories": 15,
+        "fat": 82,
+        "protein": 0.7,
+        "carbs": 0.5
       },
       {
         "id": 4,
@@ -1701,9 +1701,9 @@
         "name": "Цукор",
         "price": 0.32,
         "calories": 16,
-        "fat": 0.1,
-        "protein": 0.8,
-        "carbs": 7.6
+        "fat": 0,
+        "protein": 0,
+        "carbs": 100
       },
       {
         "id": 6,
@@ -1744,9 +1744,9 @@
         "id": 1,
         "name": "Вода",
         "price": 0.05,
-        "calories": 145,
-        "fat": 3.8,
-        "protein": 20,
+        "calories": 8,
+        "fat": 0,
+        "protein": 0,
         "carbs": 0
       },
       {
@@ -1754,18 +1754,18 @@
         "name": "Картопля",
         "price": 1.76,
         "calories": 121,
-        "fat": 1.2,
-        "protein": 18.3,
-        "carbs": 0.8
+        "fat": 0.1,
+        "protein": 1.7,
+        "carbs": 18.6
       },
       {
         "id": 3,
         "name": "Морква",
         "price": 0.23,
         "calories": 61,
-        "fat": 0.93,
-        "protein": 5.8,
-        "carbs": 28.79
+        "fat": 0.22,
+        "protein": 1,
+        "carbs": 7.34
       },
       {
         "id": 4,
@@ -1865,19 +1865,19 @@
         "id": 1,
         "name": "Вершкове масло",
         "price": 1.4,
-        "calories": 121,
-        "fat": 1.2,
-        "protein": 18.3,
-        "carbs": 0.8
+        "calories": 15,
+        "fat": 82,
+        "protein": 0.7,
+        "carbs": 0.5
       },
       {
         "id": 2,
         "name": "Борошно",
         "price": 1.12,
         "calories": 61,
-        "fat": 0.93,
-        "protein": 5.8,
-        "carbs": 28.79
+        "fat": 0.8,
+        "protein": 10.1,
+        "carbs": 71.1
       },
       {
         "id": 3,
@@ -1920,9 +1920,9 @@
         "name": "Цукор",
         "price": 0.32,
         "calories": 15,
-        "fat": 0.27,
-        "protein": 6.21,
-        "carbs": 25.04
+        "fat": 0,
+        "protein": 0,
+        "carbs": 100
       },
       {
         "id": 8,
@@ -1969,9 +1969,9 @@
         "name": "Цукор",
         "price": 0.32,
         "calories": 121,
-        "fat": 1.2,
-        "protein": 18.3,
-        "carbs": 0.8
+        "fat": 0,
+        "protein": 0,
+        "carbs": 100
       },
       {
         "id": 3,
@@ -1996,9 +1996,9 @@
         "name": "Борошно",
         "price": 1.12,
         "calories": 16,
-        "fat": 0.1,
-        "protein": 0.8,
-        "carbs": 7.6
+        "fat": 0.8,
+        "protein": 10.1,
+        "carbs": 71.1
       },
       {
         "id": 6,
@@ -2032,9 +2032,9 @@
         "name": "Вершкове масло",
         "price": 1.4,
         "calories": 15,
-        "fat": 0.27,
-        "protein": 6.21,
-        "carbs": 25.04
+        "fat": 82,
+        "protein": 0.7,
+        "carbs": 0.5
       }
     ],
     "steps": [
@@ -2170,18 +2170,18 @@
         "name": "Вершкове масло",
         "price": 1.4,
         "calories": 15,
-        "fat": 0.27,
-        "protein": 6.21,
-        "carbs": 25.04
+        "fat": 82,
+        "protein": 0.7,
+        "carbs": 0.5
       },
       {
         "id": 14,
         "name": "Борошно",
         "price": 1.12,
         "calories": 15,
-        "fat": 0.27,
-        "protein": 6.21,
-        "carbs": 25.04
+        "fat": 0.8,
+        "protein": 10.1,
+        "carbs": 71.1
       },
       {
         "id": 15,
