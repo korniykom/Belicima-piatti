@@ -13,7 +13,7 @@
       {
         "id": 1,
         "name": "Куряча грудка",
-        "price": 124,
+        "price": 3.11,
         "calories": 91,
         "fat": 3.2,
         "protein": 32.1,
@@ -22,7 +22,7 @@
       {
         "id": 2,
         "name": "Макаронна засипка",
-        "price": 22.99,
+        "price": 2.99,
         "calories": 12,
         "fat": 1.1,
         "protein": 10.5,
@@ -31,7 +31,7 @@
       {
         "id": 3,
         "name": "Картопля",
-        "price": 32,
+        "price": 1.76,
         "calories": 129,
         "fat": 12.5,
         "protein": 3,
@@ -40,7 +40,7 @@
       {
         "id": 4,
         "name": "Морква",
-        "price": 27,
+        "price": 0.23,
         "calories": 34,
         "fat": 1.5,
         "protein": 8.1,
@@ -49,7 +49,7 @@
       {
         "id": 5,
         "name": "Сіль",
-        "price": 18.99,
+        "price": 0.09,
         "calories": 25,
         "fat": 0,
         "protein": 0,
@@ -58,7 +58,7 @@
       {
         "id": 6,
         "name": "Перець чорний мелений",
-        "price": 21,
+        "price": 0.21,
         "calories": 11,
         "fat": 3.3,
         "protein": 10.4,
@@ -67,7 +67,7 @@
       {
         "id": 7,
         "name": "Цибуля ріпчаста",
-        "price": 49,
+        "price": 0.12,
         "calories": 19,
         "fat": 0.1,
         "protein": 1.1,
@@ -76,7 +76,7 @@
       {
         "id": 8,
         "name": "Лавровий лист",
-        "price": 25,
+        "price": 0.05,
         "calories": 6,
         "fat": 8.4,
         "protein": 7.6,
@@ -85,7 +85,7 @@
       {
         "id": 9,
         "name": "Вода",
-        "price": 10.99,
+        "price": 0.05,
         "calories": 8,
         "fat": 0,
         "protein": 0,
@@ -94,7 +94,7 @@
       {
         "id": 10,
         "name": "Базилік",
-        "price": 26,
+        "price": 0.13,
         "calories": 17,
         "fat": 0.6,
         "protein": 3.2,
@@ -127,7 +127,7 @@
       {
         "id": 1,
         "name": "Вода",
-        "price": 8,
+        "price": 0.05,
         "calories": 6,
         "fat": 0,
         "protein": 0,
@@ -136,7 +136,7 @@
       {
         "id": 2,
         "name": "Свинина на кістці",
-        "price": 109,
+        "price": 3.99,
         "calories": 209,
         "fat": 22.6,
         "protein": 17.6,
@@ -145,7 +145,7 @@
       {
         "id": 3,
         "name": "Картопля",
-        "price": 48,
+        "price": 1.76,
         "calories": 34,
         "fat": 12.5,
         "protein": 3,
@@ -154,7 +154,7 @@
       {
         "id": 4,
         "name": "Буряк",
-        "price": 58,
+        "price": 0.5,
         "calories": 31,
         "fat": 0.19,
         "protein": 1.57,
@@ -163,7 +163,7 @@
       {
         "id": 5,
         "name": "Морква",
-        "price": 32,
+        "price": 0.23,
         "calories": 18,
         "fat": 1.5,
         "protein": 8.1,
@@ -172,7 +172,7 @@
       {
         "id": 6,
         "name": "Цибуля",
-        "price": 23,
+        "price": 0.1,
         "calories": 15,
         "fat": 0.1,
         "protein": 0.8,
@@ -181,7 +181,7 @@
       {
         "id": 7,
         "name": "Капуста білокачанна свіжа",
-        "price": 58,
+        "price": 0.2,
         "calories": 38,
         "fat": 0.1,
         "protein": 1.3,
@@ -190,7 +190,7 @@
       {
         "id": 8,
         "name": "Томатна паста",
-        "price": 98,
+        "price": 1.12,
         "calories": 87,
         "fat": 0.5,
         "protein": 4.3,
@@ -199,7 +199,7 @@
       {
         "id": 9,
         "name": "Соняшникова олія",
-        "price": 56.99,
+        "price": 0.99,
         "calories": 65,
         "fat": 100,
         "protein": 0,
@@ -208,7 +208,7 @@
       {
         "id": 10,
         "name": "Лимонна кислота",
-        "price": 81,
+        "price": 0.56,
         "calories": 45,
         "fat": 0,
         "protein": 0,
@@ -217,7 +217,7 @@
       {
         "id": 11,
         "name": "Сіль",
-        "price": 17,
+        "price": 0.09,
         "calories": 23,
         "fat": 0,
         "protein": 0,
@@ -226,7 +226,7 @@
       {
         "id": 12,
         "name": "Лавровий лист",
-        "price": 23.99,
+        "price": 0.05,
         "calories": 7,
         "fat": 8.4,
         "protein": 7.6,
@@ -235,7 +235,7 @@
       {
         "id": 13,
         "name": "Базилік",
-        "price": 25.99,
+        "price": 0.13,
         "calories": 18,
         "fat": 0.6,
         "protein": 3.2,
@@ -270,7 +270,7 @@
       {
         "id": 1,
         "name": "Куряче філе",
-        "price": 98,
+        "price": 2.99,
         "calories": 67,
         "fat": 1.5,
         "protein": 23.1,
@@ -279,7 +279,7 @@
       {
         "id": 2,
         "name": "Перепелині яйця",
-        "price": 23.99,
+        "price": 0.4,
         "calories": 12,
         "fat": 11,
         "protein": 13,
@@ -288,7 +288,7 @@
       {
         "id": 3,
         "name": "Помідор Черрі",
-        "price": 56.99,
+        "price": 0.55,
         "calories": 32,
         "fat": 0.2,
         "protein": 0.9,
@@ -297,7 +297,7 @@
       {
         "id": 4,
         "name": "Салат Ромен",
-        "price": 81,
+        "price": 0.43,
         "calories": 39,
         "fat": 0.3,
         "protein": 1.2,
@@ -306,7 +306,7 @@
       {
         "id": 5,
         "name": "Розтоплене вершкове масло",
-        "price": 74.99,
+        "price": 2.1,
         "calories": 55,
         "fat": 72.5,
         "protein": 0.8,
@@ -315,7 +315,7 @@
       {
         "id": 6,
         "name": "Оливкова олія",
-        "price": 67,
+        "price": 1.98,
         "calories": 45,
         "fat": 100,
         "protein": 0,
@@ -324,7 +324,7 @@
       {
         "id": 7,
         "name": "Білий хліб",
-        "price": 34,
+        "price": 0.12,
         "calories": 79,
         "fat": 4,
         "protein": 11,
@@ -333,7 +333,7 @@
       {
         "id": 8,
         "name": "Сир пармезан",
-        "price": 56.99,
+        "price": 2.15,
         "calories": 49,
         "fat": 30,
         "protein": 37,
@@ -342,7 +342,7 @@
       {
         "id": 9,
         "name": "Сіль",
-        "price": 17.69,
+        "price": 0.09,
         "calories": 17,
         "fat": 0,
         "protein": 0,
@@ -351,7 +351,7 @@
       {
         "id": 10,
         "name": "Перець",
-        "price": 23.11,
+        "price": 0.17,
         "calories": 17,
         "fat": 0.3,
         "protein": 1,
@@ -396,7 +396,7 @@
       {
         "id": 2,
         "name": "Часник рубаний",
-        "price": 23.11,
+        "price": 0.22,
         "calories": 11,
         "fat": 0.27,
         "protein": 6.21,
@@ -415,7 +415,7 @@
       {
         "id": 4,
         "name": "Оливкова олія",
-        "price": 66,
+        "price": 1.98,
         "calories": 44,
         "fat": 100,
         "protein": 0,
@@ -433,7 +433,7 @@
       {
         "id": 6,
         "name": "Базилік",
-        "price": 56,
+        "price": 0.13,
         "calories": 33,
         "fat": 0.6,
         "protein": 3.2,
@@ -451,7 +451,7 @@
       {
         "id": 8,
         "name": "Морква терта",
-        "price": 34.99,
+        "price": 0.45,
         "calories": 23,
         "fat": 1.5,
         "protein": 8.1,
@@ -460,7 +460,7 @@
       {
         "id": 9,
         "name": "Біла цибуля",
-        "price": 34.99,
+        "price": 0.17,
         "calories": 24,
         "fat": 0.2,
         "protein": 1.4,
@@ -469,7 +469,7 @@
       {
         "id": 10,
         "name": "Цукор",
-        "price": 55.99,
+        "price": 0.32,
         "calories": 44,
         "fat": 0,
         "protein": 0,
@@ -478,7 +478,7 @@
       {
         "id": 11,
         "name": "Перець жовтий солодкий",
-        "price": 34.99,
+        "price": 0.14,
         "calories": 17,
         "fat": 0.39,
         "protein": 1.1,
@@ -487,7 +487,7 @@
       {
         "id": 12,
         "name": "Сіль",
-        "price": 16.99,
+        "price": 0.09,
         "calories": 24,
         "fat": 0,
         "protein": 0,
@@ -496,7 +496,7 @@
       {
         "id": 13,
         "name": "Перець",
-        "price": 44.99,
+        "price": 0.17,
         "calories": 32,
         "fat": 0.3,
         "protein": 1,
@@ -550,7 +550,7 @@
     "category": "Другі страви",
     "score": 4.1,
     "duration": 15,
-    "price": 12.99,
+    "price": 4.99,
     "calories": 600,
     "ingredients": [
       {
@@ -573,8 +573,8 @@
       },
       {
         "id": 3,
-        "name": "Мелений чорний перець",
-        "price": 59,
+        "name": "Перець чорний мелений",
+        "price": 0.21,
         "calories": 48,
         "fat": 3.26,
         "protein": 10.39,
@@ -583,7 +583,7 @@
       {
         "id": 4,
         "name": "Оливкова олія",
-        "price": 65,
+        "price": 1.98,
         "calories": 45,
         "fat": 100,
         "protein": 0,
@@ -592,7 +592,7 @@
       {
         "id": 5,
         "name": "Сіль",
-        "price": 25,
+        "price": 0.08,
         "calories": 15,
         "fat": 0,
         "protein": 0,
@@ -601,7 +601,7 @@
       {
         "id": 6,
         "name": "Часник",
-        "price": 23,
+        "price": 0.19,
         "calories": 14,
         "fat": 0.27,
         "protein": 6.21,
@@ -625,7 +625,7 @@
     "category": "Другі страви",
     "score": 3.2,
     "duration": 40,
-    "price": 9.99,
+    "price": 3.99,
     "calories": 450,
     "ingredients": [
       {
@@ -640,7 +640,7 @@
       {
         "id": 2,
         "name": "Картопля",
-        "price": 67.99,
+        "price": 1.76,
         "calories": 45,
         "fat": 12.5,
         "protein": 3,
@@ -649,7 +649,7 @@
       {
         "id": 3,
         "name": "Помідор",
-        "price": 57.99,
+        "price": 0.4,
         "calories": 40,
         "fat": 0.2,
         "protein": 0.9,
@@ -658,7 +658,7 @@
       {
         "id": 4,
         "name": "Цибуля ріпчаста",
-        "price": 32,
+        "price": 0.12,
         "calories": 16,
         "fat": 0.1,
         "protein": 1.1,
@@ -667,7 +667,7 @@
       {
         "id": 5,
         "name": "Часник",
-        "price": 23.99,
+        "price": 0.19,
         "calories": 17,
         "fat": 0.27,
         "protein": 6.21,
@@ -694,7 +694,7 @@
       {
         "id": 8,
         "name": "Оливкова олія",
-        "price": 67.77,
+        "price": 1.98,
         "calories": 45,
         "fat": 100,
         "protein": 0,
@@ -703,7 +703,7 @@
       {
         "id": 9,
         "name": "Петрушка",
-        "price": 45.79,
+        "price": 0.12,
         "calories": 35,
         "fat": 0.8,
         "protein": 3,
@@ -712,7 +712,7 @@
       {
         "id": 10,
         "name": "Сіль",
-        "price": 17.99,
+        "price": 0.09,
         "calories": 16,
         "fat": 0,
         "protein": 0,
@@ -721,7 +721,7 @@
       {
         "id": 11,
         "name": "Перець чорний",
-        "price": 22,
+        "price": 0.19,
         "calories": 18,
         "fat": 3.3,
         "protein": 10.4,
@@ -755,7 +755,7 @@
       {
         "id": 1,
         "name": "Оливкова олія",
-        "price": 68.1,
+        "price": 1.98,
         "calories": 47,
         "fat": 100,
         "protein": 0,
@@ -764,7 +764,7 @@
       {
         "id": 2,
         "name": "Цибуля",
-        "price": 23.49,
+        "price": 0.1,
         "calories": 12,
         "fat": 0.1,
         "protein": 0.8,
@@ -791,7 +791,7 @@
       {
         "id": 5,
         "name": "Вершки",
-        "price": 43.99,
+        "price": 2.43,
         "calories": 33,
         "fat": 33,
         "protein": 2.3,
@@ -818,13 +818,13 @@
     "category": "Другі страви",
     "score": 5.0,
     "duration": 35,
-    "price": 10.99,
+    "price": 6.49,
     "calories": 800,
     "ingredients": [
       {
         "id": 1,
         "name": "Сир моцарелла",
-        "price": 67.99,
+        "price": 3.99,
         "calories": 54,
         "fat": 19.8,
         "protein": 23.8,
@@ -833,7 +833,7 @@
       {
         "id": 2,
         "name": "Базилік",
-        "price": 56,
+        "price": 0.13,
         "calories": 33,
         "fat": 0.6,
         "protein": 3.2,
@@ -842,7 +842,7 @@
       {
         "id": 3,
         "name": "Кетчуп",
-        "price": 29.59,
+        "price": 1.59,
         "calories": 21,
         "fat": 0.1,
         "protein": 1,
@@ -851,7 +851,7 @@
       {
         "id": 4,
         "name": "Орегано",
-        "price": 21.89,
+        "price": 1.89,
         "calories": 9,
         "fat": 4.3,
         "protein": 9,
@@ -860,7 +860,7 @@
       {
         "id": 5,
         "name": "Помідор",
-        "price": 59.99,
+        "price": 0.4,
         "calories": 40,
         "fat": 0.2,
         "protein": 0.9,
@@ -900,7 +900,7 @@
       {
         "id": 2,
         "name": "Помідор",
-        "price": 57.89,
+        "price": 0.4,
         "calories": 42,
         "fat": 0.2,
         "protein": 0.9,
@@ -909,7 +909,7 @@
       {
         "id": 3,
         "name": "Болгарський перець",
-        "price": 11,
+        "price": 0.23,
         "calories": 7,
         "fat": 0,
         "protein": 1.3,
@@ -918,7 +918,7 @@
       {
         "id": 4,
         "name": "Сир фета",
-        "price": 69,
+        "price": 3.41,
         "calories": 47,
         "fat": 21.28,
         "protein": 12,
@@ -927,7 +927,7 @@
       {
         "id": 5,
         "name": "Цибуля солодка",
-        "price": 23.79,
+        "price": 0.15,
         "calories": 17,
         "fat": 0.1,
         "protein": 1.5,
@@ -954,7 +954,7 @@
       {
         "id": 8,
         "name": "Оливкова олія",
-        "price": 65.47,
+        "price": 1.98,
         "calories": 44,
         "fat": 100,
         "protein": 0,
@@ -963,7 +963,7 @@
       {
         "id": 9,
         "name": "Сіль",
-        "price": 20.99,
+        "price": 0.08,
         "calories": 15,
         "fat": 0,
         "protein": 0,
@@ -972,7 +972,7 @@
       {
         "id": 10,
         "name": "Перець",
-        "price": 27.19,
+        "price": 0.17,
         "calories": 18,
         "fat": 0.3,
         "protein": 1,
@@ -981,7 +981,7 @@
       {
         "id": 11,
         "name": "Сухий базилік",
-        "price": 57.39,
+        "price": 0.11,
         "calories": 35,
         "fat": 4.1,
         "protein": 23.0,
@@ -1029,7 +1029,7 @@
     "category": "Другі страви",
     "score": 4.8,
     "duration": 25,
-    "price": 11.49,
+    "price": 5.79,
     "calories": 500,
     "ingredients": [
       {
@@ -1062,7 +1062,7 @@
       {
         "id": 4,
         "name": "Вершки",
-        "price": 81,
+        "price": 2.43,
         "calories": 69,
         "fat": 33,
         "protein": 2.3,
@@ -1071,7 +1071,7 @@
       {
         "id": 5,
         "name": "Цибуля",
-        "price": 24.15,
+        "price": 0.1,
         "calories": 16,
         "fat": 0.1,
         "protein": 0.8,
@@ -1080,7 +1080,7 @@
       {
         "id": 6,
         "name": "Часник",
-        "price": 24,
+        "price": 0.19,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1107,13 +1107,13 @@
     "category": "Десерти",
     "score": 3.7,
     "duration": 30,
-    "price": 21.9,
+    "price": 4.99,
     "calories": 768,
     "ingredients": [
       {
         "id": 1,
         "name": "Борошно",
-        "price": 197,
+        "price": 1.12,
         "calories": 145,
         "fat": 3.8,
         "protein": 20,
@@ -1122,7 +1122,7 @@
       {
         "id": 2,
         "name": "Розпушувач",
-        "price": 156,
+        "price": 1.15,
         "calories": 121,
         "fat": 1.2,
         "protein": 18.3,
@@ -1131,7 +1131,7 @@
       {
         "id": 3,
         "name": "Какао",
-        "price": 89,
+        "price": 0.9,
         "calories": 61,
         "fat": 0.93,
         "protein": 5.8,
@@ -1140,7 +1140,7 @@
       {
         "id": 4,
         "name": "Яйця",
-        "price": 81,
+        "price": 0.02,
         "calories": 69,
         "fat": 33,
         "protein": 2.3,
@@ -1149,7 +1149,7 @@
       {
         "id": 5,
         "name": "Шоколад",
-        "price": 24.15,
+        "price": 2.15,
         "calories": 16,
         "fat": 0.1,
         "protein": 0.8,
@@ -1158,7 +1158,7 @@
       {
         "id": 6,
         "name": "Молоко",
-        "price": 24,
+        "price": 0.64,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1209,13 +1209,13 @@
     "category": "Десерти",
     "score": 3.3,
     "duration": 180,
-    "price": 11.49,
-    "calories": 500,
+    "price": 10.89,
+    "calories": 720,
     "ingredients": [
       {
         "id": 1,
         "name": "Яйця",
-        "price": 197,
+        "price": 0.02,
         "calories": 145,
         "fat": 3.8,
         "protein": 20,
@@ -1224,7 +1224,7 @@
       {
         "id": 2,
         "name": "Цукор",
-        "price": 156,
+        "price": 0.32,
         "calories": 121,
         "fat": 1.2,
         "protein": 18.3,
@@ -1233,7 +1233,7 @@
       {
         "id": 3,
         "name": "Смажений фундук",
-        "price": 89,
+        "price": 0.98,
         "calories": 61,
         "fat": 0.93,
         "protein": 5.8,
@@ -1242,7 +1242,7 @@
       {
         "id": 4,
         "name": "Кукурудзяний крохмаль",
-        "price": 81,
+        "price": 0.31,
         "calories": 69,
         "fat": 33,
         "protein": 2.3,
@@ -1251,7 +1251,7 @@
       {
         "id": 5,
         "name": "Пшеничне борошно",
-        "price": 24.15,
+        "price": 1.19,
         "calories": 16,
         "fat": 0.1,
         "protein": 0.8,
@@ -1260,7 +1260,7 @@
       {
         "id": 6,
         "name": "Цукровий пісок",
-        "price": 24,
+        "price": 1.4,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1269,7 +1269,7 @@
       {
         "id": 7,
         "name": "Вершкове масло",
-        "price": 24,
+        "price": 1.4,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1278,7 +1278,7 @@
       {
         "id": 8,
         "name": "Молоко",
-        "price": 24,
+        "price": 0.64,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1287,7 +1287,7 @@
       {
         "id": 9,
         "name": "Какао",
-        "price": 24,
+        "price": 1.3,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1296,7 +1296,7 @@
       {
         "id": 10,
         "name": "Ванілін",
-        "price": 24,
+        "price": 2.11,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1305,7 +1305,7 @@
       {
         "id": 11,
         "name": "Згущене молоко",
-        "price": 24,
+        "price": 4.24,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1343,14 +1343,14 @@
     "description": "Ніжна панакота — знаменитий десерт італійської кухні на основі вершків, цукру, желатину та ванілі. Солодке вершково-кремове желе нагадує морозиво й чудово тримає форму, тож любителі солоденького зможуть неспішно насолодитися витонченим італійським десертом.",
     "category": "Десерти",
     "score": 4.4,
-    "duration": 180,
-    "price": 11.49,
-    "calories": 500,
+    "duration": 60,
+    "price": 8.19,
+    "calories": 440,
     "ingredients": [
       {
         "id": 1,
         "name": "Молоко",
-        "price": 197,
+        "price": 0.64,
         "calories": 145,
         "fat": 3.8,
         "protein": 20,
@@ -1359,7 +1359,7 @@
       {
         "id": 2,
         "name": "Вершки",
-        "price": 156,
+        "price": 2.43,
         "calories": 121,
         "fat": 1.2,
         "protein": 18.3,
@@ -1368,7 +1368,7 @@
       {
         "id": 3,
         "name": "Желатин",
-        "price": 89,
+        "price": 0.11,
         "calories": 61,
         "fat": 0.93,
         "protein": 5.8,
@@ -1377,7 +1377,7 @@
       {
         "id": 4,
         "name": "Цукор",
-        "price": 81,
+        "price": 0.32,
         "calories": 69,
         "fat": 33,
         "protein": 2.3,
@@ -1386,7 +1386,7 @@
       {
         "id": 5,
         "name": "Ванільний цукор",
-        "price": 24.15,
+        "price": 0.46,
         "calories": 16,
         "fat": 0.1,
         "protein": 0.8,
@@ -1395,7 +1395,7 @@
       {
         "id": 6,
         "name": "Малина",
-        "price": 24,
+        "price": 3.45,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1404,7 +1404,7 @@
       {
         "id": 7,
         "name": "Полуниця заморожена",
-        "price": 24,
+        "price": 4.02,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1431,13 +1431,13 @@
     "category": "Десерти",
     "score": 2.9,
     "duration": 60,
-    "price": 11.49,
-    "calories": 500,
+    "price": 6.59,
+    "calories": 520,
     "ingredients": [
       {
         "id": 1,
         "name": "Пшеничне борошно",
-        "price": 197,
+        "price": 1.19,
         "calories": 145,
         "fat": 3.8,
         "protein": 20,
@@ -1446,7 +1446,7 @@
       {
         "id": 2,
         "name": "Вершкове масло",
-        "price": 156,
+        "price": 1.4,
         "calories": 121,
         "fat": 1.2,
         "protein": 18.3,
@@ -1455,7 +1455,7 @@
       {
         "id": 3,
         "name": "Вода",
-        "price": 89,
+        "price": 0.05,
         "calories": 61,
         "fat": 0.93,
         "protein": 5.8,
@@ -1464,7 +1464,7 @@
       {
         "id": 4,
         "name": "Цукор",
-        "price": 81,
+        "price": 0.32,
         "calories": 69,
         "fat": 33,
         "protein": 2.3,
@@ -1473,7 +1473,7 @@
       {
         "id": 5,
         "name": "Ванільний цукор",
-        "price": 24.15,
+        "price": 0.46,
         "calories": 16,
         "fat": 0.1,
         "protein": 0.8,
@@ -1482,7 +1482,7 @@
       {
         "id": 6,
         "name": "Цедра",
-        "price": 24,
+        "price": 1.14,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1491,34 +1491,34 @@
       {
         "id": 7,
         "name": "Сметана",
-        "price": 24,
+        "price": 1.39,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
         "carbs": 25.04
       },
       {
-        "id": 7,
+        "id": 8,
         "name": "Цукрова пудра",
-        "price": 24,
+        "price": 0.56,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
         "carbs": 25.04
       },
       {
-        "id": 7,
+        "id": 9,
         "name": "Крохмаль",
-        "price": 24,
+        "price": 0.44,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
         "carbs": 25.04
       },
       {
-        "id": 7,
+        "id": 10,
         "name": "Суниця",
-        "price": 24,
+        "price": 2.32,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1540,13 +1540,13 @@
     "category": "Перші страви",
     "score": 4.9,
     "duration": 180,
-    "price": 11.49,
-    "calories": 500,
+    "price": 5.35,
+    "calories": 115,
     "ingredients": [
       {
         "id": 1,
         "name": "Сало",
-        "price": 197,
+        "price": 1.15,
         "calories": 145,
         "fat": 3.8,
         "protein": 20,
@@ -1555,7 +1555,7 @@
       {
         "id": 2,
         "name": "Яловичина",
-        "price": 156,
+        "price": 2.12,
         "calories": 121,
         "fat": 1.2,
         "protein": 18.3,
@@ -1564,7 +1564,7 @@
       {
         "id": 3,
         "name": "Картопля",
-        "price": 89,
+        "price": 1.76,
         "calories": 61,
         "fat": 0.93,
         "protein": 5.8,
@@ -1573,7 +1573,7 @@
       {
         "id": 4,
         "name": "Помідор",
-        "price": 81,
+        "price": 0.4,
         "calories": 69,
         "fat": 33,
         "protein": 2.3,
@@ -1582,7 +1582,7 @@
       {
         "id": 5,
         "name": "Перець жовтий солодкий",
-        "price": 24.15,
+        "price": 0.14,
         "calories": 16,
         "fat": 0.1,
         "protein": 0.8,
@@ -1591,7 +1591,7 @@
       {
         "id": 6,
         "name": "Цибуля ріпчаста",
-        "price": 24,
+        "price": 0.12,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1600,34 +1600,34 @@
       {
         "id": 7,
         "name": "Перець чилі",
-        "price": 24,
+        "price": 1.12,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
         "carbs": 25.04
       },
       {
-        "id": 7,
+        "id": 8,
         "name": "Паприка",
-        "price": 24,
+        "price": 0.37,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
         "carbs": 25.04
       },
       {
-        "id": 7,
+        "id": 9,
         "name": "Копчена паприка",
-        "price": 24,
+        "price": 0.45,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
         "carbs": 25.04
       },
       {
-        "id": 7,
+        "id": 10,
         "name": "Сіль",
-        "price": 24,
+        "price": 0.09,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1657,13 +1657,13 @@
     "category": "Десерти",
     "score": 3.8,
     "duration": 570,
-    "price": 11.49,
-    "calories": 500,
+    "price": 23.93,
+    "calories": 316,
     "ingredients": [
       {
         "id": 1,
         "name": "Вершки",
-        "price": 197,
+        "price": 2.43,
         "calories": 145,
         "fat": 3.8,
         "protein": 20,
@@ -1672,7 +1672,7 @@
       {
         "id": 2,
         "name": "Пісочне печиво",
-        "price": 156,
+        "price": 2.92,
         "calories": 121,
         "fat": 1.2,
         "protein": 18.3,
@@ -1681,7 +1681,7 @@
       {
         "id": 3,
         "name": "Вершкове масло",
-        "price": 89,
+        "price": 1.4,
         "calories": 61,
         "fat": 0.93,
         "protein": 5.8,
@@ -1690,7 +1690,7 @@
       {
         "id": 4,
         "name": "Вершковий сир філадельфія",
-        "price": 81,
+        "price": 3.09,
         "calories": 69,
         "fat": 33,
         "protein": 2.3,
@@ -1699,7 +1699,7 @@
       {
         "id": 5,
         "name": "Цукор",
-        "price": 24.15,
+        "price": 0.32,
         "calories": 16,
         "fat": 0.1,
         "protein": 0.8,
@@ -1708,7 +1708,7 @@
       {
         "id": 6,
         "name": "Яйця",
-        "price": 24,
+        "price": 0.02,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1737,13 +1737,13 @@
     "category": "Перші страви",
     "score": 2.9,
     "duration": 60,
-    "price": 11.49,
-    "calories": 500,
+    "price": 2.03,
+    "calories": 31,
     "ingredients": [
       {
         "id": 1,
         "name": "Вода",
-        "price": 197,
+        "price": 0.05,
         "calories": 145,
         "fat": 3.8,
         "protein": 20,
@@ -1752,7 +1752,7 @@
       {
         "id": 2,
         "name": "Картопля",
-        "price": 156,
+        "price": 1.76,
         "calories": 121,
         "fat": 1.2,
         "protein": 18.3,
@@ -1761,7 +1761,7 @@
       {
         "id": 3,
         "name": "Морква",
-        "price": 89,
+        "price": 0.23,
         "calories": 61,
         "fat": 0.93,
         "protein": 5.8,
@@ -1770,7 +1770,7 @@
       {
         "id": 4,
         "name": "Цибуля",
-        "price": 81,
+        "price": 0.1,
         "calories": 69,
         "fat": 33,
         "protein": 2.3,
@@ -1779,7 +1779,7 @@
       {
         "id": 5,
         "name": "Печериці",
-        "price": 24.15,
+        "price": 1.28,
         "calories": 16,
         "fat": 0.1,
         "protein": 0.8,
@@ -1788,7 +1788,7 @@
       {
         "id": 6,
         "name": "Гречка",
-        "price": 24,
+        "price": 0.72,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1797,43 +1797,43 @@
       {
         "id": 7,
         "name": "Олія",
-        "price": 24,
+        "price": 1.18,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
         "carbs": 25.04
       },
       {
-        "id": 7,
+        "id": 8,
         "name": "Соєвий соус",
-        "price": 24,
+        "price": 0.85,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
         "carbs": 25.04
       },
       {
-        "id": 7,
+        "id": 9,
         "name": "Сіль",
-        "price": 24,
+        "price": 0.09,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
         "carbs": 25.04
       },
       {
-        "id": 7,
+        "id": 10,
         "name": "Перець",
-        "price": 24,
+        "price": 0.17,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
         "carbs": 25.04
       },
       {
-        "id": 7,
+        "id": 11,
         "name": "Базилік",
-        "price": 24,
+        "price": 0.13,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1858,13 +1858,13 @@
     "category": "Десерти",
     "score": 2.9,
     "duration": 45,
-    "price": 11.49,
-    "calories": 500,
+    "price": 6.58,
+    "calories": 275,
     "ingredients": [
       {
         "id": 1,
         "name": "Вершкове масло",
-        "price": 156,
+        "price": 1.4,
         "calories": 121,
         "fat": 1.2,
         "protein": 18.3,
@@ -1873,7 +1873,7 @@
       {
         "id": 2,
         "name": "Борошно",
-        "price": 89,
+        "price": 1.12,
         "calories": 61,
         "fat": 0.93,
         "protein": 5.8,
@@ -1882,7 +1882,7 @@
       {
         "id": 3,
         "name": "Яйця",
-        "price": 81,
+        "price": 0.02,
         "calories": 69,
         "fat": 33,
         "protein": 2.3,
@@ -1891,7 +1891,7 @@
       {
         "id": 4,
         "name": "Розпушувач",
-        "price": 24.15,
+        "price": 1.15,
         "calories": 16,
         "fat": 0.1,
         "protein": 0.8,
@@ -1900,7 +1900,7 @@
       {
         "id": 5,
         "name": "Коньяк",
-        "price": 24,
+        "price": 5.19,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1918,7 +1918,7 @@
       {
         "id": 7,
         "name": "Цукор",
-        "price": 24,
+        "price": 0.32,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1927,7 +1927,7 @@
       {
         "id": 8,
         "name": "Ванільний цукор",
-        "price": 24,
+        "price": 0.46,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -1952,13 +1952,13 @@
     "category": "Десерти",
     "score": 2.9,
     "duration": 60,
-    "price": 11.49,
-    "calories": 500,
+    "price": 4.22,
+    "calories": 173,
     "ingredients": [
       {
         "id": 1,
         "name": "Яйця",
-        "price": 197,
+        "price": 0.02,
         "calories": 145,
         "fat": 3.8,
         "protein": 20,
@@ -1967,7 +1967,7 @@
       {
         "id": 2,
         "name": "Цукор",
-        "price": 156,
+        "price": 0.32,
         "calories": 121,
         "fat": 1.2,
         "protein": 18.3,
@@ -1976,7 +1976,7 @@
       {
         "id": 3,
         "name": "Сметана",
-        "price": 89,
+        "price": 1.39,
         "calories": 61,
         "fat": 0.93,
         "protein": 5.8,
@@ -1985,7 +1985,7 @@
       {
         "id": 4,
         "name": "Розпушувач",
-        "price": 81,
+        "price": 1.15,
         "calories": 69,
         "fat": 33,
         "protein": 2.3,
@@ -1994,7 +1994,7 @@
       {
         "id": 5,
         "name": "Борошно",
-        "price": 24.15,
+        "price": 1.12,
         "calories": 16,
         "fat": 0.1,
         "protein": 0.8,
@@ -2003,7 +2003,7 @@
       {
         "id": 6,
         "name": "Коньяк",
-        "price": 24,
+        "price": 5.19,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -2012,25 +2012,25 @@
       {
         "id": 7,
         "name": "Цукрова пудра",
-        "price": 24,
+        "price": 0.56,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
         "carbs": 25.04
       },
       {
-        "id": 7,
+        "id": 8,
         "name": "Свіжі сливи",
-        "price": 24,
+        "price": 0.23,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
         "carbs": 25.04
       },
       {
-        "id": 7,
+        "id": 9,
         "name": "Вершкове масло",
-        "price": 24,
+        "price": 1.4,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -2054,13 +2054,13 @@
     "category": "Перші страви",
     "score": 3,
     "duration": 120,
-    "price": 11.49,
-    "calories": 500,
+    "price": 8.06,
+    "calories": 226,
     "ingredients": [
       {
         "id": 1,
         "name": "Базилік",
-        "price": 197,
+        "price": 0.13,
         "calories": 145,
         "fat": 3.8,
         "protein": 20,
@@ -2069,7 +2069,7 @@
       {
         "id": 2,
         "name": "Сир пармезан",
-        "price": 156,
+        "price": 2.15,
         "calories": 121,
         "fat": 1.2,
         "protein": 18.3,
@@ -2078,7 +2078,7 @@
       {
         "id": 3,
         "name": "Фарш",
-        "price": 89,
+        "price": 4.91,
         "calories": 61,
         "fat": 0.93,
         "protein": 5.8,
@@ -2087,7 +2087,7 @@
       {
         "id": 4,
         "name": "Помідор",
-        "price": 81,
+        "price": 0.4,
         "calories": 69,
         "fat": 33,
         "protein": 2.3,
@@ -2096,7 +2096,7 @@
       {
         "id": 5,
         "name": "Цибуля",
-        "price": 24.15,
+        "price": 0.1,
         "calories": 16,
         "fat": 0.1,
         "protein": 0.8,
@@ -2105,7 +2105,7 @@
       {
         "id": 6,
         "name": "Часник",
-        "price": 24,
+        "price": 0.19,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -2114,34 +2114,7 @@
       {
         "id": 7,
         "name": "Томатний соус",
-        "price": 24,
-        "calories": 15,
-        "fat": 0.27,
-        "protein": 6.21,
-        "carbs": 25.04
-      },
-      {
-        "id": 7,
-        "name": "Оливкова олія",
-        "price": 24,
-        "calories": 15,
-        "fat": 0.27,
-        "protein": 6.21,
-        "carbs": 25.04
-      },
-      {
-        "id": 7,
-        "name": "Петрушка",
-        "price": 24,
-        "calories": 15,
-        "fat": 0.27,
-        "protein": 6.21,
-        "carbs": 25.04
-      },
-      {
-        "id": 7,
-        "name": "Сіль",
-        "price": 24,
+        "price": 1.17,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -2149,8 +2122,8 @@
       },
       {
         "id": 8,
-        "name": "Перець",
-        "price": 24,
+        "name": "Оливкова олія",
+        "price": 1.98,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -2158,8 +2131,8 @@
       },
       {
         "id": 9,
-        "name": "Молоко",
-        "price": 24,
+        "name": "Петрушка",
+        "price": 0.12,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -2167,8 +2140,8 @@
       },
       {
         "id": 10,
-        "name": "Вершкове масло",
-        "price": 24,
+        "name": "Сіль",
+        "price": 0.09,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -2176,8 +2149,8 @@
       },
       {
         "id": 11,
-        "name": "Борошно",
-        "price": 24,
+        "name": "Перець",
+        "price": 0.17,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
@@ -2185,8 +2158,35 @@
       },
       {
         "id": 12,
+        "name": "Молоко",
+        "price": 0.64,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 13,
+        "name": "Вершкове масло",
+        "price": 1.4,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 14,
+        "name": "Борошно",
+        "price": 1.12,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 15,
         "name": "Мускатний горіх",
-        "price": 24,
+        "price": 1.78,
         "calories": 15,
         "fat": 0.27,
         "protein": 6.21,
