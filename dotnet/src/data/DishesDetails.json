@@ -1629,9 +1629,9 @@
         "name": "Сіль",
         "price": 0.09,
         "calories": 15,
-        "fat": 0.27,
-        "protein": 6.21,
-        "carbs": 25.04
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
       }
     ],
     "steps": [
@@ -1817,9 +1817,9 @@
         "name": "Сіль",
         "price": 0.09,
         "calories": 15,
-        "fat": 0.27,
-        "protein": 6.21,
-        "carbs": 25.04
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 10,
@@ -2143,9 +2143,9 @@
         "name": "Сіль",
         "price": 0.09,
         "calories": 15,
-        "fat": 0.27,
-        "protein": 6.21,
-        "carbs": 25.04
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 11,
