@@ -21,5 +21,10 @@ namespace src.Services
         {
             return recipesRepository.GetSmallRecipes(category, page, pageSize);
         }
+
+        public IList<SmallRecipe> GetSmallRecipesByCountry(string country, int page, int pageSize)
+        {
+            return recipesRepository.GetSmallRecipesByCountry(country, page, pageSize);
+        }
     }
 }
