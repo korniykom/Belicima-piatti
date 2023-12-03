@@ -26,15 +26,10 @@ namespace project {
             return recipe;
         }
 
-         [HttpGet("recipes/{category}")]
+          [HttpGet("recipes/{category}")]
         public IList<SmallRecipe> GetSmallRecipes(string category, int page, int pageSize)
         {
             var smallRecipes = recipesService.GetSmallRecipes(category, page, pageSize);
-
-            if (smallRecipes == null)
-            {
-                return NotFound();
-            }
 
             return smallRecipes;
         }
