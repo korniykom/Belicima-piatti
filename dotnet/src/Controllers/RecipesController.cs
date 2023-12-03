@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using src.Domain;
 using src.Services;
-using System.Linq;
 namespace project {
 
     [Route("api")]
@@ -27,10 +26,10 @@ namespace project {
             return recipe;
         }
 
-        [HttpGet("recipes")]
-        public ActionResult<IList<SmallRecipe>> GetSmallRecipes(int page, int pageSize)
+         [HttpGet("recipes/{category}")]
+        public IList<SmallRecipe> GetSmallRecipes(string category, int page, int pageSize)
         {
-            var smallRecipes = recipesService.GetSmallRecipes(page, pageSize);
+            var smallRecipes = recipesService.GetSmallRecipes(category, page, pageSize);
 
             if (smallRecipes == null)
             {
