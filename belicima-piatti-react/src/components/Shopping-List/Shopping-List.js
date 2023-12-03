@@ -23,6 +23,9 @@ export default function ShoppingList({ ShoppingList }) {
               product={item.name}
               price={item.price}
               calories={item.calories}
+              fat={item.fat}
+              protein={item.protein}
+              carbs={item.carbs}
               key={item.id}
             />
           )}

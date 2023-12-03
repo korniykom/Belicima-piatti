@@ -7,7 +7,6 @@ import Accountpage from "./pages/Accountpage";
 import Loading from "./components/Loading/Loading";
 import DetailedDish from "./pages/DetailedDish";
 import Dish from "./pages/Dish";
-import Category from "./components/Category/Category";
 
 export default function App() {
   return (

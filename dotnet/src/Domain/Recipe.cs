@@ -1,11 +1,14 @@
-
 namespace src.Domain {
     public class Recipe {
         public int id { get; set; }
         public string name { get; set; }
         public string img {get; set;}
         public string description { get; set; }
+<<<<<<< HEAD
         public string category { get; set; }
+=======
+        public string category {get; set;}
+>>>>>>> origin/main
         public double score { get; set; }
         public int duration { get; set; }
         public double price { get; set; }
@@ -35,5 +38,8 @@ namespace src.Domain {
         public string name { get; set; }
         public double price { get; set; }
         public int calories { get; set; }
+        public double protein { get; set; }
+        public double carbs { get; set; }
+        public double fat { get; set; }
     }
 }
