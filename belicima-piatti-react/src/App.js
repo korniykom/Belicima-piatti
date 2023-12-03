@@ -19,7 +19,8 @@ export default function App() {
         <Route path="account" element={<Accountpage />} />
         <Route path="loading" element={<Loading />} />
         <Route path="/" element={<Nav backLink="/" title="Перші страви" />} />
-      </Routes> 
+        <Route path="category" element={<Category />} />
+      </Routes>
     </BrowserRouter>
   );
 }
