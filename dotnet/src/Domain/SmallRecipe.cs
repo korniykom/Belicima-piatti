@@ -5,6 +5,7 @@ namespace src.Domain {
     {
         public int id { get; set; }
         public string name { get; set; }
+        public string img { get; set; }
         public double score { get; set; }
         public int duration { get; set; }
         public double price { get; set; }
@@ -18,6 +19,7 @@ namespace src.Domain {
         {
              id = recipe.id;
              name = recipe.name;
+             img = recipe.img;
              score = recipe.score;
              duration = recipe.duration;
              price = recipe.price;

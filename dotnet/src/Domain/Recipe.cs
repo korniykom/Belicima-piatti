@@ -24,6 +24,7 @@ namespace src.Domain {
             SmallRecipe smallRecipe = new SmallRecipe {
                 id = this.id,
                 name = this.name,
+                img = this.img,
                 score = this.score,
                 duration = this.duration,
                 price = this.price,
