@@ -27,7 +27,7 @@ namespace src.Repositories {
             return recipe;
         } 
        
-         public List<SmallRecipe> GetSmallRecipes(string category, int page, int pageSize)
+           public List<SmallRecipe> GetSmallRecipes(string category, int page, int pageSize)
         {
             if (page < 1)
             {
@@ -38,10 +38,8 @@ namespace src.Repositories {
             var startIndex = (page - 1) * pageSize;
             var endIndex = Math.Min(startIndex + pageSize, filteredRecipes.Count);
 
-            return filteredRecipes.Select(r => new SmallRecipe(r)).ToList().Skip(startIndex).Take(endIndex - startIndex).ToList();
+             return filteredRecipes.Select(r => new SmallRecipe(r)).ToList().Skip(startIndex).Take(endIndex - startIndex).ToList();
         }
-
-
 
     }
 }
