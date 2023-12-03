@@ -26,7 +26,7 @@ namespace src.Repositories {
             var recipe = _recipes.FirstOrDefault(r => r.id == id);
             return recipe;
         } 
-       
+
             public List<SmallRecipe> GetSmallRecipes(string category, int page, int pageSize)
         {
             if (page < 1)
@@ -41,6 +41,6 @@ namespace src.Repositories {
              return filteredRecipes.Select(r => new SmallRecipe(r)).ToList().Skip(startIndex).Take(endIndex - startIndex).ToList();
         }
 
-
+        
     }
 }
