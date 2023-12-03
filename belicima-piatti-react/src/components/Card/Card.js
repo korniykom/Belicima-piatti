@@ -1,5 +1,6 @@
 import "./Card.css";
 import StarRating from "../Star-Rating/StarRating";
+import { Link } from "react-router-dom";
 
 export default function Card({
   id,
@@ -14,7 +15,9 @@ export default function Card({
     <div className="card">
       <h2>{name}</h2>
       <div className="image">
-        <img src={img} alt="dish description"></img>
+        <Link to={`http://localhost:3000/dishdetail/${id}`}>
+          <img src={img} alt="dish description"></img>
+        </Link>
       </div>
       <div className="card-description">
         <div className="first-element">
@@ -22,12 +25,12 @@ export default function Card({
           <span className="price">ціна: {price}$</span>
         </div>
         <div className="second-element">
-          <div>
+          <div className="time">
             <span>{duration} хв.</span>
             <span class="material-symbols-outlined">schedule</span>
           </div>
 
-          <span>{calories} калорій</span>
+          <span className="calories">{calories} калорій</span>
         </div>
         <div className="third-element">
           <span className="material-symbols-outlined">
