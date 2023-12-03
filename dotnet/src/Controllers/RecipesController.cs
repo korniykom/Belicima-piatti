@@ -33,5 +33,13 @@ namespace project {
 
             return smallRecipes;
         }
+
+        [HttpGet("recipes/country/{country}")]
+        public IList<SmallRecipe> GetSmallRecipesByCountry(string country, int page, int pageSize)
+        {
+            var smallRecipes = recipesService.GetSmallRecipesByCountry(country, page, pageSize);
+
+            return smallRecipes;
+        }
     }
 }

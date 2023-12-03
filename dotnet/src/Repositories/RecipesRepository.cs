@@ -27,7 +27,7 @@ namespace src.Repositories {
             return recipe;
         } 
 
-            public List<SmallRecipe> GetSmallRecipes(string category, int page, int pageSize)
+        public List<SmallRecipe> GetSmallRecipes(string category, int page, int pageSize)
         {
             if (page < 1)
             {
@@ -38,9 +38,31 @@ namespace src.Repositories {
             var startIndex = (page - 1) * pageSize;
             var endIndex = Math.Min(startIndex + pageSize, filteredRecipes.Count);
 
-             return filteredRecipes.Select(r => new SmallRecipe(r)).ToList().Skip(startIndex).Take(endIndex - startIndex).ToList();
+            return filteredRecipes
+                .Select(r => new SmallRecipe(r))
+                .ToList()
+                .Skip(startIndex)
+                .Take(endIndex - startIndex)
+                .ToList();
         }
 
-        
+        public List<SmallRecipe> GetSmallRecipesByCountry(string country, int page, int pageSize)
+        {
+            if (page < 1)
+            {
+                throw new ArgumentException("Page number cannot be less than 1");
+            }
+
+            var filteredRecipes = _recipes.Where(r => r.country == country).ToList();
+            var startIndex = (page - 1) * pageSize;
+            var endIndex = Math.Min(startIndex + pageSize, filteredRecipes.Count);
+
+            return filteredRecipes
+                .Select(r => new SmallRecipe(r))
+                .ToList()
+                .Skip(startIndex)
+                .Take(endIndex - startIndex)
+                .ToList();
+        }
     }
 }
