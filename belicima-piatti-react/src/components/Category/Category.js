@@ -1,22 +1,18 @@
-import React, { useState } from "react";
-import "../Step-List/Step-List-Item";
+import "./Category.css";
+import { Link } from "react-router-dom";
 
-export default function Step({ number = 1, description }) {
-  const [buttonValue, setButtonValue] = useState(number);
-
+export default function Category({ category }) {
   return (
     <div className="flex-container">
-      <div className="number-container">
-        <button
-          className="number"
-          onClick={() =>
-            setButtonValue(<span class="material-symbols-outlined">done</span>)
-          }
-        >
-          {number}
-        </button>
+      <div className="category">
+        <div className="box">
+          <div className="ticked">
+            <span class="material-symbols-outlined">done</span>
+          </div>
+          <div className="text">{category}</div>
+        </div>
       </div>
-      <div className="description">{description}</div>
+      <Link to="category"></Link>
     </div>
   );
 }
