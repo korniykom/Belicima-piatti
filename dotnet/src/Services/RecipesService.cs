@@ -22,16 +22,4 @@ namespace src.Services
             return recipesRepository.GetSmallRecipes(category, page, pageSize);
         }
     }
-<<<<<<< HEAD
-
-    public Recipe GetRecipe(int id) {
-      return recipeRepository.GetRecipe(id);
-    }
-
-      public List<SmallRecipe> GetSmallRecipes(string category, int page, int pageSize) {
-            return recipeRepository.GetSmallRecipes(category, page, pageSize);
-  }
-}
-=======
->>>>>>> origin/main
 }
