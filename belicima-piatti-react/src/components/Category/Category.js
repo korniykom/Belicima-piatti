@@ -1,5 +1,4 @@
 import "./Category.css";
-import { Link } from "react-router-dom";
 
 export default function Category({ category }) {
   return (
@@ -12,7 +11,6 @@ export default function Category({ category }) {
           <div className="text">{category}</div>
         </div>
       </div>
-      <Link to="category"></Link>
     </div>
   );
 }
