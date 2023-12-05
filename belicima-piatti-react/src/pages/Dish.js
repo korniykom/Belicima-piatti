@@ -1,5 +1,5 @@
 import { useParams, useSearchParams } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useReducer } from "react";
 import Nav from "../components/Nav/Nav";
 import Card from "../components/Card/Card";
 import Advice from "../components/Advice/Advice";
@@ -11,7 +11,7 @@ export default function Dish() {
   const { category } = useParams();
   const [searchParams] = useSearchParams();
   const [pageInfo, setPageInfo] = useState([]);
-
+  const [ignored, forceUpdate] = useReducer((x) => x + 1, 0);
   var page = searchParams.get("page");
   var pageSize = searchParams.get("pageSize");
 
@@ -35,7 +35,7 @@ export default function Dish() {
       }
     };
     fetchData();
-  }, []);
+  }, [ignored]);
 
   {
     console.log(pageInfo);
@@ -60,7 +60,12 @@ export default function Dish() {
         </Card>
       ))}
 
-      <PageNavigator category={category} page={page} />
+      <PageNavigator
+        category={category}
+        page={page}
+        ignored={ignored}
+        forceUpdate={forceUpdate}
+      />
     </div>
   );
 }
