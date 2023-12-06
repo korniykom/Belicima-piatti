@@ -4,7 +4,6 @@
   font-weight: bold;
   color: #4d2d00;
 }
-
 .Shopping-List .ingredients {
   text-align: center;
 
@@ -19,13 +18,59 @@
   text-align: center;
   padding-left: 12px;
   padding-right: 12px;
-  border-right: solid;
-  border-color: #4d2d00;
 }
 .Shopping-List .calories {
   width: 100px;
   text-align: center;
-
+  border-right: solid;
+  border-color: #4d2d00;
   padding-left: 12px;
   padding-right: 12px;
+}
+.Shopping-List-open {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff7e8;
+  border: solid 2px;
+  border-color: #4d2d00;
+  width: 100%;
+  border-radius: 30px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.Shopping-List-open .ingredients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+
+  width: 100px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-right: solid;
+  border-color: #4d2d00;
+}
+.Shopping-List-open .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  text-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.Shopping-List-open .calories {
+  width: 100px;
+  min-height: 150px;
+
+  text-align: center;
+  border-right: solid;
+  border-color: #4d2d00;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

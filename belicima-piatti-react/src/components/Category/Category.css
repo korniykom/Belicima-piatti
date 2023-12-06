@@ -1,0 +1,49 @@
+.category {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: row;
+}
+.name {
+  font-weight: 600;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  border: solid #4d2d00 1.2px;
+  background-color: #ffe090;
+  border-radius: 13px;
+  min-width: 250px;
+  min-height: 80px;
+  text-align: center;
+}
+.text {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 25px;
+  background-color: #ffe090;
+  border-radius: 20px;
+}
+
+.flex-container {
+  color: #4d2d00;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-container .ticked {
+  border-radius: 50%;
+  color: #4d2d00;
+  border-width: 2px;
+  border-color: #4d2d00;
+  background-color: #ffe090;
+  width: 24px;
+  height: 24px;
+  border: solid #4d2d00 2.1px;
+}
+
+.material-symbols-outlined {
+  padding-top: 3px;
+  font-size: 20px;
+  font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 1, "opsz" 1;
+}

@@ -4,6 +4,8 @@
     "name": "Курячий суп",
     "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.fbt_aIZezSujWx3OZv6MgQHaD4%26pid%3DApi&f=1&ipt=8c3460a20c8bba332634f66e2824b0b25fa680ef84aac2e5ba352fd65a2ee9b1&ipo=images",
     "description": "Тоненько наріжте куряче філе скибками та підсмажте до золотої скоринки на пательні. Ще гарячі шматочки викладіть на салат та рясно посипте пармезаном.",
+    "category": "Перші страви",
+    "country": "CN",
     "score": 4.1,
     "duration": 45,
     "price": 4.99,
@@ -12,62 +14,92 @@
       {
         "id": 1,
         "name": "Куряча грудка",
-        "price": 124,
-        "calories": 91
+        "price": 3.11,
+        "calories": 91,
+        "fat": 3.2,
+        "protein": 32.1,
+        "carbs": 0
       },
       {
         "id": 2,
         "name": "Макаронна засипка",
-        "price": 22.99,
-        "calories": 12
+        "price": 2.99,
+        "calories": 12,
+        "fat": 1.1,
+        "protein": 10.5,
+        "carbs": 70.4
       },
       {
         "id": 3,
         "name": "Картопля",
-        "price": 32,
-        "calories": 129
+        "price": 1.76,
+        "calories": 129,
+        "fat": 0.1,
+        "protein": 1.7,
+        "carbs": 18.6
       },
       {
         "id": 4,
         "name": "Морква",
-        "price": 27,
-        "calories": 34
+        "price": 0.23,
+        "calories": 34,
+        "fat": 0.22,
+        "protein": 1,
+        "carbs": 7.34
       },
       {
         "id": 5,
         "name": "Сіль",
-        "price": 18.99,
-        "calories": 25
+        "price": 0.09,
+        "calories": 0,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 6,
         "name": "Перець чорний мелений",
-        "price": 21,
-        "calories": 11
+        "price": 0.21,
+        "calories": 11,
+        "fat": 3.26,
+        "protein": 10.39,
+        "carbs": 38.65
       },
       {
         "id": 7,
         "name": "Цибуля ріпчаста",
-        "price": 49,
-        "calories": 19
+        "price": 0.12,
+        "calories": 19,
+        "fat": 0.1,
+        "protein": 1.1,
+        "carbs": 9.3
       },
       {
         "id": 8,
         "name": "Лавровий лист",
-        "price": 25,
-        "calories": 6
+        "price": 0.05,
+        "calories": 6,
+        "fat": 8.4,
+        "protein": 7.6,
+        "carbs": 75.0
       },
       {
         "id": 9,
         "name": "Вода",
-        "price": 10.99,
-        "calories": 8
+        "price": 0.05,
+        "calories": 8,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 10,
-        "name": "Зелень",
-        "price": 26,
-        "calories": 17
+        "name": "Базилік",
+        "price": 0.13,
+        "calories": 17,
+        "fat": 0.6,
+        "protein": 3.2,
+        "carbs": 2.7
       }
     ],
     "steps": [
@@ -87,6 +119,8 @@
     "name": "Борщ",
     "img": "https://images.unian.net/photos/2020_10/1602057485-3102.jpg?0.602735502001281",
     "description": "Борщ – це культурне надбання України, наша гордість та кулінарний символ нашої країни. Бути байдужим до цього густого наваристого супу просто неможливо.",
+    "category": "Перші страви",
+    "country": "UA",
     "score": 3.7,
     "duration": 60,
     "price": 5.99,
@@ -95,80 +129,119 @@
       {
         "id": 1,
         "name": "Вода",
-        "price": 8,
-        "calories": 6
+        "price": 0.05,
+        "calories": 8,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 2,
         "name": "Свинина на кістці",
-        "price": 109,
-        "calories": 209
+        "price": 3.99,
+        "calories": 209,
+        "fat": 22.6,
+        "protein": 17.6,
+        "carbs": 0
       },
       {
         "id": 3,
         "name": "Картопля",
-        "price": 48,
-        "calories": 34
+        "price": 1.76,
+        "calories": 34,
+        "fat": 0.1,
+        "protein": 1.7,
+        "carbs": 18.6
       },
       {
         "id": 4,
         "name": "Буряк",
-        "price": 58,
-        "calories": 31
+        "price": 0.5,
+        "calories": 31,
+        "fat": 0.19,
+        "protein": 1.57,
+        "carbs": 9.54
       },
       {
         "id": 5,
         "name": "Морква",
-        "price": 32,
-        "calories": 18
+        "price": 0.23,
+        "calories": 18,
+        "fat": 0.22,
+        "protein": 1,
+        "carbs": 7.34
       },
       {
         "id": 6,
         "name": "Цибуля",
-        "price": 23,
-        "calories": 15
+        "price": 0.1,
+        "calories": 15,
+        "fat": 0.1,
+        "protein": 0.8,
+        "carbs": 7.6
       },
       {
         "id": 7,
         "name": "Капуста білокачанна свіжа",
-        "price": 58,
-        "calories": 38
+        "price": 0.2,
+        "calories": 38,
+        "fat": 0.1,
+        "protein": 1.3,
+        "carbs": 5.8
       },
       {
         "id": 8,
         "name": "Томатна паста",
-        "price": 98,
-        "calories": 87
+        "price": 1.12,
+        "calories": 87,
+        "fat": 0.5,
+        "protein": 4.3,
+        "carbs": 18.9
       },
       {
         "id": 9,
         "name": "Соняшникова олія",
-        "price": 56.99,
-        "calories": 65
+        "price": 0.99,
+        "calories": 65,
+        "fat": 100,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 10,
         "name": "Лимонна кислота",
-        "price": 81,
-        "calories": 45
+        "price": 0.56,
+        "calories": 45,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 11,
         "name": "Сіль",
-        "price": 17,
-        "calories": 23
+        "price": 0.09,
+        "calories": 0,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 12,
         "name": "Лавровий лист",
-        "price": 23.99,
-        "calories": 7
+        "price": 0.05,
+        "calories": 7,
+        "fat": 8.4,
+        "protein": 7.6,
+        "carbs": 75.0
       },
       {
         "id": 13,
-        "name": "Зелень",
-        "price": 25.99,
-        "calories": 18
+        "name": "Базилік",
+        "price": 0.13,
+        "calories": 18,
+        "fat": 0.6,
+        "protein": 3.2,
+        "carbs": 2.7
       }
     ],
     "steps": [
@@ -190,6 +263,8 @@
     "name": "Салат Цезар",
     "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.FbcUhbn4FzzdHw_5bBl9JgHaE8%26pid%3DApi&f=1&ipt=6bb79e99cd7c42dda4b6ae602224aad6bb5bd63aa313e4ea062cb4ad770871b0&ipo=images",
     "description": "Салат Цезар – одна із найпопулярніших страв у всьому світі! І це не дивлячись на те, що інгредієнти – дуже прості, а техніки приготування під силу кожному. Можливо, саме простота салату і є секретом його успіху – рецепт приготування страви далі в матеріалі.",
+    "category": "Другі страви",
+    "country": "US",
     "score": 4.3,
     "duration": 20,
     "price": 8.99,
@@ -198,62 +273,92 @@
       {
         "id": 1,
         "name": "Куряче філе",
-        "price": 98,
-        "calories": 67
+        "price": 2.99,
+        "calories": 67,
+        "fat": 1.5,
+        "protein": 23.1,
+        "carbs": 0
       },
       {
         "id": 2,
         "name": "Перепелині яйця",
-        "price": 23.99,
-        "calories": 12
+        "price": 0.4,
+        "calories": 155,
+        "fat": 11,
+        "protein": 13,
+        "carbs": 0
       },
       {
         "id": 3,
         "name": "Помідор Черрі",
-        "price": 56.99,
-        "calories": 32
+        "price": 0.55,
+        "calories": 32,
+        "fat": 0.2,
+        "protein": 0.9,
+        "carbs": 3.6
       },
       {
         "id": 4,
         "name": "Салат Ромен",
-        "price": 81,
-        "calories": 39
+        "price": 0.43,
+        "calories": 39,
+        "fat": 0.3,
+        "protein": 1.2,
+        "carbs": 1.2
       },
       {
         "id": 5,
         "name": "Розтоплене вершкове масло",
-        "price": 74.99,
-        "calories": 55
+        "price": 2.1,
+        "calories": 15,
+        "fat": 82,
+        "protein": 0.7,
+        "carbs": 0.5
       },
       {
         "id": 6,
         "name": "Оливкова олія",
-        "price": 67,
-        "calories": 45
+        "price": 1.98,
+        "calories": 45,
+        "fat": 100,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 7,
-        "name": "Білий хліб для сухарів",
-        "price": 34,
-        "calories": 79
+        "name": "Білий хліб",
+        "price": 0.12,
+        "calories": 79,
+        "fat": 4,
+        "protein": 11,
+        "carbs": 48
       },
       {
         "id": 8,
         "name": "Сир пармезан",
-        "price": 56.99,
-        "calories": 49
+        "price": 2.15,
+        "calories": 49,
+        "fat": 30,
+        "protein": 37,
+        "carbs": 0
       },
       {
         "id": 9,
         "name": "Сіль",
-        "price": 17.69,
-        "calories": 17
+        "price": 0.09,
+        "calories": 0,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 10,
-        "name": "Перець за смаком",
-        "price": 23.11,
-        "calories": 17
+        "name": "Перець",
+        "price": 0.17,
+        "calories": 17,
+        "fat": 0.3,
+        "protein": 1,
+        "carbs": 6
       }
     ],
     "steps": [
@@ -276,6 +381,8 @@
     "name": "Паста з томатним соусом",
     "img": "http://pastapaolo.com.ua/ru/wp-content/uploads/2012/04/iStock_000016229216Medium.jpg",
     "description": "Спагетті з томатною пастою: готувати – це просто. Рецепти спагетті з томатним соусом на кожен день: з овочами, куркою, копченостями",
+    "category": "Другі страви",
+    "country": "IT",
     "score": 4.5,
     "duration": 30,
     "price": 6.49,
@@ -285,98 +392,146 @@
         "id": 1,
         "name": "Відварені спагетті",
         "price": 74.49,
-        "calories": 66
+        "calories": 66,
+        "fat": 0.93,
+        "protein": 5.8,
+        "carbs": 28.79
       },
       {
         "id": 2,
         "name": "Часник рубаний",
-        "price": 23.11,
-        "calories": 11
+        "price": 0.22,
+        "calories": 11,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
       },
 
       {
         "id": 3,
         "name": "Соус кисло-солодкий",
         "price": 49,
-        "calories": 45
+        "calories": 45,
+        "fat": 1.1,
+        "protein": 0.1,
+        "carbs": 37.9
       },
       {
         "id": 4,
         "name": "Оливкова олія",
-        "price": 66,
-        "calories": 44
+        "price": 1.98,
+        "calories": 45,
+        "fat": 100,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 5,
         "name": "Філе курки без шкірки",
         "price": 108,
-        "calories": 87
+        "calories": 87,
+        "fat": 12,
+        "protein": 19,
+        "carbs": 0
       },
       {
         "id": 6,
         "name": "Базилік",
-        "price": 56,
-        "calories": 33
+        "price": 0.13,
+        "calories": 33,
+        "fat": 0.6,
+        "protein": 3.2,
+        "carbs": 2.7
       },
       {
         "id": 7,
         "name": "Томати бланшовані",
         "price": 45.99,
-        "calories": 41
+        "calories": 41,
+        "fat": 0.2,
+        "protein": 2.5,
+        "carbs": 7.1
       },
       {
         "id": 8,
         "name": "Морква терта",
-        "price": 34.99,
-        "calories": 23
+        "price": 0.45,
+        "calories": 23,
+        "fat": 0.22,
+        "protein": 1,
+        "carbs": 7.34
       },
       {
         "id": 9,
         "name": "Біла цибуля",
-        "price": 34.99,
-        "calories": 24
+        "price": 0.17,
+        "calories": 24,
+        "fat": 0.2,
+        "protein": 1.4,
+        "carbs": 10.2
       },
       {
         "id": 10,
         "name": "Цукор",
-        "price": 55.99,
-        "calories": 44
+        "price": 0.32,
+        "calories": 44,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 100
       },
       {
         "id": 11,
-        "name": "Перець жовтий, салатовий",
-        "price": 34.99,
-        "calories": 17
+        "name": "Перець жовтий солодкий",
+        "price": 0.14,
+        "calories": 17,
+        "fat": 0.39,
+        "protein": 1.1,
+        "carbs": 4.6
       },
       {
         "id": 12,
         "name": "Сіль",
-        "price": 16.99,
-        "calories": 24
+        "price": 0.09,
+        "calories": 0,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 13,
         "name": "Перець",
-        "price": 44.99,
-        "calories": 32
+        "price": 0.17,
+        "calories": 32,
+        "fat": 0.3,
+        "protein": 1,
+        "carbs": 6
       },
       {
         "id": 14,
         "name": "Коріандр",
         "price": 32.99,
-        "calories": 16
+        "calories": 16,
+        "fat": 18,
+        "protein": 12.4,
+        "carbs": 13.1
       },
       {
         "id": 15,
         "name": "Гвоздика",
         "price": 26.99,
-        "calories": 14
+        "calories": 14,
+        "fat": 20.1,
+        "protein": 6,
+        "carbs": 27
       },
       {
         "id": 16,
         "name": "Порошок чилі",
         "price": 44.99,
-        "calories": 37
+        "calories": 37,
+        "fat": 16.76,
+        "protein": 12.26,
+        "carbs": 20.46
       }
     ],
     "steps": [
@@ -396,46 +551,66 @@
     "name": "Стейк з яловичини",
     "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.eYUP_O3SDs73rtjztpQxQwHaE2%26pid%3DApi&f=1&ipt=8bdcad40266233ddfd1073c6ac424ac79857feba8cb54049695d39866a603d70&ipo=images",
     "description": "Стейк із яловичини виручить господиню і під час приготування повсякденного обіднього столу та при накриванні святкового. Готувати страву легко. Вдається вона завжди. До того ж – це соковита страва, ситна, прикрасивши яку можна сміливо подавати її на великій плоскій страві на стіл гостям.",
+    "category": "Другі страви",
+    "country": "IT",
     "score": 4.1,
     "duration": 15,
-    "price": 12.99,
+    "price": 4.99,
     "calories": 600,
     "ingredients": [
       {
         "id": 1,
         "name": "Яловичина",
         "price": 557,
-        "calories": 498
+        "calories": 498,
+        "fat": 15,
+        "protein": 26,
+        "carbs": 0
       },
       {
         "id": 2,
         "name": "Лимон",
         "price": 21.99,
-        "calories": 7
+        "calories": 7,
+        "fat": 0.3,
+        "protein": 1.1,
+        "carbs": 9.3
       },
       {
         "id": 3,
-        "name": "Мелений чорний перець",
-        "price": 59,
-        "calories": 48
+        "name": "Перець чорний мелений",
+        "price": 0.21,
+        "calories": 48,
+        "fat": 3.26,
+        "protein": 10.39,
+        "carbs": 38.65
       },
       {
         "id": 4,
         "name": "Оливкова олія",
-        "price": 65,
-        "calories": 45
+        "price": 1.98,
+        "calories": 45,
+        "fat": 100,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 5,
         "name": "Сіль",
-        "price": 25,
-        "calories": 15
+        "price": 0.08,
+        "calories": 0,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 6,
-        "name": "Часник",
-        "price": 23,
-        "calories": 14
+        "name": "Часник рубаний",
+        "price": 0.22,
+        "calories": 11,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
       }
     ],
     "steps": [
@@ -452,76 +627,111 @@
     "name": "Риба з картоплею",
     "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.cT2tNaX_eVogfJ6586PAwgHaE8%26pid%3DApi&f=1&ipt=cdfaaa5685dd487ca95b3589b4dccdce0c3f17197025ab5a9a06c7bc0795ba87&ipo=images",
     "description": "Запечена біла риба з картоплею, помідорами, лимоном та ароматними прянощами - чудова страва на обід або вечерю. Для його приготування особливих зусиль не потрібно, все запікається в одному посуді, обмінюючись смаками. Залишається лише нарізати всі інгредієнти і скласти у форму для запікання. Риба з картоплею в духовці виходить дуже смачною.",
+    "category": "Другі страви",
+    "country": "SE",
     "score": 3.2,
     "duration": 40,
-    "price": 9.99,
+    "price": 3.99,
     "calories": 450,
     "ingredients": [
       {
         "id": 1,
         "name": "Риба біла",
         "price": 98.99,
-        "calories": 78
+        "calories": 78,
+        "fat": 0,
+        "protein": 19,
+        "carbs": 13
       },
       {
         "id": 2,
         "name": "Картопля",
-        "price": 67.99,
-        "calories": 45
+        "price": 1.76,
+        "calories": 45,
+        "fat": 0.1,
+        "protein": 1.7,
+        "carbs": 18.6
       },
       {
         "id": 3,
         "name": "Помідор",
-        "price": 57.99,
-        "calories": 40
+        "price": 0.4,
+        "calories": 40,
+        "fat": 0.2,
+        "protein": 0.9,
+        "carbs": 3.9
       },
       {
         "id": 4,
         "name": "Цибуля ріпчаста",
-        "price": 32,
-        "calories": 16
+        "price": 0.12,
+        "calories": 16,
+        "fat": 0.1,
+        "protein": 1.1,
+        "carbs": 9.3
       },
       {
         "id": 5,
-        "name": "Часник",
-        "price": 23.99,
-        "calories": 17
+        "name": "Часник рубаний",
+        "price": 0.22,
+        "calories": 11,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
       },
       {
         "id": 6,
         "name": "Лимон",
         "price": 22.99,
-        "calories": 11
+        "calories": 11,
+        "fat": 0.3,
+        "protein": 1.1,
+        "carbs": 9.3
       },
       {
         "id": 7,
         "name": "Орегано сухий",
         "price": 26.99,
-        "calories": 19
+        "calories": 19,
+        "fat": 5.1,
+        "protein": 6.9,
+        "carbs": 57.3
       },
       {
         "id": 8,
         "name": "Оливкова олія",
-        "price": 67.77,
-        "calories": 45
+        "price": 1.98,
+        "calories": 45,
+        "fat": 100,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 9,
         "name": "Петрушка",
-        "price": 45.79,
-        "calories": 35
+        "price": 0.12,
+        "calories": 35,
+        "fat": 0.8,
+        "protein": 3,
+        "carbs": 6.3
       },
       {
         "id": 10,
         "name": "Сіль",
-        "price": 17.99,
-        "calories": 16
+        "price": 0.09,
+        "calories": 0,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 11,
         "name": "Перець чорний",
-        "price": 22,
-        "calories": 18
+        "price": 0.19,
+        "calories": 18,
+        "fat": 3.26,
+        "protein": 10.95,
+        "carbs": 38.31
       }
     ],
     "steps": [
@@ -542,6 +752,8 @@
     "name": "Суп гарбузовий",
     "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ksPcmK2q0cFIlU1zuoJsKQHaEX%26pid%3DApi&f=1&ipt=8bce9a14e818d803e248344fbf6fadbd77d62ed15f72e9ac330727aaa3a12e67&ipo=images",
     "description": "Гарбузовий суп – корисне, багате на вітаміни блюдо. Відомий в різних його інтерпретаціях у багатьох країнах світу. Рідко яка кухня, східна, європейська або Азіатська не містить кулінарні рецепти супу з цього осіннього овоча.",
+    "category": "Перші страви",
+    "country": "MZ",
     "score": 4.3,
     "duration": 25,
     "price": 4.99,
@@ -550,32 +762,47 @@
       {
         "id": 1,
         "name": "Оливкова олія",
-        "price": 68.1,
-        "calories": 47
+        "price": 1.98,
+        "calories": 47,
+        "fat": 100,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 2,
         "name": "Цибуля",
-        "price": 23.49,
-        "calories": 12
+        "price": 0.1,
+        "calories": 15,
+        "fat": 0.1,
+        "protein": 0.8,
+        "carbs": 7.6
       },
       {
         "id": 3,
         "name": "Гарбуз",
         "price": 56.99,
-        "calories": 50
+        "calories": 50,
+        "fat": 0.1,
+        "protein": 0.7,
+        "carbs": 4.9
       },
       {
         "id": 4,
-        "name": "Овочевий (курячий) бульйон",
+        "name": "Овочевий бульйон",
         "price": 68,
-        "calories": 51
+        "calories": 51,
+        "fat": 0.18,
+        "protein": 0.65,
+        "carbs": 2.36
       },
       {
         "id": 5,
         "name": "Вершки",
-        "price": 43.99,
-        "calories": 33
+        "price": 2.43,
+        "calories": 33,
+        "fat": 33,
+        "protein": 2.3,
+        "carbs": 3.4
       }
     ],
     "steps": [
@@ -595,40 +822,57 @@
     "name": "Піца Маргарита",
     "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.c_UJVxleQvrmXjD4nMMTTQHaE7%26pid%3DApi&f=1&ipt=94c35cd6653c44ff1b8917161cd0a9b88dd50e2420e6ec4ad8b5ad9f34d66e78&ipo=images",
     "description": "Піца Маргарита - це одна з найпопулярніших піц у світі. Назва цієї піци було надано на честь королеви Італії Маргарити Савойської, яка відвідала Неаполь у 1889 році.",
+    "category": "Другі страви",
+    "country": "IT",
     "score": 5.0,
     "duration": 35,
-    "price": 10.99,
+    "price": 6.49,
     "calories": 800,
     "ingredients": [
       {
         "id": 1,
         "name": "Сир моцарелла",
-        "price": 67.99,
-        "calories": 54
+        "price": 3.99,
+        "calories": 54,
+        "fat": 19.8,
+        "protein": 23.8,
+        "carbs": 5.6
       },
       {
         "id": 2,
         "name": "Базилік",
-        "price": 56,
-        "calories": 33
+        "price": 0.13,
+        "calories": 33,
+        "fat": 0.6,
+        "protein": 3.2,
+        "carbs": 2.7
       },
       {
         "id": 3,
         "name": "Кетчуп",
-        "price": 29.59,
-        "calories": 21
+        "price": 1.59,
+        "calories": 21,
+        "fat": 0.1,
+        "protein": 1,
+        "carbs": 27.4
       },
       {
         "id": 4,
         "name": "Орегано",
-        "price": 21.89,
-        "calories": 9
+        "price": 1.89,
+        "calories": 9,
+        "fat": 4.3,
+        "protein": 9,
+        "carbs": 68.9
       },
       {
         "id": 5,
         "name": "Помідор",
-        "price": 59.99,
-        "calories": 40
+        "price": 0.4,
+        "calories": 40,
+        "fat": 0.2,
+        "protein": 0.9,
+        "carbs": 3.9
       }
     ],
     "steps": [
@@ -646,6 +890,8 @@
     "name": "Салат Грецький",
     "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdekoking.com%2Fwp-content%2Fuploads%2F2017%2F11%2Fgriechischer-salat-selber-zubereiten.jpg&f=1&nofb=1&ipt=a04391059249386da8780b53bd172da8e2a2d698c2e08f9b7ae2478acd64506a&ipo=images",
     "description": "Соковитий і яскравий грецький салат переносить нас на узбережжя Середземного моря, де ростуть ароматні трави і оливкові дерева. Це найпопулярніший в світі овочевий салат, який дуже просто готується і містить мало калорій. Овочі для Грецького салату обов'язково нарізають великими шматочками. Головною 'родзинкою' страви є популярний в Греції сир фета.",
+    "category": "Другі страви",
+    "country": "GR",
     "score": 4.1,
     "duration": 15,
     "price": 7.49,
@@ -655,79 +901,118 @@
         "id": 1,
         "name": "Огірок",
         "price": 10.99,
-        "calories": 8
+        "calories": 8,
+        "fat": 0.18,
+        "protein": 0.82,
+        "carbs": 2.28
       },
       {
         "id": 2,
         "name": "Помідор",
-        "price": 57.89,
-        "calories": 42
+        "price": 0.4,
+        "calories": 42,
+        "fat": 0.2,
+        "protein": 0.9,
+        "carbs": 3.9
       },
       {
         "id": 3,
         "name": "Болгарський перець",
-        "price": 11,
-        "calories": 7
+        "price": 0.23,
+        "calories": 7,
+        "fat": 0,
+        "protein": 1.3,
+        "carbs": 5.3
       },
       {
         "id": 4,
         "name": "Сир фета",
-        "price": 69,
-        "calories": 47
+        "price": 3.41,
+        "calories": 47,
+        "fat": 21.28,
+        "protein": 12,
+        "carbs": 3
       },
       {
         "id": 5,
-        "name": "Лук солодкий",
-        "price": 23.79,
-        "calories": 17
+        "name": "Цибуля солодка",
+        "price": 0.15,
+        "calories": 17,
+        "fat": 0.1,
+        "protein": 1.5,
+        "carbs": 10
       },
       {
         "id": 6,
         "name": "Маслини",
         "price": 27,
-        "calories": 34
+        "calories": 34,
+        "fat": 13.6,
+        "protein": 0.5,
+        "carbs": 0
       },
       {
         "id": 7,
         "name": "Лимон",
         "price": 26,
-        "calories": 10
+        "calories": 10,
+        "fat": 0.3,
+        "protein": 1.1,
+        "carbs": 9.3
       },
       {
         "id": 8,
         "name": "Оливкова олія",
-        "price": 65.47,
-        "calories": 44
+        "price": 1.98,
+        "calories": 44,
+        "fat": 100,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 9,
         "name": "Сіль",
-        "price": 20.99,
-        "calories": 15
+        "price": 0.08,
+        "calories": 0,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
       },
       {
         "id": 10,
         "name": "Перець",
-        "price": 27.19,
-        "calories": 18
+        "price": 0.17,
+        "calories": 18,
+        "fat": 0.3,
+        "protein": 1,
+        "carbs": 6
       },
       {
         "id": 11,
         "name": "Сухий базилік",
-        "price": 57.39,
-        "calories": 35
+        "price": 0.11,
+        "calories": 35,
+        "fat": 4.1,
+        "protein": 23.0,
+        "carbs": 47.8
       },
       {
         "id": 12,
         "name": "Орегано",
         "price": 20.89,
-        "calories": 6
+        "calories": 6,
+        "fat": 4.3,
+        "protein": 9,
+        "carbs": 68.9
       },
       {
         "id": 13,
         "name": "Сушений чебрець",
         "price": 12.99,
-        "calories": 7
+        "calories": 7,
+        "fat": 1.7,
+        "protein": 6,
+        "carbs": 24
       }
     ],
     "steps": [
@@ -750,46 +1035,66 @@
     "name": "Паста з креветками",
     "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fe77yWTlngTI%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=7b6d9442fe21c0ca38a061859a2b0daeeea60c600b62c1cb2fd924109f37f3f2&ipo=images",
     "description": "Спагетті з креветками — ситне, дивовижно смачне і корисне блюдо. Хто відмовиться покуштувати це апетитну страву? Спагетті готують з різними соусами: гострими чи м’якими, солодкими або солоними. Їх подають з м’ясом і овочами і з морепродуктів.",
+    "category": "Другі страви",
+    "country": "IT",
     "score": 4.8,
     "duration": 25,
-    "price": 11.49,
+    "price": 5.79,
     "calories": 500,
     "ingredients": [
       {
         "id": 1,
         "name": "Кальмар",
         "price": 197,
-        "calories": 145
+        "calories": 145,
+        "fat": 3.8,
+        "protein": 20,
+        "carbs": 0
       },
       {
         "id": 2,
         "name": "Креветки королівські",
         "price": 156,
-        "calories": 121
+        "calories": 121,
+        "fat": 1.2,
+        "protein": 18.3,
+        "carbs": 0.8
       },
       {
         "id": 3,
         "name": "Спагетті",
         "price": 89,
-        "calories": 61
+        "calories": 61,
+        "fat": 0.93,
+        "protein": 5.8,
+        "carbs": 28.79
       },
       {
         "id": 4,
         "name": "Вершки",
-        "price": 81,
-        "calories": 69
+        "price": 2.43,
+        "calories": 69,
+        "fat": 33,
+        "protein": 2.3,
+        "carbs": 3.4
       },
       {
         "id": 5,
         "name": "Цибуля",
-        "price": 24.15,
-        "calories": 16
+        "price": 0.1,
+        "calories": 15,
+        "fat": 0.1,
+        "protein": 0.8,
+        "carbs": 7.6
       },
       {
         "id": 6,
-        "name": "Часник",
-        "price": 24,
-        "calories": 15
+        "name": "Часник рубаний",
+        "price": 0.22,
+        "calories": 11,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
       }
     ],
     "steps": [
@@ -802,6 +1107,2472 @@
       "Беремо в руку кальмара, стискаємо так, щоб він нормально розкрився для укладання пасти.",
       "Виделкою набираємо пасту, піднімаємо вище над сковорідкою, підставляємо кальмара знизу і акуратненько начиняємо пастою нашого кальмара. ",
       "При подачі прикрашаємо спагетті з морепродуктами оливками і дрібно рубаною зеленню петрушки."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Шоколадні оладки",
+    "img": "https://rud.ua/uploads/under_recipe/shokoladni-oladky-600x300_5f2d1fcf91be7.jpg",
+    "description": "Шоколадні оладки - ідеальний вибір для всіх, хто любить насичений шоколадний смак. Вони можуть стати основною стравою або десертом, якщо додати кулю фруктового морозива та улюблений топінг. Ця страва сподобається як дітям, так і дорослим.",
+    "category": "Десерти",
+    "country": "DE",
+    "score": 3.7,
+    "duration": 30,
+    "price": 4.99,
+    "calories": 768,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Пшеничне борошно",
+        "price": 1.12,
+        "calories": 79,
+        "fat": 1.7,
+        "protein": 11,
+        "carbs": 71
+      },
+      {
+        "id": 2,
+        "name": "Розпушувач",
+        "price": 1.15,
+        "calories": 79,
+        "fat": 0,
+        "protein": 0.1,
+        "carbs": 19.6
+      },
+      {
+        "id": 3,
+        "name": "Какао",
+        "price": 0.9,
+        "calories": 310,
+        "fat": 10.8,
+        "protein": 22.5,
+        "carbs": 11
+      },
+      {
+        "id": 4,
+        "name": "Яйця",
+        "price": 0.02,
+        "calories": 160,
+        "fat": 10.25,
+        "protein": 12,
+        "carbs": 0.8
+      },
+      {
+        "id": 5,
+        "name": "Шоколад",
+        "price": 2.15,
+        "calories": 551,
+        "fat": 43.7,
+        "protein": 10.2,
+        "carbs": 22.8
+      },
+      {
+        "id": 6,
+        "name": "Молоко",
+        "price": 0.64,
+        "calories": 51,
+        "fat": 2.5,
+        "protein": 3,
+        "carbs": 4.7
+      },
+      {
+        "id": 7,
+        "name": "Цедра",
+        "price": 24,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 8,
+        "name": "Апельсиновий сік",
+        "price": 24,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 9,
+        "name": "Олія",
+        "price": 24,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      }
+    ],
+    "steps": [
+      "Просіяти борошно і какао в миску, зробити невелике заглиблення в центрі.",
+      "Влити яйця і ретельно збити.",
+      "Шоколад і молоко змішати в каструлі до повного розчинення шоколаду.",
+      "Влити в тісто і збити до однорідного стану.",
+      "Додати цедру і сік апельсина, добре перемішати.",
+      "Випікати оладки на сковороді на олії з обох сторін."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Київський торт",
+    "img": "https://rud.ua/uploads/under_recipe/Yak-hotuvaty-Kyivskyi-tort-1.jpg",
+    "description": "Легендарний Київський торт підкорив чимало сердець! Цей торт став візитною карткою столиці України. Всі, хто буває в Києві в гостях, або в ділових поїздках, воліють привозити з собою гостинець – Київський торт. Про цей смачний торт знають навіть за кордоном.",
+    "category": "Десерти",
+    "country": "UA",
+    "score": 3.3,
+    "duration": 180,
+    "price": 10.89,
+    "calories": 720,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Яйця",
+        "price": 0.02,
+        "calories": 160,
+        "fat": 10.25,
+        "protein": 12,
+        "carbs": 0.8
+      },
+      {
+        "id": 2,
+        "name": "Цукор",
+        "price": 0.32,
+        "calories": 121,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 100
+      },
+      {
+        "id": 3,
+        "name": "Смажений фундук",
+        "price": 0.98,
+        "calories": 61,
+        "fat": 0.93,
+        "protein": 5.8,
+        "carbs": 28.79
+      },
+      {
+        "id": 4,
+        "name": "Кукурудзяний крохмаль",
+        "price": 0.31,
+        "calories": 69,
+        "fat": 33,
+        "protein": 2.3,
+        "carbs": 3.4
+      },
+      {
+        "id": 5,
+        "name": "Пшеничне борошно",
+        "price": 1.19,
+        "calories": 16,
+        "fat": 1.7,
+        "protein": 11,
+        "carbs": 71
+      },
+      {
+        "id": 6,
+        "name": "Цукровий пісок",
+        "price": 1.4,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 7,
+        "name": "Вершкове масло",
+        "price": 1.4,
+        "calories": 15,
+        "fat": 82,
+        "protein": 0.7,
+        "carbs": 0.5
+      },
+      {
+        "id": 8,
+        "name": "Молоко",
+        "price": 0.64,
+        "calories": 51,
+        "fat": 2.5,
+        "protein": 3,
+        "carbs": 4.7
+      },
+      {
+        "id": 9,
+        "name": "Какао",
+        "price": 1.3,
+        "calories": 310,
+        "fat": 10.8,
+        "protein": 22.5,
+        "carbs": 11
+      },
+      {
+        "id": 10,
+        "name": "Ванілін",
+        "price": 2.11,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 11,
+        "name": "Згущене молоко",
+        "price": 4.24,
+        "calories": 321,
+        "fat": 8.2,
+        "protein": 8,
+        "carbs": 54
+      }
+    ],
+    "steps": [
+      "Для того, щоб прибрати зайвий жир з поверхні посуду, протріть її лимонним соком.",
+      "Смажений фундук заздалегідь подрібнити в чаші блендера.",
+      "До подрібнених горіхів додати кукурудзяний крохмаль і пшеничне борошно.",
+      "4 яєчних білка збити за допомогою міксера до стійких піків, поступово всипаючи половину норми цукру.",
+      "До збитих білків слід додати половину горіхової суміші та акуратно перемішати лопаткою, рухом зверху-вниз.",
+      "На пергаментному папері накресліть коло олівцем того діаметра, якого Ви хочете, щоб був Ваш торт.",
+      "Покладіть пергамент на деко накресленою стороною вниз і викладіть білкову масу з горіхами, акуратно розрівняйте корж.",
+      "Випікайте корж 20 хвилин у попередньо розігрітій духовці при температурі 180°C. Потім зменшіть температуру до 150°C і продовжуйте випікати ще приблизно 2 години.",
+      "Як тільки приготується перший корж, починайте збивати білки для другого.",
+      "У каструльку вилити 2/3 норми молока та додати цукор. Варити на невеликому вогні, постійно помішуючи. Довести суміш до кипіння.",
+      "В окремому посуді збиваємо жовтки та додаємо до них залишок молока. До молочно-цукрової суміші додаємо суміш з жовтків та молока, і варимо до закипання, інтенсивно помішуючи.",
+      "Розм'якшене вершкове масло збити міксером і до нього поступово додати нашу суміш, яка остигнула.",
+      "Наприкінці збивання додаємо ванілін на кінчику ножа та какао. Збивати міксером слід до однорідності, після чого помістіть крем на годину в холодильник.",
+      "Вершкове масло залиште відлежатися при кімнатній температурі, як тільки воно розм’якшиться, приступайте до приготування крему.",
+      "Збивайте масло на великих оборотах міксера, поступово додаючи згущене молоко до досягнення однорідності.",
+      "Остиглі коржі-безе злегка обрізати ножем по краях. Залишки коржа розім’яти до крихти, відставити в сторону на деякий час.",
+      "Коржі перемазати заварним кремом Шарлотт.",
+      "Далі обмазати торт зверху та з боків масляним кремом, намагаючись розрівняти кремом нерівності.",
+      "Крихтою з коржів обсипаємо боки торта.",
+      "Масляний крем, що залишився використовуйте для того, щоб прикрасити торт.",
+      "Після того, як торт прикрашений, поставте його на деякий час в холодильник."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Панакота",
+    "img": "https://rud.ua/uploads/under_recipe/recipe-panakota-600%D1%85300.jpg",
+    "description": "Ніжна панакота — знаменитий десерт італійської кухні на основі вершків, цукру, желатину та ванілі. Солодке вершково-кремове желе нагадує морозиво й чудово тримає форму, тож любителі солоденького зможуть неспішно насолодитися витонченим італійським десертом.",
+    "category": "Десерти",
+    "country": "IT",
+    "score": 4.4,
+    "duration": 60,
+    "price": 8.19,
+    "calories": 440,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Молоко",
+        "price": 0.64,
+        "calories": 51,
+        "fat": 2.5,
+        "protein": 3,
+        "carbs": 4.7
+      },
+      {
+        "id": 2,
+        "name": "Вершки",
+        "price": 2.43,
+        "calories": 121,
+        "fat": 1.2,
+        "protein": 18.3,
+        "carbs": 0.8
+      },
+      {
+        "id": 3,
+        "name": "Желатин",
+        "price": 0.11,
+        "calories": 61,
+        "fat": 0.93,
+        "protein": 5.8,
+        "carbs": 28.79
+      },
+      {
+        "id": 4,
+        "name": "Цукор",
+        "price": 0.32,
+        "calories": 69,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 100
+      },
+      {
+        "id": 5,
+        "name": "Ванільний цукор",
+        "price": 0.46,
+        "calories": 16,
+        "fat": 0.1,
+        "protein": 0.8,
+        "carbs": 7.6
+      },
+      {
+        "id": 6,
+        "name": "Малина",
+        "price": 3.45,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 7,
+        "name": "Полуниця заморожена",
+        "price": 4.02,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      }
+    ],
+    "steps": [
+      "Замочуємо желатин згідно з інструкцією на пакуванні — висипаємо у невелику глибоку посудину, заливаємо необхідною кількістю води та залишаємо набухати.",
+      "Коли желатин достатньо збільшиться в об’ємі, його необхідно добре прогріти на маленькому вогні. Аж до повного розчинення у воді.",
+      "Молоко змішуємо з вершками та ставимо на плиту підігріватися. Кип’ятити суміш не потрібно.",
+      "Додаємо до вершково-молочної суміші звичайний та ванільний цукор. Ретельно перемішуємо, доки кристалики повністю не розчиняться.",
+      "У суміш вершків та молока тонким струменем наливаємо розчинений желатин. Щоб уникнути потрапляння в десерт крихітних грудочок, попередньо проціджуємо желатинову суміш через дрібне ситечко.",
+      "Отриману масу розливаємо у силіконові формочки та залишаємо на три години в холодильнику для застигання.",
+      "Поки панакота застигає, приготуємо соус. Розморожуємо полуницю, викладаємо в блендер. Додаємо малину, перетерту з цукром, та збиваємо протягом трьох хвилин.",
+      "Виймаємо панакоту з формочок. Дайте панакоті годинку постояти за кімнатної температури. Так її смак ще краще розкриється, а консистенція стане більш м’якою та ніжною.",
+      "Поливаємо панакоту ягідним соусом. Прикрашаємо м’ятою, свіжими ягодами або шматочками фруктів."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Сметанно-суничний пиріг",
+    "img": "https://rud.ua/uploads/under_recipe/News_02.jpg",
+    "description": "Сметанно-суничний пиріг - справжня знахідка для тих, хто любить ніжну вологу випічку. Крім того, пиріг дуже поживний. Тому, якщо ви зранку поспішатимете по справах і не матимете часу на приготування повноцінного сніданку, шматочком спеченого звечора сметанно-суничного пирога з чашечкою чаю можна буде чудово підкріпитися.",
+    "category": "Десерти",
+    "country": "UA",
+    "score": 2.9,
+    "duration": 60,
+    "price": 6.59,
+    "calories": 520,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Пшеничне борошно",
+        "price": 1.19,
+        "calories": 145,
+        "fat": 1.7,
+        "protein": 11,
+        "carbs": 71
+      },
+      {
+        "id": 2,
+        "name": "Вершкове масло",
+        "price": 1.4,
+        "calories": 15,
+        "fat": 82,
+        "protein": 0.7,
+        "carbs": 0.5
+      },
+      {
+        "id": 3,
+        "name": "Вода",
+        "price": 0.05,
+        "calories": 8,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
+      },
+      {
+        "id": 4,
+        "name": "Цукор",
+        "price": 0.32,
+        "calories": 69,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 100
+      },
+      {
+        "id": 5,
+        "name": "Ванільний цукор",
+        "price": 0.46,
+        "calories": 16,
+        "fat": 0.1,
+        "protein": 0.8,
+        "carbs": 7.6
+      },
+      {
+        "id": 6,
+        "name": "Цедра",
+        "price": 1.14,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 7,
+        "name": "Сметана",
+        "price": 1.39,
+        "calories": 15,
+        "fat": 15,
+        "protein": 3,
+        "carbs": 3
+      },
+      {
+        "id": 8,
+        "name": "Цукрова пудра",
+        "price": 0.56,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 9,
+        "name": "Крохмаль",
+        "price": 0.44,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 10,
+        "name": "Суниця",
+        "price": 2.32,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      }
+    ],
+    "steps": [
+      "Для того, щоб приготувати тісто, в глибокій посудині з'єднайте борошно, масло, цукор, цедру лимона, ванільний цукор і 4 ст. л. холодної води або молока. Всі інгредієнти добре вимісіть в однорідну масу.",
+      "Добре вимішане тісто розподіліть по поверхні форми, зробіть на ньому проколи виделкою і поставте в холодильник.",
+      "Для того, щоб приготувати заливку, змішайте сметану з цукром, додайте крохмаль, борошно і ванільний цукор.",
+      "На тісто густо викладіть ягоди суниці та залийте заготовку сметанною масою. Час випікання — 40 хвилин при 200 °C. За бажанням можна посипати цукровою пудрою."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Бограч",
+    "img": "https://cook-today.com/upload/pages/390/390.jpg",
+    "description": "Пікантний бограч в перекладі означає «казан». І дійсно, найсмачніше він виходить у казані на відкритому вогні, а в кінці приготування ще й можна замочити в страві поліно з вогнища, аби підсилити аромат та смак «димку».",
+    "category": "Перші страви",
+    "country": "UA",
+    "score": 4.9,
+    "duration": 180,
+    "price": 5.35,
+    "calories": 115,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Сало",
+        "price": 1.15,
+        "calories": 145,
+        "fat": 3.8,
+        "protein": 20,
+        "carbs": 0
+      },
+      {
+        "id": 2,
+        "name": "Яловичина",
+        "price": 2.12,
+        "calories": 121,
+        "fat": 1.2,
+        "protein": 18.3,
+        "carbs": 0.8
+      },
+      {
+        "id": 3,
+        "name": "Картопля",
+        "price": 1.76,
+        "calories": 61,
+        "fat": 0.1,
+        "protein": 1.7,
+        "carbs": 18.6
+      },
+      {
+        "id": 4,
+        "name": "Помідор",
+        "price": 0.4,
+        "calories": 69,
+        "fat": 33,
+        "protein": 2.3,
+        "carbs": 3.4
+      },
+      {
+        "id": 5,
+        "name": "Перець жовтий солодкий",
+        "price": 0.14,
+        "calories": 16,
+        "fat": 0.39,
+        "protein": 1.1,
+        "carbs": 4.6
+      },
+      {
+        "id": 6,
+        "name": "Цибуля ріпчаста",
+        "price": 0.12,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 7,
+        "name": "Перець чилі",
+        "price": 1.12,
+        "calories": 15,
+        "fat": 0.2,
+        "protein": 2,
+        "carbs": 7
+      },
+      {
+        "id": 8,
+        "name": "Паприка",
+        "price": 0.37,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 9,
+        "name": "Копчена паприка",
+        "price": 0.45,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 10,
+        "name": "Сіль",
+        "price": 0.09,
+        "calories": 0,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
+      }
+    ],
+    "steps": [
+      "Наріжте 50 г сала слайсами, а потім поріжте невеликими кубиками. Можете взяти звичайне сало або з м'ясними прожилками.",
+      "Перекладіть в жаровню і трохи обсмажте на маленькому вогні, поки не розтопиться жир.",
+      "Наріжте 800 г яловичини великими порційними шматками. Якщо є бажання, замініть на телятину.",
+      "Перекладіть шматки яловичини до жаровні з салом та обсмажуйте до рум'яної скоринки, періодично помішуючи.",
+      "Очистіть 500 г картоплі. Бажано брати невеличку та не розрізати. Якщо картопля велика, наріжте її великими кубиками. Додайте до м'яса.",
+      "Помийте два томати та наріжте великими кубиками. Взимку можете використовувати томати у власному соку, пелаті чи заморожені. На смак це не дуже вплине.",
+      "Помийте два солодких перці, розріжте, приберіть насіння та плодоніжку. Наріжте великими кубиками. Використовуйте перець будь-якого кольору, можете взяти капі.",
+      "Візьміть 1-2 цибулини. Якщо цибулина велика, буде достатньо однієї. Розріжте на 4-6 великих частин.",
+      "Наріжте слайсами 10 г свіжого перцю чилі чи беріть пластівцями. Перекладіть всі овочі до жаровні.",
+      "Додайте 1 ч. л. звичайної паприки та 1 ч. л. копченої. Остання надасть приємного смаку «з димком».",
+      "Бограч може бути гуляшем, тоді залийте овочі з м'ясом водою, але так, щоб вода покривала їх не повністю. Якщо любите страву схожу на суп, збільште кількість води. Посоліть і поперчіть до смаку.",
+      "Варіть до готовності картоплі на маленькому вогні. Якщо ви будете готувати бограч у духовці, то накрийте його кришкою та поставте на 1,5 години в духовку за температури 180 градусах."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Чизкейк \"Нью-Йорк\"",
+    "img": "https://tortino.com.ua/image/catalog/articles/cheezcake_new_york.jpg",
+    "description": "Смаколик відомий на весь світ своєю кремовою атласною текстурою, він щільний та високий. Начинка його така ніжна через вершковий сир і жирні вершки, які змішуються з яйцями та цукром. В деяких рецептах можна зустріти сметану, а також ваніль чи лимонну цедру для свіжості.",
+    "category": "Десерти",
+    "country": "US",
+    "score": 3.8,
+    "duration": 570,
+    "price": 23.93,
+    "calories": 316,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Вершки",
+        "price": 2.43,
+        "calories": 145,
+        "fat": 3.8,
+        "protein": 20,
+        "carbs": 0
+      },
+      {
+        "id": 2,
+        "name": "Пісочне печиво",
+        "price": 2.92,
+        "calories": 121,
+        "fat": 1.2,
+        "protein": 18.3,
+        "carbs": 0.8
+      },
+      {
+        "id": 3,
+        "name": "Вершкове масло",
+        "price": 1.4,
+        "calories": 15,
+        "fat": 82,
+        "protein": 0.7,
+        "carbs": 0.5
+      },
+      {
+        "id": 4,
+        "name": "Вершковий сир філадельфія",
+        "price": 3.09,
+        "calories": 69,
+        "fat": 33,
+        "protein": 2.3,
+        "carbs": 3.4
+      },
+      {
+        "id": 5,
+        "name": "Цукор",
+        "price": 0.32,
+        "calories": 16,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 100
+      },
+      {
+        "id": 6,
+        "name": "Яйця",
+        "price": 0.02,
+        "calories": 160,
+        "fat": 10.25,
+        "protein": 12,
+        "carbs": 0.8
+      }
+    ],
+    "steps": [
+      "Для основи в чашу блендера розкришіть 400 г пісочного печива та перебийте у крихту. Розігрійте духовку до 180 градусів.",
+      "Перекладіть у миску і додайте 150 г розм’якшеного вершкового масла, добре перемішайте.",
+      "Роз’ємну форму для запікання діаметром 22 см застеліть пергаментом, викладіть печиво з маслом, розрівняйте і сформуйте бортики.",
+      "Поставте у розігріту до 180 градусів духовку на 10 хвилин. Дістаньте і дайте трохи охолонути. Духовку не вимикайте.",
+      "Для начинки вбийте у миску 3 яйця і додайте 150 г цукру. Збийте блендером з насадкою віничком до легкої піни.",
+      "Влийте у миску 250 мл вершків жирністю 30-33% та ще раз збийте до змішування інгредієнтів.",
+      "Викладіть 650 г вершкового сиру філадельфія та перебийте до однорідної маси. Зменште температуру духовки до 160 градусів.",
+      "Висипте вершкову масу в форму з печивом. Обережно розрівняйте зверху лопаткою.",
+      "В глибоке деко налийте воду, щоб вона покрила приблизно 1/3 висоти, та поставте в неї форму з чизкейком. Це дає ефект парової бані, так чизкейк виходить пухкішим.",
+      "Поставте деко з формою у розігріту до 160 градусів духовку на 1 годину 20 хвилин. Після цього дайте чизкейку повністю охолонути за кімнатної температури, а потім поставте в холодильник на 6-8 годин.",
+      "Перед тим, як діставати десерт з форми, обережно проведіть біля бортів ножем. Подавайте просто так або з ягідним чи карамельним соусом."
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Гречаний суп з грибами",
+    "img": "https://jisty.com.ua/wp-content/uploads/2019/11/e6z_2Dfdk9E-optimized.jpg",
+    "description": "Не маєте м’яса, а треба щось ситне зготувати на обід? Не проблема! Для приготування цього супу м’ясо не потрібне. Таким супчиком можна нагодувати всю сім’ю!",
+    "category": "Перші страви",
+    "country": "UA",
+    "score": 2.9,
+    "duration": 60,
+    "price": 2.03,
+    "calories": 31,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Вода",
+        "price": 0.05,
+        "calories": 8,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
+      },
+      {
+        "id": 2,
+        "name": "Картопля",
+        "price": 1.76,
+        "calories": 121,
+        "fat": 0.1,
+        "protein": 1.7,
+        "carbs": 18.6
+      },
+      {
+        "id": 3,
+        "name": "Морква",
+        "price": 0.23,
+        "calories": 61,
+        "fat": 0.22,
+        "protein": 1,
+        "carbs": 7.34
+      },
+      {
+        "id": 4,
+        "name": "Цибуля",
+        "price": 0.1,
+        "calories": 15,
+        "fat": 0.1,
+        "protein": 0.8,
+        "carbs": 7.6
+      },
+      {
+        "id": 5,
+        "name": "Печериці",
+        "price": 1.28,
+        "calories": 16,
+        "fat": 0.1,
+        "protein": 0.8,
+        "carbs": 7.6
+      },
+      {
+        "id": 6,
+        "name": "Гречка",
+        "price": 0.72,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 7,
+        "name": "Олія",
+        "price": 1.18,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 8,
+        "name": "Соєвий соус",
+        "price": 0.85,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 9,
+        "name": "Сіль",
+        "price": 0.09,
+        "calories": 0,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
+      },
+      {
+        "id": 10,
+        "name": "Перець",
+        "price": 0.17,
+        "calories": 15,
+        "fat": 0.3,
+        "protein": 1,
+        "carbs": 6
+      },
+      {
+        "id": 11,
+        "name": "Базилік",
+        "price": 0.13,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      }
+    ],
+    "steps": [
+      "Гриби промити, ошпарити окропом, нарізати шматочками, обсмажити до золотистого кольору на олії, додати соєвий соус і відставити з вогню.",
+      "Картоплю і цибулю нарізати кубиками, моркву потерти.",
+      "Картоплю покласти в киплячу воду, висипати гречку.",
+      "Довести до кипіння, посолити й варити 10 хв. Додати обсмажені гриби, варити 7–10 хв.",
+      "Тим часом злегка підрум’янити на соняшниковій олії цибулю. Додати моркву. Усе разом обсмажити, періодично помішуючи, додати у суп.",
+      "Покласти лавровий лист, варити ще 5 хв, відставити з вогню.",
+      "Готовий суп посипати зеленню."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Пиріг із персиками",
+    "img": "https://rud.ua/uploads/under_recipe/600_300_2.jpg",
+    "description": "Хочете здивувати близьких? Приготуйте їм неймовірно смачний та ароматний пиріг із персиками! Гармонійне поєднання карамелізованих фруктів з ніжним тістом зробить ваш вечір затишним та особливим.",
+    "category": "Десерти",
+    "country": "US",
+    "score": 2.9,
+    "duration": 45,
+    "price": 6.58,
+    "calories": 275,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Вершкове масло",
+        "price": 1.4,
+        "calories": 15,
+        "fat": 82,
+        "protein": 0.7,
+        "carbs": 0.5
+      },
+      {
+        "id": 2,
+        "name": "Пшеничне борошно",
+        "price": 1.12,
+        "calories": 61,
+        "fat": 1.7,
+        "protein": 11,
+        "carbs": 71
+      },
+      {
+        "id": 3,
+        "name": "Яйця",
+        "price": 0.02,
+        "calories": 160,
+        "fat": 10.25,
+        "protein": 12,
+        "carbs": 0.8
+      },
+      {
+        "id": 4,
+        "name": "Розпушувач",
+        "price": 1.15,
+        "calories": 79,
+        "fat": 0,
+        "protein": 0.1,
+        "carbs": 19.6
+      },
+      {
+        "id": 5,
+        "name": "Коньяк",
+        "price": 5.19,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 6,
+        "name": "Персики",
+        "price": 24,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 7,
+        "name": "Цукор",
+        "price": 0.32,
+        "calories": 15,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 100
+      },
+      {
+        "id": 8,
+        "name": "Ванільний цукор",
+        "price": 0.46,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      }
+    ],
+    "steps": [
+      "Очищені від шкірки персики нарізаємо шматочками, викладаємо на пательню, посипаємо цукром, додаємо ванільний цукор і обсмажуємо на невеликому вогні.",
+      "Карамелізуємо персики до напівготовності: фрукти мають бути м’якими, тримати форму і не розпадатися.",
+      "Викладаємо персики на дно форми для запікання, заливаємо їх сиропом, що утворився під час смаження.",
+      "Починаємо готувати тісто. У глибокій мисці розтираємо вершкове масло з цукром. Додаємо яйця та ретельно перемішуємо інгредієнти до однорідної маси.",
+      "Сюди ж висипаємо просіяне борошно, розпушувач та вливаємо коньяк. Тісто гарно вимішуємо.",
+      "Виливаємо тісто на карамелізовані персики. Ставимо пиріг у розігріту духовку та випікаємо при 180 градусах. Час приготування орієнтовно складає 30–40 хвилин.",
+      "Готовий пиріг виймаємо з духовки та залишаємо охолоджуватися. Викладаємо на тарілку, прикрашаємо цукровою пудрою чи листочками м’яти."
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Сливова шарлотка",
+    "img": "https://lasunka.com/s2-3.png",
+    "description": "Поспішайте, адже сезон слив швидко мине, а не спекти шарлотку зі сливами – це було б просто несправедливо. Рецепт сливової шарлотки простий, а задоволення – велике.",
+    "category": "Десерти",
+    "country": "GB",
+    "score": 2.9,
+    "duration": 60,
+    "price": 4.22,
+    "calories": 173,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Яйця",
+        "price": 0.02,
+        "calories": 160,
+        "fat": 10.25,
+        "protein": 12,
+        "carbs": 0.8
+      },
+      {
+        "id": 2,
+        "name": "Цукор",
+        "price": 0.32,
+        "calories": 121,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 100
+      },
+      {
+        "id": 3,
+        "name": "Сметана",
+        "price": 1.39,
+        "calories": 15,
+        "fat": 15,
+        "protein": 3,
+        "carbs": 3
+      },
+      {
+        "id": 4,
+        "name": "Розпушувач",
+        "price": 1.15,
+        "calories": 79,
+        "fat": 0,
+        "protein": 0.1,
+        "carbs": 19.6
+      },
+      {
+        "id": 5,
+        "name": "Пшеничне борошно",
+        "price": 1.12,
+        "calories": 16,
+        "fat": 1.7,
+        "protein": 11,
+        "carbs": 71
+      },
+      {
+        "id": 6,
+        "name": "Коньяк",
+        "price": 5.19,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 7,
+        "name": "Цукрова пудра",
+        "price": 0.56,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 8,
+        "name": "Свіжі сливи",
+        "price": 0.23,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 9,
+        "name": "Вершкове масло",
+        "price": 1.4,
+        "calories": 15,
+        "fat": 82,
+        "protein": 0.7,
+        "carbs": 0.5
+      }
+    ],
+    "steps": [
+      "Зі слив вийняти кісточки і збризнути їх коньяком. Перемішати.",
+      "У яєць білки відділити від жовтків. Охолоджені білки збивати міксером до утворення щільної піни. Поступово всипати цукор і додати жовтки, продовжуючи збивати.",
+      "Вимкнути міксер і всипати борошно з розпушувачем. Обережно вимішати ложкою. Тоді додати сметану (йогурт) і перемішати.",
+      "На змащену вершковим маслом форму викласти сливи, на них вилити тісто.",
+      "Поставити форму у розігріту до 180-200 градусів духовку. Пекти 40 хвилин.",
+      "Готову шарлотку посипати цукровою пудрою."
+    ]
+  },
+  {
+    "id": 20,
+    "name": "М'ясна лазанья",
+    "img": "https://rud.ua/uploads/under_recipe/lazannya.jpg",
+    "description": "М’ясна лазанья вважається візитівкою італійської гастрономічної культури. Соковитий соус болоньєзе, ніжний вершковий бешамель, пружна паста аль денте, пікантний пармезан — відчуйте смак справжньої Італії на власній кухні!",
+    "category": "Перші страви",
+    "country": "IT",
+    "score": 3,
+    "duration": 120,
+    "price": 8.06,
+    "calories": 226,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Базилік",
+        "price": 0.13,
+        "calories": 145,
+        "fat": 3.8,
+        "protein": 20,
+        "carbs": 0
+      },
+      {
+        "id": 2,
+        "name": "Сир пармезан",
+        "price": 2.15,
+        "calories": 121,
+        "fat": 1.2,
+        "protein": 18.3,
+        "carbs": 0.8
+      },
+      {
+        "id": 3,
+        "name": "Фарш",
+        "price": 4.91,
+        "calories": 61,
+        "fat": 0.93,
+        "protein": 5.8,
+        "carbs": 28.79
+      },
+      {
+        "id": 4,
+        "name": "Помідор",
+        "price": 0.4,
+        "calories": 69,
+        "fat": 33,
+        "protein": 2.3,
+        "carbs": 3.4
+      },
+      {
+        "id": 5,
+        "name": "Цибуля",
+        "price": 0.1,
+        "calories": 15,
+        "fat": 0.1,
+        "protein": 0.8,
+        "carbs": 7.6
+      },
+      {
+        "id": 6,
+        "name": "Часник рубаний",
+        "price": 0.22,
+        "calories": 11,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 7,
+        "name": "Томатний соус",
+        "price": 1.17,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 8,
+        "name": "Оливкова олія",
+        "price": 1.98,
+        "calories": 45,
+        "fat": 100,
+        "protein": 0,
+        "carbs": 0
+      },
+      {
+        "id": 9,
+        "name": "Петрушка",
+        "price": 0.12,
+        "calories": 15,
+        "fat": 0.27,
+        "protein": 6.21,
+        "carbs": 25.04
+      },
+      {
+        "id": 10,
+        "name": "Сіль",
+        "price": 0.09,
+        "calories": 0,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
+      },
+      {
+        "id": 11,
+        "name": "Перець",
+        "price": 0.17,
+        "calories": 15,
+        "fat": 0.3,
+        "protein": 1,
+        "carbs": 6
+      },
+      {
+        "id": 12,
+        "name": "Молоко",
+        "price": 0.64,
+        "calories": 51,
+        "fat": 2.5,
+        "protein": 3,
+        "carbs": 4.7
+      },
+      {
+        "id": 13,
+        "name": "Вершкове масло",
+        "price": 1.4,
+        "calories": 15,
+        "fat": 82,
+        "protein": 0.7,
+        "carbs": 0.5
+      },
+      {
+        "id": 14,
+        "name": "Пшеничне борошно",
+        "price": 1.12,
+        "calories": 351,
+        "fat": 1.7,
+        "protein": 11,
+        "carbs": 71
+      },
+      {
+        "id": 15,
+        "name": "Мускатний горіх",
+        "price": 1.78,
+        "calories": 586,
+        "fat": 36.32,
+        "protein": 7.07,
+        "carbs": 48
+      }
+    ],
+    "steps": [
+      "Готуємо соус болоньєзе. Чистимо цибулю, дрібно нарізаємо та обсмажуємо на оливковій олії. До неї додаємо фарш, часник, сіль та перець. Смажимо до готовності 15 хвилин.",
+      "Бланшируємо помідори, нарізаємо невеликими шматочками та додаємо до готового фаршу. Туди ж виливаємо томатний соус.",
+      "Гарно перемішуємо інгредієнти, накриваємо кришкою та тушкуємо протягом 20 хвилин. Знімаємо з вогню та додаємо дрібно нарізану зелень.",
+      "Для приготування соусу бешамель знадобиться сотейник з товстим дном. Ставимо його на вогонь, розтоплюємо вершкове масло, додаємо муку. Ретельно перемішуємо інгредієнти.",
+      "Поступово вливаємо молоко, не забуваємо постійно мішати соус. Додаємо сіль, перець, мускатний горіх. Доводимо його до кипіння, знімаємо з вогню.",
+      "У кип’ячій воді відварюємо листи лазаньї. Достатньо проварити їх 2‒3 хвилини, а потім просушити паперовим рушником. Одночасно в каструлі має бути не більше двох листів.",
+      "Беремо форму для запікання (у нашому випадку розміром 20x20 см), на дно виливаємо невелику кількість соусу бешамель.",
+      "Зверху викладаємо листи лазаньї, на них — соус болоньєзе, потім соус бешамель. Таким чином робимо 5‒6 шарів.",
+      "Верхні листи змащуємо соусом бешамель і посипаємо дрібно натертим пармезаном.",
+      "Розігріваємо духовку до 180 градусів. Запікаємо страву 30‒40 хвилин.",
+      "Готову лазанью виймаємо з духової шафи та залишаємо при кімнатній температурі на 10 хвилин. Соуси застигнуть, і лазанью легко можна буде розрізати на шматочки."
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Спрінг рол з тофу",
+    "img": "https://goodwine.ua/wp-content/uploads/2023/01/cl8a8162.jpg",
+    "description": "Спрінг роли можуть виглядати, як складна, професійна страва, але насправді готується дуже просто, якщо знати секрети.",
+    "category": "my_recipes",
+    "country": "CN",
+    "score": 3.9,
+    "duration": 20,
+    "price": 6.59,
+    "calories": 520,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Тофу",
+        "price": 1.19,
+        "calories": 145,
+        "fat": 2.5,
+        "protein": 10,
+        "carbs": 65
+      },
+      {
+        "id": 2,
+        "name": "Рисовий папір",
+        "price": 1.4,
+        "calories": 20,
+        "fat": 5,
+        "protein": 1,
+        "carbs": 1.5
+      },
+      {
+        "id": 3,
+        "name": "Салат айсберг",
+        "price": 0.05,
+        "calories": 5,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
+      },
+      {
+        "id": 4,
+        "name": "Огірок",
+        "price": 0.32,
+        "calories": 69,
+        "fat": 0.5,
+        "protein": 1,
+        "carbs": 15
+      },
+      {
+        "id": 5,
+        "name": "Авокадо",
+        "price": 1.39,
+        "calories": 120,
+        "fat": 12,
+        "protein": 2,
+        "carbs": 5
+      },
+      {
+        "id": 6,
+        "name": "Морква",
+        "price": 1.14,
+        "calories": 25,
+        "fat": 0.3,
+        "protein": 1,
+        "carbs": 6
+      },
+      {
+        "id": 7,
+        "name": "Болгарський перець",
+        "price": 1.39,
+        "calories": 20,
+        "fat": 0.4,
+        "protein": 1.5,
+        "carbs": 5
+      },
+      {
+        "id": 8,
+        "name": "Кунжут",
+        "price": 0.56,
+        "calories": 10,
+        "fat": 0.5,
+        "protein": 2,
+        "carbs": 3
+      },
+      {
+        "id": 9,
+        "name": "Картопляний крохмаль",
+        "price": 0.44,
+        "calories": 30,
+        "fat": 0.2,
+        "protein": 0.5,
+        "carbs": 7
+      },
+      {
+        "id": 10,
+        "name": "Соняшникова олія",
+        "price": 2.32,
+        "calories": 120,
+        "fat": 14,
+        "protein": 0,
+        "carbs": 0
+      },
+      {
+        "id": 11,
+        "name": "Соус Sweet Chili",
+        "price": 2.32,
+        "calories": 40,
+        "fat": 0.5,
+        "protein": 1,
+        "carbs": 10
+      },
+      {
+        "id": 12,
+        "name": "Сіль",
+        "price": 2.32,
+        "calories": 0,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
+      },
+      {
+        "id": 13,
+        "name": "Перець",
+        "price": 2.32,
+        "calories": 15,
+        "fat": 0.2,
+        "protein": 1,
+        "carbs": 3
+      }
+    ],
+    "steps": [
+      "Наріжте авокадо слайсами, а огірок, моркву та перець - соломкою.",
+      "Візьміть 100 г тофу та розріжте вздовж навпіл. Посоліть, поперчіть, обваляйте в крохмалі та обсмажте на сковороді з додаванням соняшникової оліі до золотистої скоринки.",
+      "Змочіть рисовий папір у воді. Посипте кунжутом та викладіть салат айсберг, огірок, моркву, перець, авокадо та смажений тофу.",
+      "Загорніть у рол та розріжте на 6 частин.",
+      "Подавайте з соусом Sweet Chili."
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Хінкалі з яловичиною",
+    "img": "https://harchi.info/sites/default/files/recipes/7050/7050-hinkali-z-yalovychynoyu-ta-zelennyu.jpg",
+    "description": "Справжні грузинські хінкалі - це не просто великі пельмені. Основна відмінність у тому, що вони всередині більше, ніж наполовину, наповнені бульйоном.",
+    "category": "my_recipes",
+    "country": "GE",
+    "score": 2.9,
+    "duration": 60,
+    "price": 6.59,
+    "calories": 520,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Пшеничне борошно",
+        "price": 1.19,
+        "calories": 145,
+        "fat": 2,
+        "protein": 10,
+        "carbs": 60
+      },
+      {
+        "id": 2,
+        "name": "Сіль",
+        "price": 1.4,
+        "calories": 10,
+        "fat": 5,
+        "protein": 1,
+        "carbs": 0.5
+      },
+      {
+        "id": 3,
+        "name": "Яловичий жир",
+        "price": 0.05,
+        "calories": 8,
+        "fat": 8,
+        "protein": 0,
+        "carbs": 0
+      },
+      {
+        "id": 4,
+        "name": "Кінза",
+        "price": 0.32,
+        "calories": 69,
+        "fat": 0,
+        "protein": 1,
+        "carbs": 90
+      },
+      {
+        "id": 5,
+        "name": "Хмелі-сунелі",
+        "price": 0.46,
+        "calories": 20,
+        "fat": 0.2,
+        "protein": 0.5,
+        "carbs": 5
+      },
+      {
+        "id": 6,
+        "name": "Чорний перець",
+        "price": 1.14,
+        "calories": 15,
+        "fat": 0.5,
+        "protein": 3,
+        "carbs": 20
+      },
+      {
+        "id": 7,
+        "name": "Вода",
+        "price": 1.39,
+        "calories": 0,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
+      },
+      {
+        "id": 8,
+        "name": "Яловичина",
+        "price": 0.56,
+        "calories": 150,
+        "fat": 5,
+        "protein": 20,
+        "carbs": 10
+      },
+      {
+        "id": 9,
+        "name": "Цибуля ріпчаста",
+        "price": 0.44,
+        "calories": 15,
+        "fat": 0.5,
+        "protein": 2,
+        "carbs": 15
+      },
+      {
+        "id": 10,
+        "name": "Перець чилі",
+        "price": 1.12,
+        "calories": 20,
+        "fat": 0.5,
+        "protein": 3,
+        "carbs": 10
+      },
+      {
+        "id": 11,
+        "name": "Коріандр",
+        "price": 2.32,
+        "calories": 10,
+        "fat": 0.3,
+        "protein": 4,
+        "carbs": 30
+      },
+      {
+        "id": 12,
+        "name": "Сіль",
+        "price": 2.32,
+        "calories": 0,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
+      }
+    ],
+    "steps": [
+      "Просіяти борошно на стіл гіркою, зробити заглиблення та налити холодну воду, додати сіль і замісити туге тісто. Скачати тісто у кулю і покласти його у прохолодне місце",
+      "Пропустити через м’ясорубку яловичину, яловичий жир і ріпчасту цибулю. Додати спеції. Дрібно нарізати перець чилі та кінзу, додати у фарш. Ретельно перемішати",
+      "Зробити з тіста ковбаску, розрізати її на рівні частини вагою приблизно 40 грамів. Розкачати шматочки тіста у хлібці товщиною не більше 3 мм. Покласти у кожну по 50 г начинки та зліпити хінкалі.",
+      "Варити протягом 15-20 хвилин і киплячій воді."
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Чакіндзулі з курки",
+    "img": "https://ye.ua/images/news/_Kurka_Kachiatore__v_gustomu_tomatno_ovochevomu_sousi_1_2019_01_18_08_37_13.png",
+    "description": "Ця шалено смачна страва готується на раз-два-три, а результат приємно дивує! Ця чудова страва з курки із грузинської кухні, про яку мало кому відомо. Тож ми пропонуємо ознайомитися із простим рецептом у приготуванні і потішити своїх рідних смакотою.",
+    "category": "my_recipes",
+    "country": "GE",
+    "score": 2.9,
+    "duration": 60,
+    "price": 6.59,
+    "calories": 520,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Курячі крильця",
+        "price": 1.19,
+        "calories": 145,
+        "fat": 3,
+        "protein": 15,
+        "carbs": 5
+      },
+      {
+        "id": 2,
+        "name": "Куряча грудка",
+        "price": 1.4,
+        "calories": 120,
+        "fat": 2,
+        "protein": 25,
+        "carbs": 1
+      },
+      {
+        "id": 3,
+        "name": "Цибуля ріпчаста",
+        "price": 0.05,
+        "calories": 8,
+        "fat": 0.5,
+        "protein": 1,
+        "carbs": 2
+      },
+      {
+        "id": 4,
+        "name": "Перець чилі",
+        "price": 1.12,
+        "calories": 15,
+        "fat": 1,
+        "protein": 3,
+        "carbs": 10
+      },
+      {
+        "id": 5,
+        "name": "Часник рубаний",
+        "price": 0.22,
+        "calories": 11,
+        "fat": 0.5,
+        "protein": 4,
+        "carbs": 15
+      },
+      {
+        "id": 6,
+        "name": "Коріандр",
+        "price": 1.14,
+        "calories": 10,
+        "fat": 0.2,
+        "protein": 1,
+        "carbs": 5
+      },
+      {
+        "id": 7,
+        "name": "Хмелі-сунелі",
+        "price": 1.39,
+        "calories": 5,
+        "fat": 0.1,
+        "protein": 2,
+        "carbs": 2
+      },
+      {
+        "id": 8,
+        "name": "Паприка",
+        "price": 0.56,
+        "calories": 15,
+        "fat": 0.3,
+        "protein": 2,
+        "carbs": 7
+      },
+      {
+        "id": 9,
+        "name": "Біле сухе вино",
+        "price": 0.44,
+        "calories": 50,
+        "fat": 0.1,
+        "protein": 1,
+        "carbs": 5
+      },
+      {
+        "id": 10,
+        "name": "Сіль",
+        "price": 2.32,
+        "calories": 0,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
+      },
+      {
+        "id": 11,
+        "name": "Перець чорний мелений",
+        "price": 2.32,
+        "calories": 10,
+        "fat": 0.5,
+        "protein": 3,
+        "carbs": 5
+      }
+    ],
+    "steps": [
+      "М'ясо замаринувати в паприці, солі та чорному меленому перці.",
+      "Цибулю нарізати півкільцями, перець чилі – тонкими півкільцями.",
+      "В сковорідку влити олію, нагріти й обсмажити шматочки курки до рум'яної скоринки.",
+      "Цибулю додати до м'яса й тушкувати до прозорості.",
+      "Потім покласти перець і готувати все разом ще декілька хвилин.",
+      "В невеличку миску вичавити часник, всипати всі спеції й пряні трави, залити вином і розмішати.",
+      "Вилити цю суміш до курки й тушкувати до готовності на мінімальному вогні під кришкою, час від часу помішуючи (хвилин 10-15).",
+      "Наприкінці притрусити м’ясо подрібненою кінзою."
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Хачапурі кубдарі",
+    "img": "https://kulinarenok.ru/img/img_recept/25146/hachapuri-kubdari.jpg",
+    "description": "Хачапурі кубдарі — популярна страва серед кримських татар, і вони часто готують її на святкові події, оскільки вона відображає їхні традиції та звичаї. Кримські татари зберігали традицію готувати хачапурі кубдарі і передавали її з покоління в покоління.",
+    "category": "my_recipes",
+    "country": "UA",
+    "score": 2.9,
+    "duration": 120,
+    "price": 6.59,
+    "calories": 520,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Молоко",
+        "price": 1.19,
+        "calories": 145,
+        "fat": 2.5,
+        "protein": 10,
+        "carbs": 5
+      },
+      {
+        "id": 2,
+        "name": "Вода",
+        "price": 1.4,
+        "calories": 15,
+        "fat": 0.5,
+        "protein": 0.7,
+        "carbs": 1
+      },
+      {
+        "id": 3,
+        "name": "Сухі дріжджі",
+        "price": 0.05,
+        "calories": 8,
+        "fat": 0.1,
+        "protein": 2,
+        "carbs": 15
+      },
+      {
+        "id": 4,
+        "name": "Цукор",
+        "price": 0.32,
+        "calories": 69,
+        "fat": 0.5,
+        "protein": 0.8,
+        "carbs": 80
+      },
+      {
+        "id": 5,
+        "name": "Сіль",
+        "price": 0.46,
+        "calories": 16,
+        "fat": 0.3,
+        "protein": 0.5,
+        "carbs": 10
+      },
+      {
+        "id": 6,
+        "name": "Яйця",
+        "price": 1.14,
+        "calories": 70,
+        "fat": 5,
+        "protein": 7,
+        "carbs": 1
+      },
+      {
+        "id": 7,
+        "name": "Пшеничне борошно",
+        "price": 1.39,
+        "calories": 150,
+        "fat": 1.5,
+        "protein": 8,
+        "carbs": 30
+      },
+      {
+        "id": 8,
+        "name": "Яловичина",
+        "price": 0.56,
+        "calories": 110,
+        "fat": 8,
+        "protein": 20,
+        "carbs": 0
+      },
+      {
+        "id": 9,
+        "name": "Томатна паста",
+        "price": 0.44,
+        "calories": 35,
+        "fat": 0.5,
+        "protein": 2,
+        "carbs": 5
+      },
+      {
+        "id": 10,
+        "name": "Цибуля",
+        "price": 0.1,
+        "calories": 15,
+        "fat": 0.1,
+        "protein": 1,
+        "carbs": 5
+      },
+      {
+        "id": 11,
+        "name": "Сіль",
+        "price": 2.32,
+        "calories": 0,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
+      },
+      {
+        "id": 12,
+        "name": "Перець",
+        "price": 2.32,
+        "calories": 5,
+        "fat": 0.1,
+        "protein": 0.5,
+        "carbs": 3
+      },
+      {
+        "id": 13,
+        "name": "Базилік",
+        "price": 2.32,
+        "calories": 10,
+        "fat": 0.2,
+        "protein": 2,
+        "carbs": 5
+      },
+      {
+        "id": 14,
+        "name": "Вершкове масло",
+        "price": 2.32,
+        "calories": 120,
+        "fat": 13,
+        "protein": 1,
+        "carbs": 1
+      }
+    ],
+    "steps": [
+      "Підготуйте інгредієнти для замішування тіста: молоко, вода, дріжджі, сіль, борошно.",
+      "Підігрійте 150 мл молока та 150 мл води, не доводячи до кипіння.",
+      "Висипте сухі інгредієнти: 12 г сухих дріжджів, 0,5 ч. л. цукру та інтенсивно перемішуйте до повного розчинення у рідині.",
+      "Просійте 350 г борошна, додайте 0,5 г солі та влийте рідку суміш.",
+      "Розбийте одне свіже яйце Ясенсвіт та ретельно замішайте тісто в кульку. Стежте за тим, щоб воно було достатньо м'яким, пластичним та не прилипало до рук.",
+      "Залиште тісто на годину, та контролюйте, щоб воно піднялось за чей час. Дайте тісту приблизно одну годину, щоб піднятись.",
+      "Розділіть тісто на дві частини та зробіть з кожної кульку. Розкатайте кульки на столі, попередньо присипаним борошном до товщини близько 2 мм.",
+      "Для початку приготуйте м'ясну начинку. Очистіть та наріжте цибулю на середні кубики. Розігрійте сковороду з олією та обсмажте цибулю до золотистого кольору.",
+      "М’ясо наріжте середніми шматочками, додайте його на пательню та продовжуйте смажити до повного приготування.",
+      "Додайте томатну пасту, паприку, сіль та перець за смаком. Перемішайте та продовжуйте готувати на середньому вогні протягом декількох хвилин.Можете трохи змінити процес приготування для зручності.",
+      "М’ясо та цибулю перекрутіть на м'ясорубці та сформуйте його в шар. В такому випадку можна не обсмажувати, а одразу розподіляти та тісті.",
+      "Зачекайте, доки начинка охолоне, розріжте її на кілька частин та розподіліть рівномірно на кожній з кульок тіста.",
+      "Згорніть тісто навколо начинки та складіть краї разом, утворюючи кульку.",
+      "Візьміть одне яйце,  відділіть жовток від білку та змастіть коржі зверху яєчним жовтком.",
+      "Розігрійте духовку до 200°С. Покладіть хачапурі на покриту пергаментом деко та випікайте протягом 20-30 хвилин.",
+      "За 10 хвилин до готовності, змастіть верхню частину хачапурі вершковим маслом, щоб вийшла золотиста, румяна скоринка."
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Чилі кон карне",
+    "img": "https://twicpics.tefal.bg/https://sebplatform.api.groupe-seb.com/statics/1e496653-f8fc-4890-88a4-6a59f39e267f.jpg?w=1920&fit=scale",
+    "description": "Ароматне, пекуче, пряне і дивовижно смачне – все це сказано про чилі кон карне, або просто кажучи про м’ясо з перцем чилі. Ця традиційна мексиканська страва з характерним гострим смаком обов’язково сподобається всім м’ясоїдам. Його можна подавати окремо або з гарніром – гастрономічне задоволення вам гарантовано в будь-якому випадку.",
+    "category": "my_recipes",
+    "country": "MX",
+    "score": 4.1,
+    "duration": 20,
+    "price": 6.59,
+    "calories": 520,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Яловичий фарш",
+        "price": 1.19,
+        "calories": 145,
+        "fat": 2.5,
+        "protein": 12,
+        "carbs": 70
+      },
+      {
+        "id": 2,
+        "name": "Цибуля",
+        "price": 0.25,
+        "calories": 20,
+        "fat": 0.6,
+        "protein": 1.8,
+        "carbs": 10
+      },
+      {
+        "id": 3,
+        "name": "Болгарський перець",
+        "price": 0.1,
+        "calories": 8,
+        "fat": 0,
+        "protein": 0,
+        "carbs": 0
+      },
+      {
+        "id": 4,
+        "name": "Перець чилі",
+        "price": 1.5,
+        "calories": 18,
+        "fat": 0.8,
+        "protein": 3.5,
+        "carbs": 7
+      },
+      {
+        "id": 5,
+        "name": "Орегано сухий",
+        "price": 0.65,
+        "calories": 14,
+        "fat": 0.5,
+        "protein": 1.5,
+        "carbs": 6
+      },
+      {
+        "id": 6,
+        "name": "Сушений чебрець",
+        "price": 1.3,
+        "calories": 20,
+        "fat": 1.2,
+        "protein": 5.8,
+        "carbs": 20
+      },
+      {
+        "id": 7,
+        "name": "Томатний сік",
+        "price": 1.6,
+        "calories": 18,
+        "fat": 0.9,
+        "protein": 4.5,
+        "carbs": 15
+      },
+      {
+        "id": 8,
+        "name": "Соняшникова олія",
+        "price": 0.8,
+        "calories": 18,
+        "fat": 1.5,
+        "protein": 4.2,
+        "carbs": 12
+      },
+      {
+        "id": 9,
+        "name": "Сіль",
+        "price": 0.5,
+        "calories": 18,
+        "fat": 0.3,
+        "protein": 0.7,
+        "carbs": 2
+      }
+    ],
+    "steps": [
+      "Цибулю, солодкий і гострий перець ріжемо дрібно і обсмажуємо на пательні з соняшниковою олією протягом 4-5 хвилин на середньому вогні. Відкладаємо на тарілку.",
+      "У цій же пательні обсмажуємо до готовності яловичий фарш з додаванням кількох дрібок солі.",
+      "У сотейнику змішуємо обсмажені овочі, фарш і додаємо спеції.",
+      "Заливаємо м'ясо з овочами томатним соком і тушкуємо на слабкому вогні протягом 10 хвилин.",
+      "Подаємо з гарніром або з тонкою кукурудзяною або пшеничною паляницею."
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Позоле",
+    "img": "https://www.chilipeppermadness.com/wp-content/uploads/2022/10/Pozole-Rojo-SQ.jpg",
+    "description": "Будьте певні, що цей мексиканський суп з квасолею огорне вас приємною теплотою та дивовижною смакотою!",
+    "category": "top",
+    "country": "MX",
+    "score": 4.9,
+    "duration": 40,
+    "price": 6.59,
+    "calories": 520,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Червона квасоль",
+        "price": 2.49,
+        "calories": 120,
+        "fat": 3.5,
+        "protein": 12,
+        "carbs": 50
+      },
+      {
+        "id": 2,
+        "name": "Оливкова олія",
+        "price": 3.5,
+        "calories": 80,
+        "fat": 95,
+        "protein": 0,
+        "carbs": 0
+      },
+      {
+        "id": 3,
+        "name": "Часник рубаний",
+        "price": 0.3,
+        "calories": 10,
+        "fat": 0.3,
+        "protein": 5.5,
+        "carbs": 20
+      },
+      {
+        "id": 4,
+        "name": "Червона цибуля",
+        "price": 0.5,
+        "calories": 80,
+        "fat": 0.2,
+        "protein": 1,
+        "carbs": 90
+      },
+      {
+        "id": 5,
+        "name": "Перець чилі",
+        "price": 1.25,
+        "calories": 20,
+        "fat": 0.3,
+        "protein": 3,
+        "carbs": 10
+      },
+      {
+        "id": 6,
+        "name": "Томати пелаті",
+        "price": 1.29,
+        "calories": 25,
+        "fat": 0.4,
+        "protein": 4.5,
+        "carbs": 15
+      },
+      {
+        "id": 7,
+        "name": "Кмин",
+        "price": 1.59,
+        "calories": 25,
+        "fat": 0.4,
+        "protein": 4.5,
+        "carbs": 20
+      },
+      {
+        "id": 8,
+        "name": "Зелений перець солодкий",
+        "price": 0.75,
+        "calories": 25,
+        "fat": 0.4,
+        "protein": 4.5,
+        "carbs": 20
+      },
+      {
+        "id": 9,
+        "name": "Кукурудза",
+        "price": 0.59,
+        "calories": 25,
+        "fat": 0.4,
+        "protein": 4.5,
+        "carbs": 20
+      },
+      {
+        "id": 10,
+        "name": "Кінза",
+        "price": 0.59,
+        "calories": 25,
+        "fat": 0.4,
+        "protein": 4.5,
+        "carbs": 20
+      },
+      {
+        "id": 11,
+        "name": "Лайм",
+        "price": 0.59,
+        "calories": 25,
+        "fat": 0.4,
+        "protein": 4.5,
+        "carbs": 20
+      },
+      {
+        "id": 12,
+        "name": "Сіль",
+        "price": 0.59,
+        "calories": 25,
+        "fat": 0.4,
+        "protein": 4.5,
+        "carbs": 20
+      }
+    ],
+    "steps": [
+      "Переберіть 200 г квасолі, щоб видалити пошкоджені плоди, промийте її у воді.",
+      "Помістіть боби у глибоку миску, залийте водою та залишіть на ніч замочуватися. Зранку воду злийте і промийте квасолю.",
+      "Очистьте цибулину та 2 зубчики часнику.",
+      "Половину перцю чилі розріжте, видаліть насіння. Далі все подрібніть.",
+      "У каструлю з товстим дном налийте 20 мл оливкової олії та обсмажте протягом 5 хвилин цибулю, часник і перець чилі, постійно перемішуючи.",
+      "Додайте у каструлю 1 літр води, 300 г попередньо подрібнених томатів, замочену квасолю, 2 дрібки кмину, доведіть суміш до кипіння та варіть на маленькому вогні 30 хвилин.",
+      "Додайте 200 г кукурудзи, порізаний кубиками зелений солодкий перець, сіль до смаку і варіть ще протягом 5-7 хвилин.",
+      "Коли суп буде готовий, всипте у каструлю подрібнену зелень кінзи та влийте сік з одного лайму."
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Тако з куркою",
+    "img": "https://shuba.life/static/content/thumbs/991x/4/df/oflj3g-417eff404223911d4ac25c605794bdf4.jpg",
+    "description": "Стритфуд завжди популярний, бо зазвичай швидко готується і чудово смакує. І хоча часом здається, що приготувати ті страви так, як у цих маленьких вуличних крамничках, не вийде, це цілком можливо, треба лиш знати кілька тонкощів.",
+    "category": "top",
+    "country": "MX",
+    "score": 4.9,
+    "duration": 35,
+    "price": 6.59,
+    "calories": 520,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Філе стегна курки",
+        "price": 2.99,
+        "calories": 120,
+        "fat": 2.5,
+        "protein": 10,
+        "carbs": 60
+      },
+      {
+        "id": 2,
+        "name": "Кінза",
+        "price": 2.0,
+        "calories": 5,
+        "fat": 90,
+        "protein": 1.0,
+        "carbs": 1.5
+      },
+      {
+        "id": 3,
+        "name": "Кукурудза",
+        "price": 0.08,
+        "calories": 10,
+        "fat": 0.2,
+        "protein": 0.5,
+        "carbs": 1.5
+      },
+      {
+        "id": 4,
+        "name": "Кетчуп",
+        "price": 0.45,
+        "calories": 50,
+        "fat": 0.1,
+        "protein": 1.0,
+        "carbs": 15
+      },
+      {
+        "id": 5,
+        "name": "Лаваш тако",
+        "price": 0.99,
+        "calories": 20,
+        "fat": 0.5,
+        "protein": 1.5,
+        "carbs": 10
+      },
+      {
+        "id": 6,
+        "name": "Сіль",
+        "price": 1.5,
+        "calories": 10,
+        "fat": 0.1,
+        "protein": 0.5,
+        "carbs": 0
+      },
+      {
+        "id": 7,
+        "name": "Перець",
+        "price": 1.89,
+        "calories": 12,
+        "fat": 0.2,
+        "protein": 1.0,
+        "carbs": 2.5
+      }
+    ],
+    "steps": [
+      "Візьміть куряче філе вагою приблизно 450 г, посоліть і поперчіть до смаку.",
+      "Розігрійте духовку до 200 градусів і випікайте філе в змащеній олією формі впродовж 20 хвилин. Наріжте готове філе на невеликі шматочки.",
+      "Дрібно наріжте 25 г кінзи. У мисці змішайте кінзу, м’ясо та 130 г кукурудзи. Увімкніть духовку розігріватися до 160 градусів.",
+      "Заправте начинку 100 г кетчупу Торчин для дітей, гарно перемішайте.",
+      "Заповніть тако начинкою, викладіть у форму для запікання, не змащуючи її.",
+      "Розігрійте тако в духовці впродовж 5 хвилин. Теплими вони смакують краще.",
+      "Подавайте тако гарячими, поки воно хрустке."
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Буріто з сальсою",
+    "img": "https://cdn.sanity.io/images/t5fyehqg/production/0ff5562817006696581d6683498720175578dcec-530x524.jpg",
+    "description": "Якщо хочеться покуштувати смачне буріто, зовсім не обов’язково їхати в Мексику, адже приготувати цю мексиканську страву можна і в домашніх умовах. Влаштуйте Мексику у себе вдома!",
+    "category": "top",
+    "country": "MX",
+    "score": 4.9,
+    "duration": 35,
+    "price": 6.59,
+    "calories": 520,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Куряче філе",
+        "price": 1.25,
+        "calories": 150,
+        "fat": 2.0,
+        "protein": 12,
+        "carbs": 70
+      },
+      {
+        "id": 2,
+        "name": "Квасоля консервована",
+        "price": 1.35,
+        "calories": 18,
+        "fat": 80,
+        "protein": 1.0,
+        "carbs": 0.7
+      },
+      {
+        "id": 3,
+        "name": "Кукурудза консервована",
+        "price": 0.07,
+        "calories": 10,
+        "fat": 0.2,
+        "protein": 0.5,
+        "carbs": 2
+      },
+      {
+        "id": 4,
+        "name": "Болгарський перець",
+        "price": 0.4,
+        "calories": 65,
+        "fat": 0.1,
+        "protein": 0.8,
+        "carbs": 95
+      },
+      {
+        "id": 5,
+        "name": "Кримська цибуля",
+        "price": 0.52,
+        "calories": 20,
+        "fat": 0.2,
+        "protein": 1.5,
+        "carbs": 8.5
+      },
+      {
+        "id": 6,
+        "name": "Перець чилі",
+        "price": 1.1,
+        "calories": 18,
+        "fat": 0.3,
+        "protein": 3,
+        "carbs": 6.5
+      },
+      {
+        "id": 7,
+        "name": "Паприка",
+        "price": 1.38,
+        "calories": 20,
+        "fat": 0.25,
+        "protein": 5.0,
+        "carbs": 23.0
+      },
+      {
+        "id": 8,
+        "name": "Кукурудзяний коржик",
+        "price": 1.42,
+        "calories": 22,
+        "fat": 0.4,
+        "protein": 6.0,
+        "carbs": 26.0
+      },
+      {
+        "id": 9,
+        "name": "Сіль",
+        "price": 1.3,
+        "calories": 14,
+        "fat": 0.1,
+        "protein": 0.5,
+        "carbs": 25.5
+      },
+      {
+        "id": 10,
+        "name": "Перець",
+        "price": 1.25,
+        "calories": 16,
+        "fat": 0.2,
+        "protein": 1.2,
+        "carbs": 5.0
+      },
+      {
+        "id": 11,
+        "name": "Твердий сир",
+        "price": 1.4,
+        "calories": 25,
+        "fat": 10.5,
+        "protein": 5.0,
+        "carbs": 1.0
+      },
+      {
+        "id": 12,
+        "name": "Сметана",
+        "price": 1.45,
+        "calories": 30,
+        "fat": 20,
+        "protein": 2.5,
+        "carbs": 2.0
+      },
+      {
+        "id": 13,
+        "name": "Авокадо",
+        "price": 1.32,
+        "calories": 120,
+        "fat": 10.0,
+        "protein": 1.0,
+        "carbs": 5
+      },
+      {
+        "id": 14,
+        "name": "Лайм",
+        "price": 1.28,
+        "calories": 12,
+        "fat": 0.15,
+        "protein": 0.5,
+        "carbs": 6.0
+      },
+      {
+        "id": 15,
+        "name": "Кінза",
+        "price": 1.36,
+        "calories": 16,
+        "fat": 0.2,
+        "protein": 1.0,
+        "carbs": 8.0
+      },
+      {
+        "id": 16,
+        "name": "Часник рубаний",
+        "price": 0.26,
+        "calories": 13,
+        "fat": 0.25,
+        "protein": 6.0,
+        "carbs": 25.0
+      }
+    ],
+    "steps": [
+      "Цибулю, болгарський перець, курку нарізаємо соломкою - це дуже важливо. Обсмажуємо на сковороді цибулю, болгарський перець і курку.",
+      "Смажимо поки м'ясо не буде готове. Під кінець додаємо кукурудзу, квасолю, перець чилі, паприку, сіль. Смажимо кілька хвилин.",
+      "Робимо сальсу гуакамоле. Для цього чистимо авокадо і в мисці розминаємо м'якоть вилкою.",
+      "Додаємо дрібно нарізаний часник, сіль, червоний перець, сік половини лайма і збиваємо блендером в однорідну масу.",
+      "Підсмажуємо на сковороді коржик.",
+      "Змащуємо соусом гуакамоле, посипаємо тертим сиром, викладаємо обсмажену курку з овочами і звертаємо в рол. Їмо, постійно занурюючи в сметану."
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Карі \"Масаман\"",
+    "img": "https://d1e3z2jco40k3v.cloudfront.net/-/media/kamisua2018/recipes/2000/thai_curry_masaman_2000.jpg?rev=c954ed5c7ae34901aa5db8f5ea8d86cd&vd=20200706T003008Z&extension=webp&hash=D02C0A67A388BA6F7E312DF8A3DF0E15",
+    "description": "Це відоме тайське карі дуже смачне. Може бути приготоване з куркою, яловичиною або бараниною.",
+    "category": "top",
+    "country": "TH",
+    "score": 5,
+    "duration": 120,
+    "price": 6.59,
+    "calories": 520,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Часник рубаний",
+        "price": 0.25,
+        "calories": 12,
+        "fat": 0.3,
+        "protein": 6.5,
+        "carbs": 24.5
+      },
+      {
+        "id": 2,
+        "name": "Суха паста з креветок",
+        "price": 1.35,
+        "calories": 20,
+        "fat": 80,
+        "protein": 0.8,
+        "carbs": 1.0
+      },
+      {
+        "id": 3,
+        "name": "Перець чилі",
+        "price": 1.1,
+        "calories": 18,
+        "fat": 0.4,
+        "protein": 2.5,
+        "carbs": 6
+      },
+      {
+        "id": 4,
+        "name": "Бараняче філе",
+        "price": 0.35,
+        "calories": 70,
+        "fat": 0.2,
+        "protein": 0.5,
+        "carbs": 99
+      },
+      {
+        "id": 5,
+        "name": "Картопля",
+        "price": 0.5,
+        "calories": 17,
+        "fat": 0.2,
+        "protein": 1.0,
+        "carbs": 8.0
+      },
+      {
+        "id": 6,
+        "name": "Кокосова крем-пудра",
+        "price": 1.25,
+        "calories": 16,
+        "fat": 0.4,
+        "protein": 6.0,
+        "carbs": 24.0
+      },
+      {
+        "id": 7,
+        "name": "Тайський рибний соус",
+        "price": 1.42,
+        "calories": 17,
+        "fat": 0.35,
+        "protein": 5.8,
+        "carbs": 23.5
+      },
+      {
+        "id": 8,
+        "name": "Кардамон",
+        "price": 1.38,
+        "calories": 14,
+        "fat": 0.25,
+        "protein": 6.0,
+        "carbs": 26.0
+      },
+      {
+        "id": 9,
+        "name": "Кориця мелена",
+        "price": 1.33,
+        "calories": 13,
+        "fat": 0.3,
+        "protein": 6.2,
+        "carbs": 25.5
+      },
+      {
+        "id": 10,
+        "name": "Коріандр",
+        "price": 1.3,
+        "calories": 14,
+        "fat": 0.35,
+        "protein": 6.5,
+        "carbs": 25.0
+      },
+      {
+        "id": 11,
+        "name": "Паста тамаринду",
+        "price": 1.45,
+        "calories": 16,
+        "fat": 0.5,
+        "protein": 7.0,
+        "carbs": 23.0
+      },
+      {
+        "id": 12,
+        "name": "Лимонний сік",
+        "price": 1.28,
+        "calories": 15,
+        "fat": 0.25,
+        "protein": 6.3,
+        "carbs": 24.8
+      },
+      {
+        "id": 13,
+        "name": "Цукрова пудра",
+        "price": 1.36,
+        "calories": 14,
+        "fat": 0.28,
+        "protein": 6.4,
+        "carbs": 25.2
+      },
+      {
+        "id": 14,
+        "name": "Смажений арахіс",
+        "price": 1.4,
+        "calories": 22,
+        "fat": 0.4,
+        "protein": 7.0,
+        "carbs": 19.5
+      },
+      {
+        "id": 15,
+        "name": "Кумин",
+        "price": 1.31,
+        "calories": 13,
+        "fat": 0.35,
+        "protein": 6.8,
+        "carbs": 25.6
+      },
+      {
+        "id": 16,
+        "name": "Гвоздика мелена",
+        "price": 1.37,
+        "calories": 15,
+        "fat": 0.3,
+        "protein": 6.1,
+        "carbs": 25.3
+      },
+      {
+        "id": 17,
+        "name": "Кориця мелена",
+        "price": 1.34,
+        "calories": 12,
+        "fat": 0.2,
+        "protein": 6.7,
+        "carbs": 25.7
+      },
+      {
+        "id": 18,
+        "name": "Лимонна цедра терта",
+        "price": 1.39,
+        "calories": 17,
+        "fat": 0.35,
+        "protein": 6.2,
+        "carbs": 24.5
+      },
+      {
+        "id": 19,
+        "name": "Оливкова олія",
+        "price": 2.1,
+        "calories": 50,
+        "fat": 90,
+        "protein": 0.5,
+        "carbs": 0.1
+      },
+      {
+        "id": 20,
+        "name": "Цибуля",
+        "price": 0.15,
+        "calories": 16,
+        "fat": 0.15,
+        "protein": 1.2,
+        "carbs": 7.0
+      }
+    ],
+    "steps": [
+      "Для приготування пасти: Змішайте всі спеції і цедру лимона разом в миску. Нагріти олію в сковороді і обсмажити цибулю і часник до м’якості.",
+      "Додати пасту з креветок і добре перемішати.",
+      "Помістіть в блендер разом з прянощами і 3 столовими ложками холодної води. Збийте до однорідної маси.",
+      "Покладіть баранину, картоплю, кокосове молоко, рибний соус, кардамон і корицю у велику каструлю і повільно доведіть до кипіння, помішуючи.",
+      "Варити на повільному вогні під кришкою протягом 1 години або доки баранина не стане ніжною, а рідина не зменшиться.",
+      "Додайте пасту карі разом з пастою з тамаринду, лимонним соком і цукровою пудрою.",
+      "Варити на повільному вогні ще 2-3 хвилин та подавайте на стіл. Прикрасити смаженим арахісом."
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Сом Там",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/3/34/2013_Tam_Lao.jpg",
+    "description": "Сом Там - це тайський салат із зеленої папайї. Кажуть, що він один з найулюбленіших у тайських жінок. Може, і вам полюбиться своїм кисло-солодким і гострим смаком. Він дуже соковитий і готується легко.",
+    "category": "top",
+    "country": "TH",
+    "score": 4.9,
+    "duration": 20,
+    "price": 6.59,
+    "calories": 520,
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Зелена папайя",
+        "price": 1.25,
+        "calories": 150,
+        "fat": 2.0,
+        "protein": 12,
+        "carbs": 70
+      },
+      {
+        "id": 2,
+        "name": "Перець чилі",
+        "price": 1.1,
+        "calories": 20,
+        "fat": 0.5,
+        "protein": 3,
+        "carbs": 5
+      },
+      {
+        "id": 3,
+        "name": "Часник рубаний",
+        "price": 0.3,
+        "calories": 10,
+        "fat": 0.25,
+        "protein": 5.5,
+        "carbs": 20
+      },
+      {
+        "id": 4,
+        "name": "Спаржева квасоля",
+        "price": 0.35,
+        "calories": 70,
+        "fat": 0.5,
+        "protein": 1,
+        "carbs": 95
+      },
+      {
+        "id": 5,
+        "name": "Помідор Черрі",
+        "price": 0.5,
+        "calories": 35,
+        "fat": 0.3,
+        "protein": 1.2,
+        "carbs": 4.0
+      },
+      {
+        "id": 6,
+        "name": "Креветки сушені",
+        "price": 1.2,
+        "calories": 20,
+        "fat": 0.3,
+        "protein": 5.5,
+        "carbs": 22
+      },
+      {
+        "id": 7,
+        "name": "Тайський рибний соус",
+        "price": 1.45,
+        "calories": 18,
+        "fat": 0.5,
+        "protein": 5.0,
+        "carbs": 23
+      },
+      {
+        "id": 8,
+        "name": "Пальязикай цукор",
+        "price": 1.3,
+        "calories": 16,
+        "fat": 0.4,
+        "protein": 6,
+        "carbs": 24
+      },
+      {
+        "id": 9,
+        "name": "Вапно",
+        "price": 1.35,
+        "calories": 14,
+        "fat": 0.3,
+        "protein": 6.5,
+        "carbs": 26
+      },
+      {
+        "id": 10,
+        "name": "Смажений арахіс",
+        "price": 1.4,
+        "calories": 25,
+        "fat": 1.0,
+        "protein": 8,
+        "carbs": 20
+      }
+    ],
+    "steps": [
+      "Очищаємо зелену папайю від шкірки.",
+      "Потім натираємо її на тертці для корейської моркви. Можна замочити хвилин на 10 в холодній воді, так піде зайвий крохмаль. Потім воду потрібно віджати.",
+      "Очищаємо часник, перець чилі нарізаємо. Потім разом з часником розтираємо його в ступці.",
+      "Додайте сушені креветки і обсмажений арахіс, потовчіть.",
+      "Стручки квасолі наріжте разом з натертою папайей і додати в ступку, пам'ятайте. Потім додайте помідори і знову пам'ятайте, але не в пюре.",
+      "У каструльці розтопіть пальязикай цукор з невеликою кількістю води. Приберіть з вогню, додайте рибний соус, сік лайма, перемішайте. Добавьтесоус до овочів, добре перемішайте. Салат готовий!"
     ]
   }
 ]

@@ -1,13 +1,16 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+
 import "./DetailedDish.css";
 import Nav from "../components/Nav/Nav";
+import Rating from "@mui/material/Rating";
 import StarRating from "../components/Star-Rating/StarRating";
 import StepList from "../components/Step-List/Step-List";
 import Comment from "../components/Comment/Comment";
 import ShoppingList from "../components/Shopping-List/Shopping-List";
 import Loading from "../components/Loading/Loading";
 import ErrorLoading from "../components/ErrorLoading/Error";
+import * as React from "react";
 
 const BASE_PAGE_URL = "http://localhost:5001/api/recipe";
 const BASE_COMMENTS_URL = "http://localhost:5001/api/comments";
@@ -19,7 +22,32 @@ export default function DetailedDish() {
   const [isLoading, setIsLoading] = useState(true);
   const [isLoadingData, setIsLoadingData] = useState(true);
   const [error, setError] = useState();
+  const [commentRating, setCommentRating] = React.useState(0);
+  const [message, setMessage] = useState("");
 
+  let jsonData1 = {
+    recipeId: id,
+    text: message,
+    name: "John",
+    score: commentRating,
+  };
+
+  const handleUserInput = (event) => {
+    setMessage(event.target.value);
+  };
+
+  const handlePost = (event) => {
+    event.preventDefault();
+    fetch(`${BASE_COMMENTS_URL}/`, {
+      method: "POST",
+      body: JSON.stringify(jsonData1),
+      headers: {
+        "Content-type": "application/json",
+      },
+    })
+      .then((response) => response.json())
+      .then((json) => console.log(json));
+  };
   useEffect(() => {
     //creating function to fetch data
     const fetchData = async () => {
@@ -30,7 +58,6 @@ export default function DetailedDish() {
             return res.json();
           })
           .then((data) => {
-            //console.log(data);
             setIsLoadingData(false);
             setPageInfo(data);
           });
@@ -52,7 +79,6 @@ export default function DetailedDish() {
             return res.json();
           })
           .then((data) => {
-            console.log(data);
             setComments(data);
             setIsLoading(false);
           });
@@ -98,13 +124,39 @@ export default function DetailedDish() {
         <StepList StepList={pageInfo.steps} />
       </div>
       <p className="CommentsTitle">Коментарі</p>
+      <div className="PostComment">
+        <div className="post-avatar">
+          <div className="photo"></div>
+          <div className="name">{"John"}</div>
+          <Rating
+            size="small"
+            name="simple-controlled"
+            value={commentRating}
+            onChange={(event, newValue) => {
+              setCommentRating(newValue);
+            }}
+          />
+        </div>
+        <div className="post-comment">
+          <input
+            className="text-box"
+            placeholder="Залиште свій коментар"
+            type="text"
+            onChange={handleUserInput}
+            value={message}
+          />
+          <div className="post" onClick={handlePost}>
+            Опублікувати
+          </div>
+        </div>
+      </div>
       <div className="CommentSection">
         {comments.map((comment) => (
           <div>
             <Comment
               name={comment.name}
               text={comment.text}
-              rating={pageInfo.score}
+              rating={comment.score}
               key={comment.id}
             />
           </div>
