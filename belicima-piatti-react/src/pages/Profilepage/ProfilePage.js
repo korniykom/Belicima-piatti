@@ -17,7 +17,6 @@ function ProfilePage() {
   return (
     <div class="flex">
       <Nav backLink="/" />
-
       <div className="AvatarIcon">
         <img src={Avatar} width="200px" height="200px" alt="Avatar.png" />
       </div>
