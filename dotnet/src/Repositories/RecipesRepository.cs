@@ -27,8 +27,8 @@ namespace src.Repositories {
             return recipe;
         } 
 
-       public List<SmallRecipe> GetSmallRecipes(string category, string country, int page, int pageSize)
-       {
+        public List<SmallRecipe> GetSmallRecipes(string category, string country, int page, int pageSize)
+        {
             if (page < 1)
             {
                 throw new ArgumentException("Page number cannot be less than 1");
@@ -44,6 +44,6 @@ namespace src.Repositories {
                 .Skip(startIndex)
                 .Take(endIndex - startIndex)
                 .ToList();
-       }
+        }
     }
 }
