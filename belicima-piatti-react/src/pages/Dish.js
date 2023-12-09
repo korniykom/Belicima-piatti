@@ -9,6 +9,7 @@ const BAST_LINK = "http://localhost:5001/api/recipes";
 
 export default function Dish() {
   const { category } = useParams();
+  const { country } = useParams();
   const [searchParams] = useSearchParams();
   const [pageInfo, setPageInfo] = useState([]);
   const [ignored, forceUpdate] = useReducer((x) => x + 1, 0);
@@ -23,7 +24,9 @@ export default function Dish() {
       http://localhost:3000/dishes/Перші%20страви?page=1&pageSize=5
       */
       try {
-        fetch(`${BAST_LINK}/${category}?page=${page}&pageSize=${pageSize}`)
+        fetch(
+          `${BAST_LINK}/${category}&${country}?page=${page}&pageSize=${pageSize}`
+        )
           .then((res) => {
             return res.json();
           })
