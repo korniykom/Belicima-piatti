@@ -24,9 +24,7 @@ export default function Dish() {
       http://localhost:3000/dishes/Перші%20страви?page=1&pageSize=5
       */
       try {
-        fetch(
-          `${BAST_LINK}/${category}&${country}?page=${page}&pageSize=${pageSize}`
-        )
+        fetch(`${BAST_LINK}/${category}?page=${page}&pageSize=${pageSize}`)
           .then((res) => {
             return res.json();
           })
