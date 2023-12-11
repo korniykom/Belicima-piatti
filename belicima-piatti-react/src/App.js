@@ -7,6 +7,7 @@ import Accountpage from "./pages/Accountpage";
 import Loading from "./components/Loading/Loading";
 import DetailedDish from "./pages/DetailedDish";
 import Dish from "./pages/Dish";
+import ProfilePage from "./pages/Profilepage/ProfilePage";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="account" element={<Accountpage />} />
         <Route path="loading" element={<Loading />} />
         <Route path="/" element={<Nav backLink="/" title="Перші страви" />} />
+        <Route path="profile" element={<ProfilePage />} />
       </Routes>
     </BrowserRouter>
   );

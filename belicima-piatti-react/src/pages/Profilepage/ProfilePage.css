@@ -1,0 +1,16 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.AvatarIcon {
+  display: flex;
+  justify-content: center;
+}
+
+.HelpIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0px;
+  margin-left: 70%;
+}
