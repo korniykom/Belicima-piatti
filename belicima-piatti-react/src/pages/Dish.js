@@ -9,7 +9,6 @@ const BAST_LINK = "http://localhost:5001/api/recipes";
 
 export default function Dish() {
   const { category } = useParams();
-  const { country } = useParams();
   const [searchParams] = useSearchParams();
   const [pageInfo, setPageInfo] = useState([]);
   const [ignored, forceUpdate] = useReducer((x) => x + 1, 0);
