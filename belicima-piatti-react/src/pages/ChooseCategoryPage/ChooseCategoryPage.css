@@ -1,0 +1,45 @@
+.ChooseCategoryText
+{
+  color: #4d2d00;
+  font-size: 3.3vh;
+  margin-top: 10vh;
+}
+.ChooseCategoryText2
+{
+  color: #4d2d00;
+  font-size: 3.3vh;
+  font-weight: 500;
+}
+.ChooseCategoryLink:link
+{
+  text-decoration: none;
+}
+.Active
+{
+  width: fit-content;
+  height:auto;
+  background-color: #4d2d00;
+}
+.ButtonContainer
+{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.MoreInfoButton
+{
+  border-radius: 15px;
+  padding-left: 55px;
+  padding-right: 55px;
+  color: #4d2d00;
+  background-color: rgba(136, 133, 133, 0.2);
+  font-size: 2.5vh;
+}
+.Profile
+{
+  position:absolute;
+  left: 5vw;
+  top: 3vh;
+  width: 5vh;
+  height: 5vh;
+}
