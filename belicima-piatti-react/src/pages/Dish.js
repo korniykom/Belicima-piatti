@@ -14,16 +14,19 @@ export default function Dish() {
   const [ignored, forceUpdate] = useReducer((x) => x + 1, 0);
   var page = searchParams.get("page");
   var pageSize = searchParams.get("pageSize");
+  var country = searchParams.get("country");
 
   useEffect(() => {
     const fetchData = async () => {
       /*
       Test link
-      http://localhost:5001/api/recipes/%D0%9F%D0%B5%D1%80%D1%88%D1%96%20%D1%81%D1%82%D1%80%D0%B0%D0%B2%D0%B8?page=1&pageSize=5
-      http://localhost:3000/dishes/Перші%20страви?page=1&pageSize=5
+      http://localhost:3000/dishes/%D0%9F%D0%B5%D1%80%D1%88%D1%96%20%D1%81%D1%82%D1%80%D0%B0%D0%B2%D0%B8?country=UA&page=1&pageSize=5
       */
       try {
-        fetch(`${BAST_LINK}/${category}?page=${page}&pageSize=${pageSize}`)
+        fetch(
+          // `${BAST_LINK}?category=${category}&country=${country}&page=${page}&pageSize=${pageSize}`
+          `${BAST_LINK}?category=${category}&country=${country}&page=${page}&pageSize=${pageSize}`
+        )
           .then((res) => {
             return res.json();
           })
