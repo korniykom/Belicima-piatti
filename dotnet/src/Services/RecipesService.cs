@@ -17,9 +17,9 @@ namespace src.Services
             return recipesRepository.GetRecipe(id);
         }
 
-        public IList<SmallRecipe> GetSmallRecipes(string category, string country, int page, int pageSize)
+        public IList<SmallRecipe> GetSmallRecipes(int page, int pageSize, string category, string country)
         {
-            return recipesRepository.GetSmallRecipes(category, country, page, pageSize);
+            return recipesRepository.GetSmallRecipes(page, pageSize, category, country);
         }
     }
 }
