@@ -34,7 +34,14 @@ namespace src.Repositories {
                 throw new ArgumentException("Page number cannot be less than 1");
             }
 
-            var filteredRecipes = _recipes.Where(r => r.category == category).Where(r => r.country == country).ToList();
+            var filteredRecipes = _recipes.ToList();
+
+            if (category != null) {
+                filteredRecipes = _recipes.Where(r => r.category == category).ToList();
+            }
+            if (country != null) {
+                filteredRecipes = _recipes.Where(r => r.country == country).ToList();
+            }
             var startIndex = (page - 1) * pageSize;
             var endIndex = Math.Min(startIndex + pageSize, filteredRecipes.Count);
 
