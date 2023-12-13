@@ -27,7 +27,7 @@ export default function Dish() {
       let _category = category != null ? `&category=${category}` : "";
       try {
         fetch(
-          `${BAST_LINK}/?page=${page}&pageSize=${pageSize}${_category}${_country}`
+          `${BAST_LINK}?page=${page}&pageSize=${pageSize}${_category}${_country}`
         )
           .then((res) => {
             return res.json();
