@@ -1,5 +1,7 @@
 using System.Text.Json;
+using Microsoft.AspNetCore.Mvc;
 using src.Domain;
+
 
 namespace src.Repositories {
     public class RecipesRepository
@@ -27,22 +29,35 @@ namespace src.Repositories {
             return recipe;
         } 
 
-        public List<SmallRecipe> GetSmallRecipes(string category, string country, int page, int pageSize)
+       public List<SmallRecipe> GetSmallRecipes(int page, int pageSize, string category, string country)
         {
             if (page < 1)
             {
                 throw new ArgumentException("Page number cannot be less than 1");
             }
 
-            var filteredRecipes = _recipes.Where(r => r.category == category).Where(r => r.country == country).ToList();
+            if (pageSize <= 0)
+            {
+                throw new ArgumentException("Page size must be greater than 0");
+            }
+
+                var filteredRecipes = _recipes;
+
+            if (category != null) {
+                filteredRecipes = _recipes.Where(r => r.category == category).ToList();
+            }
+
+            if (country != null) {
+                filteredRecipes = _recipes.Where(r => r.country == country).ToList();
+            }
+
             var startIndex = (page - 1) * pageSize;
-            var endIndex = Math.Min(startIndex + pageSize, filteredRecipes.Count);
+            var endIndex = Math.Min(startIndex + pageSize, filteredRecipes.Count());
 
             return filteredRecipes
-                .Select(r => new SmallRecipe(r))
-                .ToList()
                 .Skip(startIndex)
                 .Take(endIndex - startIndex)
+                .Select(r => new SmallRecipe(r))
                 .ToList();
         }
     }
