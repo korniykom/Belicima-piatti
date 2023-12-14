@@ -15,16 +15,22 @@ export default function Dish() {
   let pageSize = searchParams.get("pageSize");
   let country = searchParams.get("country");
   let category = searchParams.get("category");
-
+  let titleText =
+    country != null && category != null
+      ? `${category} ${country}`
+      : country == null
+      ? `${category}`
+      : category == null
+      ? `${country}`
+      : "Рецепти";
   useEffect(() => {
     const fetchData = async () => {
-      /*
-      Test link
-      http://localhost:5001/api/recipes/%D0%9F%D0%B5%D1%80%D1%88%D1%96%20%D1%81%D1%82%D1%80%D0%B0%D0%B2%D0%B8?page=1&pageSize=5
-      http://localhost:3000/dishes/Перші%20страви?page=1&pageSize=5
-      */
       let _country = country != null ? `&country=${country}` : "";
       let _category = category != null ? `&category=${category}` : "";
+      console.log(
+        `${BAST_LINK}?page=${page}&pageSize=${pageSize}${_category}${_country}`
+      );
+
       try {
         fetch(
           `${BAST_LINK}?page=${page}&pageSize=${pageSize}${_category}${_country}`
@@ -47,7 +53,7 @@ export default function Dish() {
   }
   return (
     <div>
-      <Nav backLink="/" title={`${category}`} />
+      <Nav backLink="/" title={`${titleText}`} />
       <Advice AdviceText={"Виберіть рецепт!"} />
 
       {pageInfo.map((dish) => (
