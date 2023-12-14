@@ -11,6 +11,7 @@
   justify-content: center;
   border: solid #4d2d00 1.2px;
   background-color: #ffe090;
+  transition: 0.8s;
   border-radius: 13px;
   min-width: 250px;
   min-height: 80px;
@@ -19,8 +20,9 @@
 .text {
   font-size: 24px;
   font-weight: 600;
-  padding-top: 25px;
   background-color: #ffe090;
+  transition: 0.8s;
+  padding-top: 25px;
   border-radius: 20px;
 }
 
@@ -46,4 +48,31 @@
   padding-top: 3px;
   font-size: 20px;
   font-variation-settings: "FILL" 0, "wght" 800, "GRAD" 1, "opsz" 1;
+}
+.categoryChoosenBox
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #4d2d00 1.2px;
+  gap: 5px;
+  background-color: #4d2d00;
+  transition: 0.8s;
+  border-radius: 13px;
+  min-width: 250px;
+  min-height: 80px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.categoryChoosenText
+{
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffe090;
+  background-color: #4d2d00;
+  transition: 0.8s;
+  border-radius: 20px;
 }

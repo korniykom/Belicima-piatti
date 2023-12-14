@@ -8,51 +8,109 @@ import React from "react";
 import Profile from './Profile.png';
 export default function ChooseCategoryPage()
 {
+  const FillCategoryArray = new Array(4).fill(false);
+  const[categoryChoosen, setCategoryChoosen] = useState(FillCategoryArray);
+  const FillKitchenArray = new Array(12).fill(false);
+  const[countyChoosen, setCountyChoosen] = useState(FillKitchenArray);
+  let [category, setCategory] = useState("");
+  let [country, setCountry] = useState("");
   const[showFullKitchenInfo, setShowFullKitchenInfo] = useState(false);
   let Kitcheninfo = <div>
-  <Category category = "Американська"/>
-  <Category category = "Українська"/>
-  <Category category = "Шведська"/>
-  <Category category = "Мозамбіцька"/>
-  <Category category = "Грецька"/>
-  <Category category = "Німецька"/>
-  <Category category = "Великобританська"/>
-  <Category category = "Грузинська"/>
-  <Category category = "Мексиканська"/>
-  <Category category = "Тайландська"/>
+  <div onClick={()=>UpdateCountryAndActive("US", 3)}><Category category = "Американська" active = {[...countyChoosen][3]}/></div>
+  <div onClick={()=>UpdateCountryAndActive("UA", 4)}><Category category = "Українська" active = {[...countyChoosen][4]}/></div>
+  <div onClick={()=>UpdateCountryAndActive("SE", 5)}><Category category = "Шведська" active = {[...countyChoosen][5]}/></div>
+  <div onClick={()=>UpdateCountryAndActive("MZ", 6)}><Category category = "Мозамбіцька" active = {[...countyChoosen][6]}/></div>
+  <div onClick={()=>UpdateCountryAndActive("GR", 7)}><Category category = "Грецька" active = {[...countyChoosen][7]}/></div>
+  <div onClick={()=>UpdateCountryAndActive("DE", 8)}><Category category = "Німецька" active = {[...countyChoosen][8]}/></div>
+  <div onClick={()=>UpdateCountryAndActive("GE", 9)}><Category category = "Грузинська" active = {[...countyChoosen][9]}/></div>
+  <div onClick={()=>UpdateCountryAndActive("MX", 10)}><Category category = "Мексиканська" active = {[...countyChoosen][10]}/></div>
+  <div onClick={()=>UpdateCountryAndActive("TH", 11)}><Category category = "Тайландська" active = {[...countyChoosen][11]}/></div>
   <div className = "ButtonContainer">
       <div><button className="MoreInfoButton" onClick={()=>setShowFullKitchenInfo(!showFullKitchenInfo)}>Приховати</button></div>
       </div>
   </div>;
-  
   const[showFullCategoryInfo, setShowFullCategoryInfo] = useState(false);
   let Categoryinfo = <div>
-    <Link to = "/dishes/top?pageSize=3&page=1" className="ChooseCategoryLink"><Category category = "Найкращі"/></Link>
+    <div onClick={()=>UpdateCategoryAndActive("Топ", 3)}><Category category = "Найкращі" active = {[...categoryChoosen][3]}/></div>
     <div className = "ButtonContainer">
       <div><button className="MoreInfoButton" onClick={()=>setShowFullCategoryInfo(!showFullCategoryInfo)}>Приховати</button></div>
       </div>
   </div>
+  
+  const UpdateCategoryAndActive = (categ, index)=>
+  {
+    if(categ === category)
+    {
+      setCategory("");
+    }
+    else
+    {
+      setCategory(categ);
+    }
+    let newArray = [...categoryChoosen];
+    newArray[index] = !newArray[index];
+    for(let i = 0; i<newArray.length; i++)
+    {
+      if(i !== index)
+      {
+        newArray[i] = false;
+      }
+    }
+    setCategoryChoosen(newArray);
+  }
+  const UpdateCountryAndActive = (title, index)=>
+  {
+    if(title === country)
+    {
+      setCountry("");
+    }
+    else
+    {
+      setCountry(title);
+    }
+    let newArray = [...countyChoosen];
+    newArray[index] = !newArray[index];
+    for(let i = 0; i<newArray.length; i++)
+    {
+      if(i !== index)
+      {
+        newArray[i] = false;
+      }
+    }
+    setCountyChoosen(newArray);
+  }
+  let createLink = "";
+  // const BuildLink = ()=>
+  // {
+  //   if(category === "")
+  //   {
+  //      setCreateLink("/dishes/"+null+"?country="+{country}+"&page=1&pageSize=5");
+  //   }
+  // }
+  
   return(
     <div>
       <Nav title = "Категорії"/>
       <Link to = "/profile"><img src = {Profile} alt = "Profile.png" className="Profile"/></Link>
       <h2 className="ChooseCategoryText">Критерії пошуку рецепту:</h2>
       <h2 className="ChooseCategoryText2">За типом страви</h2>
-      <Link to = "/dishes/Перші%20страви?page=1&pageSize=5" className="ChooseCategoryLink"><Category category = "Перші страви"/></Link>
-      <Link to = "/dishes/Другі%20страви?pageSize=3&page=1" className = "ChooseCategoryLink"><Category category = "Другі страви"/></Link>
-      <Link to = "/dishes/Десерти?pageSize=3&page=1" className="ChooseCategoryLink"><Category category = "Десерти"/></Link>
+      <div onClick={()=>UpdateCategoryAndActive("Перші страви", 0)} >{<Category category = "Перші страви" active={[...categoryChoosen][0]}/>}</div>
+      <div onClick={()=>UpdateCategoryAndActive("Другі страви", 1)}><Category category = "Другі страви" active = {[...categoryChoosen][1]}/></div>
+      <div onClick={()=>UpdateCategoryAndActive("Десерти", 2)}><Category category = "Десерти" active = {[...categoryChoosen][2]}/></div>
       <div className = "ButtonContainer">
       <div>{!showFullCategoryInfo ? <button className="MoreInfoButton" onClick={()=>setShowFullCategoryInfo(!showFullCategoryInfo)}>Дізнатися більше</button> : null}</div>
       </div>
       <div>{showFullCategoryInfo ? Categoryinfo : null}</div>
       <h2 className="ChooseCategoryText2">За типом кухні</h2>
-      <Category category = "Італійська"/>
-      <Category category = "Англійська"/>
-      <Category category = "Китайська"/>
+      <div onClick={()=>UpdateCountryAndActive("IT", 0)}><Category category = "Італійська" active={[...countyChoosen][0]}/></div>
+    <div onClick={()=>UpdateCountryAndActive("GB", 1)}><Category category = "Великобританська" active = {[...countyChoosen][1]}/></div>
+      <div onClick={()=>UpdateCountryAndActive("CN", 2)}><Category category = "Китайська" active = {[...countyChoosen][2]}/></div>
       <div className = "ButtonContainer">
       <div>{!showFullKitchenInfo ? <button className="MoreInfoButton" onClick={()=>setShowFullKitchenInfo(!showFullKitchenInfo)}>Дізнатися більше</button> : null}</div>
       </div>
-      <div>{showFullKitchenInfo ? Kitcheninfo : null}</div>
+      <div>{showFullKitchenInfo ? Kitcheninfo : null}</div>  
+      <div className = "None">{ category === "" ? createLink = "/dishes/"+null+"?country="+ country+"&page=1&pageSize=5" : createLink = "/dishes/"+category+"?country="+country+"&page=1&pageSize=5"}</div>
+      {category !== "" || country !== "" ? <button className = "followLink"><Link to = {createLink} ><p className="buttonText">Перейти</p></Link></button> : null}  
       <Advice AdviceText="Оберіть тип рецепту для пошуку"/>
     </div>
   );

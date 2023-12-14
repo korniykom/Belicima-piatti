@@ -13,6 +13,7 @@
 .ChooseCategoryLink:link
 {
   text-decoration: none;
+  color:#ffe090;
 }
 .Active
 {
@@ -42,4 +43,29 @@
   top: 3vh;
   width: 5vh;
   height: 5vh;
+}
+.followLink
+{
+  min-width: 21vw;
+  min-height: 21vw;
+  border-radius: 15px;
+  position: fixed;
+  right: 15px;
+  font-size: 20px;
+  bottom: 200px;
+  background-color: #4d2d00;
+  color: #ffe090;
+}
+.buttonText
+{
+  padding: 10px;
+  color:#ffe090;
+}
+.buttonText:link
+{
+  text-decoration-line: none;
+}
+.None
+{
+  display: none;
 }
