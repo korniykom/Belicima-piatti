@@ -15,13 +15,52 @@ export default function Dish() {
   let pageSize = searchParams.get("pageSize");
   let country = searchParams.get("country");
   let category = searchParams.get("category");
+  let titleCountry = "";
+  switch (country) {
+    case "CN":
+      titleCountry = "Китайська кухня";
+      break;
+    case "UA":
+      titleCountry = "Українська кухня";
+      break;
+    case "US":
+      titleCountry = "Американська кухня кухня";
+      break;
+    case "IT":
+      titleCountry = "Італійська кухня";
+      break;
+    case "SE":
+      titleCountry = "Швейцарська кухня";
+      break;
+    case "MZ":
+      titleCountry = "Мозамбіцька кухня";
+      break;
+    case "GR":
+      titleCountry = "Грецька кухня";
+      break;
+    case "DE":
+      titleCountry = "Німецька кухня";
+      break;
+    case "GB":
+      titleCountry = "Британська кухня";
+      break;
+    case "GE":
+      titleCountry = "Грузинська кухня";
+      break;
+    case "MX":
+      titleCountry = "Мексиканська кухня";
+      break;
+    case "TH":
+      titleCountry = "Найкращі рецепти";
+      break;
+  }
   let titleText =
     country != null && category != null
-      ? `${category} ${country}`
+      ? `${category} \n ${titleCountry}`
       : country == null
       ? `${category}`
       : category == null
-      ? `${country}`
+      ? `${titleCountry}`
       : "Рецепти";
   useEffect(() => {
     const fetchData = async () => {
