@@ -6,7 +6,7 @@ import HelpIcon from "../../components/Advice/HelpIcon.png";
 import Avatar from "./Avatar.png";
 import "./ProfilePage.css";
 
-function ProfilePage() {
+function Profilepage() {
   const profileInfo = [
     { label: "Красавчик" },
     { label: "Баланс", value: "£100" },
@@ -42,4 +42,4 @@ function ProfilePage() {
   );
 }
 
-export default ProfilePage;
+export default Profilepage;
