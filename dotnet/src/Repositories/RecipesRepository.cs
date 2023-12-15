@@ -44,11 +44,11 @@ namespace src.Repositories {
                 var filteredRecipes = _recipes;
 
             if (category != null) {
-                filteredRecipes = _recipes.Where(r => r.category == category).ToList();
+                filteredRecipes = filteredRecipes.Where(r => r.category == category).ToList();
             }
 
             if (country != null) {
-                filteredRecipes = _recipes.Where(r => r.country == country).ToList();
+                filteredRecipes = filteredRecipes.Where(r => r.country == country).ToList();
             }
 
             var startIndex = (page - 1) * pageSize;
