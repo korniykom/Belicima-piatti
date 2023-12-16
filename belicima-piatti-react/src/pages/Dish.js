@@ -8,22 +8,72 @@ import PageNavigator from "../components/NumPage/NumPage";
 const BAST_LINK = "http://localhost:5001/api/recipes";
 
 export default function Dish() {
-  const { category } = useParams();
   const [searchParams] = useSearchParams();
   const [pageInfo, setPageInfo] = useState([]);
   const [ignored, forceUpdate] = useReducer((x) => x + 1, 0);
-  var page = searchParams.get("page");
-  var pageSize = searchParams.get("pageSize");
-
+  let page = searchParams.get("page");
+  let pageSize = searchParams.get("pageSize");
+  let country = searchParams.get("country");
+  let category = searchParams.get("category");
+  let titleCountry = "";
+  switch (country) {
+    case "CN":
+      titleCountry = "Китайська кухня";
+      break;
+    case "UA":
+      titleCountry = "Українська кухня";
+      break;
+    case "US":
+      titleCountry = "Американська кухня кухня";
+      break;
+    case "IT":
+      titleCountry = "Італійська кухня";
+      break;
+    case "SE":
+      titleCountry = "Швейцарська кухня";
+      break;
+    case "MZ":
+      titleCountry = "Мозамбіцька кухня";
+      break;
+    case "GR":
+      titleCountry = "Грецька кухня";
+      break;
+    case "DE":
+      titleCountry = "Німецька кухня";
+      break;
+    case "GB":
+      titleCountry = "Британська кухня";
+      break;
+    case "GE":
+      titleCountry = "Грузинська кухня";
+      break;
+    case "MX":
+      titleCountry = "Мексиканська кухня";
+      break;
+    case "TH":
+      titleCountry = "Найкращі рецепти";
+      break;
+  }
+  let titleText =
+    country != null && category != null
+      ? `${category} \n ${titleCountry}`
+      : country == null
+      ? `${category}`
+      : category == null
+      ? `${titleCountry}`
+      : "Рецепти";
   useEffect(() => {
     const fetchData = async () => {
-      /*
-      Test link
-      http://localhost:5001/api/recipes/%D0%9F%D0%B5%D1%80%D1%88%D1%96%20%D1%81%D1%82%D1%80%D0%B0%D0%B2%D0%B8?page=1&pageSize=5
-      http://localhost:3000/dishes/Перші%20страви?page=1&pageSize=5
-      */
+      let _country = country != null ? `&country=${country}` : "";
+      let _category = category != null ? `&category=${category}` : "";
+      console.log(
+        `${BAST_LINK}?page=${page}&pageSize=${pageSize}${_category}${_country}`
+      );
+
       try {
-        fetch(`${BAST_LINK}/${category}?page=${page}&pageSize=${pageSize}`)
+        fetch(
+          `${BAST_LINK}?page=${page}&pageSize=${pageSize}${_category}${_country}`
+        )
           .then((res) => {
             return res.json();
           })
@@ -42,7 +92,7 @@ export default function Dish() {
   }
   return (
     <div>
-      <Nav backLink="/" title={`${category}`} />
+      <Nav backLink="/" title={`${titleText}`} />
       <Advice AdviceText={"Виберіть рецепт!"} />
 
       {pageInfo.map((dish) => (
