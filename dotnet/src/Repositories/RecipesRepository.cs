@@ -3,18 +3,19 @@ using Microsoft.AspNetCore.Mvc;
 using src.Domain;
 
 
-namespace src.Repositories {
+namespace src.Repositories
+{
     public class RecipesRepository
     {
-        private readonly List<Recipe>  _recipes;
-        
+        private readonly List<Recipe> _recipes;
+
         public RecipesRepository()
         {
             var fileName = "./data/DishesDetails.json";
             try
             {
-            var jsonString = System.IO.File.ReadAllText(fileName);
-            _recipes = JsonSerializer.Deserialize<List<Recipe>>(jsonString) ?? new List<Recipe>();
+                var jsonString = System.IO.File.ReadAllText(fileName);
+                _recipes = JsonSerializer.Deserialize<List<Recipe>>(jsonString) ?? new List<Recipe>();
             }
             catch (Exception ex)
             {
@@ -27,9 +28,9 @@ namespace src.Repositories {
         {
             var recipe = _recipes.FirstOrDefault(r => r.id == id);
             return recipe;
-        } 
+        }
 
-       public List<SmallRecipe> GetSmallRecipes(int page, int pageSize, string category, string country)
+        public List<SmallRecipe> GetSmallRecipes(int page, int pageSize, string category, string country)
         {
             if (page < 1)
             {
@@ -41,14 +42,16 @@ namespace src.Repositories {
                 throw new ArgumentException("Page size must be greater than 0");
             }
 
-                var filteredRecipes = _recipes;
+            var filteredRecipes = _recipes;
 
-            if (category != null) {
-                filteredRecipes = _recipes.Where(r => r.category == category).ToList();
+            if (category != null)
+            {
+                filteredRecipes = filteredRecipes.Where(r => r.category == category).ToList();
             }
 
-            if (country != null) {
-                filteredRecipes = _recipes.Where(r => r.country == country).ToList();
+            if (country != null)
+            {
+                filteredRecipes = filteredRecipes.Where(r => r.country == country).ToList();
             }
 
             var startIndex = (page - 1) * pageSize;
