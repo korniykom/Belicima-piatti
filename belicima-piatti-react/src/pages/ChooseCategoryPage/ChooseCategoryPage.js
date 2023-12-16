@@ -87,7 +87,7 @@ export default function ChooseCategoryPage()
   //      setCreateLink("/dishes/"+null+"?country="+{country}+"&page=1&pageSize=5");
   //   }
   // }
-  
+
   return(
     <div>
       <Nav title = "Категорії"/>

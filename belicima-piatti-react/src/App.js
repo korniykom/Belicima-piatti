@@ -9,6 +9,7 @@ import DetailedDish from "./pages/DetailedDish";
 import Dish from "./pages/Dish";
 import ProfilePage from "./pages/Profilepage/ProfilePage";
 import ChooseCategoryPage from "./pages/ChooseCategoryPage/ChooseCategoryPage";
+import ErrorLoading from "./components/ErrorLoading/Error";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="profile" element={<ProfilePage />} />
         <Route path = "ChooseCategory" element = {<ChooseCategoryPage/>}/>
       </Routes>
+      <ErrorLoading/>
     </BrowserRouter>
   );
 }
