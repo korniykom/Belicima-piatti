@@ -9,6 +9,7 @@ import DetailedDish from "./pages/DetailedDish";
 import Dish from "./pages/Dish";
 import ProfilePage from "./pages/Profilepage/ProfilePage";
 import ChooseCategoryPage from "./pages/ChooseCategoryPage/ChooseCategoryPage";
+import Startpage from "./pages/Startpage/Startpage";
 
 export default function App() {
   return (
@@ -20,7 +21,7 @@ export default function App() {
         <Route path="info" element={<Infopage />} />
         <Route path="account" element={<Accountpage />} />
         <Route path="loading" element={<Loading />} />
-        <Route path="/" element={<Nav backLink="/" title="Перші страви" />} />
+        <Route path="/" element={<Startpage />} />
         <Route path="profile" element={<ProfilePage />} />
         <Route path = "ChooseCategory" element = {<ChooseCategoryPage/>}/>
       </Routes>

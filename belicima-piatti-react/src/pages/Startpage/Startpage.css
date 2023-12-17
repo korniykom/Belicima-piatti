@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+
+.format-to-lable {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  padding-top: 170px;
+}
+.start-lable {
+  font-size: 110px;
+  font-weight: lighter;
+  color: #4d2d00;
+}
+
+.extra-lable {
+  font-size: 28px;
+  font-weight: lighter;
+  color: #525252;
+  padding-top: 280px;
+}
+
+.deco-lable {
+  text-decoration: none;
+}
