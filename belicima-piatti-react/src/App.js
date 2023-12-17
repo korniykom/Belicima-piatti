@@ -9,7 +9,6 @@ import DetailedDish from "./pages/DetailedDish";
 import Dish from "./pages/Dish";
 import ProfilePage from "./pages/Profilepage/ProfilePage";
 import ChooseCategoryPage from "./pages/ChooseCategoryPage/ChooseCategoryPage";
-import Startpage from "./pages/Startpage/Startpage"
 
 export default function App() {
   return (
