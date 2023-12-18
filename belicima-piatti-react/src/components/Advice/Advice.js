@@ -1,17 +1,15 @@
 import "./Advice.css";
-import AdviceContainer from './AdviceContainer.png';
-import HelpIcon from './HelpIcon.png';
-export default function Advice({AdviceText})
-{
-  return(
-    <div className = "MainAdviceContainer">
- <div className="AdviceAndIconContainer">
-      <div className="AdviceTextContainer">
-      <h2 className = "AdviceText">{AdviceText}</h2>
+import AdviceContainer from "./AdviceContainer.png";
+import HelpIcon from "./HelpIcon.png";
+export default function Advice({ AdviceText }) {
+  return (
+    <div className="AdviceContainer">
+      <div className="AdviceText">
+        <p className="centered"> {AdviceText} </p>
       </div>
-      <img src = {AdviceContainer} width = "100%" height = "100%" alt = "AdviceContaimer.png" className="AdviceContainer"/>
-      <img src = {HelpIcon} width = "75px" height = "75px" alt = "HelpIcon.png" className="HelpIcon"/>
+      <div className="AdviceIcon">
+        <img src={HelpIcon} alt="advice" />
+      </div>
     </div>
-    </div> 
   );
 }
