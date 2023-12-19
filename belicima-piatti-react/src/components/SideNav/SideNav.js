@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom"; // Змінено імпорт на NavLink
+import { NavLink } from "react-router-dom";
 import "./SideNav.css";
 import { FaBars } from "react-icons/fa";
 
