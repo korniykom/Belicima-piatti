@@ -115,6 +115,8 @@ export default function Dish() {
         page={page}
         ignored={ignored}
         forceUpdate={forceUpdate}
+        pageSize={pageSize}
+        country={country}
       />
     </div>
   );

@@ -6,22 +6,28 @@ import { useNavigate } from "react-router-dom";
 export default function PageNavigator({
   category,
   page,
-  pageSize = 3,
+  pageSize,
   ignored,
   forceUpdate,
+
+  country,
 }) {
   const [currentPage, setCurrentPage] = useState(+page);
   const navigate = useNavigate();
 
   function handleNextPage() {
     setCurrentPage(currentPage + 1);
-    navigate(`/dishes/${category}?pageSize=${pageSize}&page=${currentPage}`);
+    navigate(
+      `/dishes?pageSize=${pageSize}&country=${country}&category=${category}&page=${currentPage}`
+    );
     forceUpdate();
   }
-
+  // http://localhost:3000/dishes?pageSize=10&country=&category=Перші%20страви&page=1
   const handlePrevPage = () => {
     setCurrentPage(currentPage - 1);
-    navigate(`/dishes/${category}?pageSize=${pageSize}&page=${currentPage}`);
+    navigate(
+      `/dishes?pageSize=${pageSize}&country=${country}&category=${category}&page=${currentPage}`
+    );
     forceUpdate();
   };
 
