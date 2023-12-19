@@ -80,14 +80,6 @@ export default function ChooseCategoryPage()
     setCountyChoosen(newArray);
   }
   let createLink = "";
-  // const BuildLink = ()=>
-  // {
-  //   if(category === "")
-  //   {
-  //      setCreateLink("/dishes/"+null+"?country="+{country}+"&page=1&pageSize=5");
-  //   }
-  // }
-
   return(
     <div>
       <Nav title = "Категорії"/>

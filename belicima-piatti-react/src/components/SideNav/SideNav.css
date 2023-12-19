@@ -26,9 +26,9 @@
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  background-color: #fff3bf;
-  width: 100vw;
-  height: 100vh;
+  background-color: #fff3bf !important;
+  min-width: 100vw;
+  min-height: 100vh;
   position: fixed;
   right: 0px;
   top: 0px;
