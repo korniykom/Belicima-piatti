@@ -115,7 +115,7 @@ export default function DetailedDish() {
       <div className="Description">{pageInfo.description}</div>
       <div className="TimePrice">
         <div className="Time">{pageInfo.duration} хв.</div>
-        <div className="Price">{pageInfo.price} €$ </div>
+        <div className="Price">${pageInfo.price}</div>
       </div>
       <div>
         {!isLoadingData && <ShoppingList ShoppingList={pageInfo.ingredients} />}

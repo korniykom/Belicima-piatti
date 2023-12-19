@@ -14,7 +14,7 @@ export default function ShoppingList({ ShoppingList }) {
   }
   return (
     <>
-      <h2>Shopping List</h2>
+      <h2>Список інгредієнтів</h2>
 
       {ShoppingList.map((item, index) => (
         <>

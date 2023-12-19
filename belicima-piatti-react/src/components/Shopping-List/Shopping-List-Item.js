@@ -25,7 +25,7 @@ export default function ShoppingListItem({
           </div>
 
           <div className="price">
-            <p>{price}$</p>
+            <p>${price}</p>
           </div>
         </div>
       ) : (
@@ -45,7 +45,7 @@ export default function ShoppingListItem({
           </div>
           <div className="third-column">
             <div className="price">
-              <p>{price}$</p>
+              <p>${price}</p>
             </div>
           </div>
         </div>

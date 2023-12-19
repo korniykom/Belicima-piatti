@@ -9,7 +9,7 @@ import "./ProfilePage.css";
 function ProfilePage() {
   const profileInfo = [
     { label: "Красавчик" },
-    { label: "Баланс", value: "£100" },
+    { label: "Баланс", value: "$100" },
     { label: "Рівень", value: "досвідчений" },
     { label: "Досвід", value: "1000xp" },
   ];
