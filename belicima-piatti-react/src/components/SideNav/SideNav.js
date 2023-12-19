@@ -12,7 +12,11 @@ const SideNav = () => {
       <div className={Nav ? "Active" : "SideNavMenu"}>
         <div className="insideSideNav">
           <h2 className="SideNavMenuItem">Menu</h2>
-          <NavLink className="menu-link" to="/dishdetail/7">
+          <NavLink
+            onClick={window.location.reload}
+            className="menu-link"
+            to="/dishdetail/7"
+          >
             Recipe of the day
           </NavLink>
           <NavLink
