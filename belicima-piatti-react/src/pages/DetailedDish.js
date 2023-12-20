@@ -28,7 +28,7 @@ export default function DetailedDish() {
   let jsonData1 = {
     recipeId: id,
     text: message,
-    name: "John",
+    name: "Джон",
     score: commentRating,
   };
 
@@ -115,7 +115,7 @@ export default function DetailedDish() {
       <div className="Description">{pageInfo.description}</div>
       <div className="TimePrice">
         <div className="Time">{pageInfo.duration} хв.</div>
-        <div className="Price">{pageInfo.price} €$ </div>
+        <div className="Price">${pageInfo.price}</div>
       </div>
       <div>
         {!isLoadingData && <ShoppingList ShoppingList={pageInfo.ingredients} />}
@@ -127,7 +127,7 @@ export default function DetailedDish() {
       <div className="PostComment">
         <div className="post-avatar">
           <div className="photo"></div>
-          <div className="name">{"John"}</div>
+          <div className="name">{"Джон"}</div>
           <Rating
             size="small"
             name="simple-controlled"

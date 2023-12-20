@@ -11,23 +11,23 @@ const SideNav = () => {
       <FaBars size="5vh" className="SideNavIcon" onClick={() => setNav(!Nav)} />
       <div className={Nav ? "Active" : "SideNavMenu"}>
         <div className="insideSideNav">
-          <h2 className="SideNavMenuItem">Menu</h2>
+          <h2 className="SideNavMenuItem">Меню</h2>
           <NavLink className="menu-link" to="/dishdetail/7">
-            Recipe of the day
+            Рецепт дня
           </NavLink>
           <NavLink
             onClick={window.location.reload}
             className="menu-link"
             to="/dishes?pageSize=10&country=&category=%D0%9C%D0%BE%D1%97%20%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D0%B8&page=1"
           >
-            My recipes
+            Мої рецепти
           </NavLink>
           <NavLink
             onClick={window.location.reload}
             className="menu-link"
             to="/dishes?pageSize=10&country=&category=Топ&page=1"
           >
-            Top recipes
+            Топ рецептів
           </NavLink>
         </div>
       </div>
