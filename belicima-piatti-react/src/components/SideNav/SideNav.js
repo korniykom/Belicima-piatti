@@ -11,8 +11,12 @@ const SideNav = () => {
       <FaBars size="5vh" className="SideNavIcon" onClick={() => setNav(!Nav)} />
       <div className={Nav ? "Active" : "SideNavMenu"}>
         <div className="insideSideNav">
-          <h2 className="SideNavMenuItem">Меню</h2>
-          <NavLink className="menu-link" to="/dishdetail/7">
+          <h2 className="SideNavMenuItem">Menu</h2>
+          <NavLink
+            onClick={window.location.reload}
+            className="menu-link"
+            to="/dishdetail/7"
+          >
             Рецепт дня
           </NavLink>
           <NavLink
