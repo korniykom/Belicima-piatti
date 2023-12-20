@@ -101,9 +101,9 @@ export default function ChooseCategoryPage()
       <div>{!showFullKitchenInfo ? <button className="MoreInfoButton" onClick={()=>setShowFullKitchenInfo(!showFullKitchenInfo)}>Дізнатися більше</button> : null}</div>
       </div>
       <div>{showFullKitchenInfo ? Kitcheninfo : null}</div>  
-      <div className = "None">{createLink = "/dishes?pageSize=10&country="+country+"&category="+category+"&page=1"}</div>
+      <div className = "None">{createLink = "/dishes?pageSize=4&country="+country+"&category="+category+"&page=1"}</div>
       {category !== "" || country !== "" ? <button className = "followLink"><Link to = {createLink} className="buttonText"><p className="buttonText">Перейти</p></Link></button> : null}  
       <Advice AdviceText="Оберіть тип рецепту для пошуку"/>
     </div>
   );
-}
+} 

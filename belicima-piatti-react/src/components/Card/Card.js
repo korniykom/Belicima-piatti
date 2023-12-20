@@ -22,7 +22,7 @@ export default function Card({
       <div className="card-description">
         <div className="first-element">
           <StarRating rating={score} />
-          <span className="price">ціна: {price}$</span>
+          <span className="price">ціна: ${price}</span>
         </div>
         <div className="second-element">
           <div className="time">
