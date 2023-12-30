@@ -1,5 +1,6 @@
 using src.Domain;
 using src.Repositories;
+using static src.Domain.Recipe;
 
 namespace src.Services
 {
