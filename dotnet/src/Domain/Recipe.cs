@@ -16,8 +16,9 @@ namespace src.Domain {
         public Recipe() {
             ingredients = new List<Ingredient>();
         }
+    }
 
-       public class SmallRecipe {
+    public class SmallRecipe {
         public int id { get; set; }
         public string name { get; set; }
         public string img { get; set; }
@@ -25,7 +26,6 @@ namespace src.Domain {
         public int duration { get; set; }
         public double price { get; set; }
         public int calories { get; set; }
-
 
        public SmallRecipe(Recipe recipe) {
              id = recipe.id;
@@ -36,9 +36,7 @@ namespace src.Domain {
              price = recipe.price;
              calories = recipe.calories;
         }
-
     }
-}
 
     public class Ingredient {
         public int id { get; set; }
