@@ -17,19 +17,28 @@ namespace src.Domain {
             ingredients = new List<Ingredient>();
         }
 
-        public SmallRecipe ConvertToSmallRecipe() {
-            SmallRecipe smallRecipe = new SmallRecipe {
-                id = this.id,
-                name = this.name,
-                img = this.img,
-                score = this.score,
-                duration = this.duration,
-                price = this.price,
-                calories = this.calories
-            };
-            return smallRecipe;
+       public class SmallRecipe {
+        public int id { get; set; }
+        public string name { get; set; }
+        public string img { get; set; }
+        public double score { get; set; }
+        public int duration { get; set; }
+        public double price { get; set; }
+        public int calories { get; set; }
+
+
+       public SmallRecipe(Recipe recipe) {
+             id = recipe.id;
+             name = recipe.name;
+             img = recipe.img;
+             score = recipe.score;
+             duration = recipe.duration;
+             price = recipe.price;
+             calories = recipe.calories;
         }
+
     }
+}
 
     public class Ingredient {
         public int id { get; set; }

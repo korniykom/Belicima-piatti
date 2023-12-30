@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using src.Domain;
 using src.Services;
+using static src.Domain.Recipe;
 namespace project {
 
     [Route("api")]
